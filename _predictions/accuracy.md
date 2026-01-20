@@ -8,11 +8,11 @@
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
-| Total Predictions | 0 | - |
-| Confirmed | 0 | - |
-| Refuted | 0 | - |
-| Expired | 0 | - |
-| Active | 0 | - |
+| Total Predictions | 6 | - |
+| Confirmed | 0 | 0% |
+| Refuted | 0 | 0% |
+| Expired | 0 | 0% |
+| Active | 6 | 100% |
 
 ---
 

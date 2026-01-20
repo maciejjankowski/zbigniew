@@ -188,3 +188,88 @@ next_steps:
   2: "Rejected claims either sourced or permanently excluded"
   3: "Verified claims imported to timeline/sources"
   4: "Inferences imported with proper labeling"
+
+# ============================================
+# ADDITIONAL IMPORTS (Threat Model + Project 2025)
+# ============================================
+
+threat_model_import:
+  source: "us-destabilization-threat-model-full.md"
+  
+  verified_sources_added: 6
+  verified_events_added: 4
+  
+  sources:
+    - src_wikipedia_venezuela_2026
+    - src_brookings_venezuela_2026
+    - src_nbc_venezuela_timeline
+    - src_abc_greenland_2026
+    - src_npr_greenland_bipartisan
+    - src_conversation_technocracy
+
+  events:
+    - evt_2026_0103_venezuela (Venezuela intervention)
+    - evt_2026_01_greenland_tariffs (Ally tariffs)
+    - evt_2026_01_arctic_endurance (NATO deployment)
+
+  rejected:
+    - claim: "271,000 workers removed"
+      reason: "Duplicate - already in Russia assessment import"
+    - claim: "All historical precedent comparisons"
+      reason: "Analytical framework, not sourced claims"
+
+project2025_import:
+  source: "project-2025-threat-model-addendum.md"
+  
+  verified_sources_added: 5
+  verified_events_added: 1
+  
+  sources:
+    - src_wikipedia_project2025
+    - src_britannica_project2025
+    - src_cap_national_security
+    - src_justia_project2025_doj
+    - src_msnbc_rangappa_fbi
+
+  events:
+    - evt_2023_04_p2025 (Project 2025 publication)
+
+  rejected:
+    - claim: "2/3 of 1981 Mandate attempted by Reagan"
+      reason: "No source URL provided - Heritage Foundation claim needs verification"
+    - claim: "45% State Dept offices eliminated"
+      reason: "No source URL provided"
+    - claim: "Implementation status checkmarks"
+      reason: "Status claims need individual source verification"
+
+predictions_import:
+  total_predictions: 6
+  
+  predictions:
+    - pred_2026_001: NATO non-functional (6 months)
+    - pred_2026_002: EU strategic autonomy (12 months)
+    - pred_2026_003: Multipolar crystallization (5 years)
+    - pred_2026_004: Russia Baltic test (2 years)
+    - pred_2026_005: Schedule F lock-in (3 years)
+    - pred_2026_006: Additional NATO ally pressure (Q1 2026)
+
+  note: "All predictions extracted from assessment forecasts, labeled as projections in original"
+
+# ============================================
+# FINAL IMPORT SUMMARY
+# ============================================
+
+final_summary:
+  total_sources: 28
+  total_events: 12
+  total_predictions: 6
+  
+  tier_1_sources: 5
+  tier_2_sources: 12
+  tier_3_sources: 11
+  
+  human_verification_required: 12 items (all Jan 2026 journalism)
+  
+  rejected_claims: 8
+  
+  validation_status: "COMPLETE - Awaiting human URL verification"

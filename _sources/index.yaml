@@ -229,3 +229,121 @@ rejected:
   - claim: "$38.43T debt figure"
     reason: "No source URL in original article"
     action: "Find Treasury source or exclude"
+
+  # ==================================================
+  # ADDITIONAL SOURCES FROM THREAT MODEL ARTICLES
+  # Imported: 2026-01-20
+  # ==================================================
+
+  # Venezuela intervention sources
+  - id: src_wikipedia_venezuela_2026
+    title: "Wikipedia: 2026 United States Intervention in Venezuela"
+    type: journalism
+    tier: 3
+    url: "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela"
+    date: 2026-01
+    reliability: moderate
+    imported_from: "us-destabilization-threat-model-full.md"
+    human_verification_required: true
+
+  - id: src_brookings_venezuela_2026
+    title: "Brookings: Making Sense of the US Military Operation in Venezuela"
+    type: analysis
+    tier: 2
+    url: "https://www.brookings.edu/articles/making-sense-of-the-us-military-operation-in-venezuela/"
+    institution: "Brookings Institution"
+    date: 2026-01
+    reliability: high
+    imported_from: "us-destabilization-threat-model-full.md"
+    human_verification_required: true
+
+  - id: src_nbc_venezuela_timeline
+    title: "NBC: US Venezuela Strike Timeline"
+    type: journalism
+    tier: 3
+    url: "https://www.nbcnews.com/politics/donald-trump/us-venezuela-strike-nicolas-maduro-captured-how-timeline-trump-rcna252041"
+    date: 2026-01
+    reliability: high
+    imported_from: "us-destabilization-threat-model-full.md"
+    human_verification_required: true
+
+  # Greenland crisis sources
+  - id: src_abc_greenland_2026
+    title: "ABC News: Trump's Greenland Threats Prompt Extraordinary Meeting"
+    type: journalism
+    tier: 3
+    url: "https://abcnews.go.com/International/trumps-greenland-threats-prompt-extraordinary-meeting-european-leaders/story?id=129340526"
+    date: 2026-01
+    reliability: high
+    imported_from: "us-destabilization-threat-model-full.md"
+    human_verification_required: true
+
+  - id: src_npr_greenland_bipartisan
+    title: "NPR: Congress Bipartisan Response to Denmark/Greenland"
+    type: journalism
+    tier: 3
+    url: "https://www.npr.org/2026/01/19/g-s1-106427/congress-bipartisan-denmark-greenland"
+    date: 2026-01-19
+    reliability: high
+    imported_from: "us-destabilization-threat-model-full.md"
+    human_verification_required: true
+
+  - id: src_conversation_technocracy
+    title: "The Conversation: 1930s Technocracy Movement and Greenland"
+    type: analysis
+    tier: 2
+    url: "https://theconversation.com/a-1930s-movement-wanted-to-merge-the-us-canada-and-greenland-heres-why-it-has-modern-resonances-252587"
+    date: 2026
+    reliability: high
+    imported_from: "us-destabilization-threat-model-full.md"
+    human_verification_required: true
+    notes: "Contains claim about Musk's grandfather Joshua Haldeman and Technocracy Inc"
+
+  # Project 2025 analysis sources  
+  - id: src_wikipedia_project2025
+    title: "Wikipedia: Project 2025"
+    type: reference
+    tier: 3
+    url: "https://en.wikipedia.org/wiki/Project_2025"
+    reliability: moderate
+    imported_from: "project-2025-threat-model-addendum.md"
+
+  - id: src_britannica_project2025
+    title: "Britannica: Project 2025"
+    type: reference
+    tier: 2
+    url: "https://www.britannica.com/topic/Project-2025"
+    reliability: high
+    imported_from: "project-2025-threat-model-addendum.md"
+
+  - id: src_cap_national_security
+    title: "CAP: Project 2025 Will Undermine National Security"
+    type: analysis
+    tier: 2
+    url: "https://www.americanprogress.org/article/project-2025-will-undermine-americas-national-security/"
+    institution: "Center for American Progress"
+    reliability: high
+    bias_notes: "Progressive-leaning think tank"
+    imported_from: "project-2025-threat-model-addendum.md"
+    notes: "Contains quote about 'transforming' NATO"
+
+  - id: src_justia_project2025_doj
+    title: "Justia: Project 2025 Plan to Subvert Rule of Law"
+    type: analysis
+    tier: 2
+    url: "https://verdict.justia.com/2024/07/12/a-deep-dive-into-project-2025s-plan-to-subvert-the-rule-of-law-and-use-the-department-of-justice-as-an-instrument-for-political-oppression"
+    date: 2024-07-12
+    reliability: high
+    imported_from: "project-2025-threat-model-addendum.md"
+    quote: "Under Project 2025, people with enough money or political influence could be placed above the law at the whim of a president."
+
+  - id: src_msnbc_rangappa_fbi
+    title: "MSNBC: Asha Rangappa on Project 2025 DOJ/FBI"
+    type: journalism
+    tier: 3
+    url: "https://www.msnbc.com/top-stories/latest/project-2025-doj-fbi-trump-power-rcna164165"
+    date: 2024
+    reliability: moderate
+    imported_from: "project-2025-threat-model-addendum.md"
+    quote: "It would be a very scary agency if you ended up with someone who's basically the investigative arm of the president... you would essentially have a government that resembles the mob."
+    author: "Asha Rangappa (Former FBI Special Agent)"
