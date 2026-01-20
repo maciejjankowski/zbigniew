@@ -1,0 +1,2 @@
+{"_schema": "assessment_log", "_version": "1.0", "_description": "Assessment decision log - append when creating or revising assessments"}
+{"id": "log_2026_001", "timestamp": "2026-01-20T16:00:00Z", "action": "framework_created", "assessment_id": null, "description": "ZBIGNIEW Protocol framework initialized", "reasoning": "Need systematic methodology for political intelligence analysis with accountability through prediction tracking and source verification", "confidence": 5, "author": "por. Zbigniew"}

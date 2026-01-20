@@ -1,0 +1,81 @@
+# SOURCE INDEX
+# Reliability ratings: confirmed | high | moderate | low | unverified
+
+sources:
+  # PRIMARY SOURCES - TIER 1
+  - id: src_russia_nss_2021
+    title: "Russia's 2021 National Security Strategy"
+    type: primary
+    tier: 1
+    url: "http://publication.pravo.gov.ru/Document/View/0001202107030001"
+    language: russian
+    date: 2021-07-02
+    reliability: confirmed
+    notes: "Official Kremlin publication. Foundational document for Russian strategic doctrine."
+
+  - id: src_russia_fpc_2023
+    title: "Russia's 2023 Foreign Policy Concept"
+    type: primary
+    tier: 1
+    url: "https://mid.ru/en/foreign_policy/fundamental_documents/1860586/"
+    language: english
+    date: 2023-03-31
+    reliability: confirmed
+    notes: "Russian Foreign Ministry official text. First comprehensive FPC since Ukraine invasion."
+
+  - id: src_project2025_mandate
+    title: "Project 2025: Mandate for Leadership"
+    type: primary
+    tier: 1
+    url: "https://static.heritage.org/project2025/2025_MandateForLeadership_FULL.pdf"
+    language: english
+    date: 2023-04-01
+    reliability: confirmed
+    notes: "Heritage Foundation's 922-page policy document. Primary source for policy blueprint analysis."
+
+  # INSTITUTIONAL ANALYSIS - TIER 2
+  - id: src_carnegie_nss_2021
+    title: "Carnegie Endowment Analysis of Russia NSS 2021"
+    type: analysis
+    tier: 2
+    url: "https://carnegieendowment.org/posts/2021/07/russias-national-security-strategy-a-manifesto-for-a-new-era"
+    author: "Dmitri Trenin"
+    institution: "Carnegie Endowment for International Peace"
+    date: 2021-07-05
+    reliability: high
+    notes: "Expert analysis from Russia specialist. Provides context and interpretation."
+
+  - id: src_rusi_nss_2021
+    title: "RUSI Analysis of Russia NSS 2021"
+    type: analysis
+    tier: 2
+    url: "https://www.rusi.org/explore-our-research/publications/commentary/russias-2021-national-security-strategy-cool-change-forecasted-polar-regions"
+    institution: "Royal United Services Institute"
+    date: 2021-07
+    reliability: high
+    notes: "UK defense think tank analysis."
+
+  - id: src_cap_project2025
+    title: "Center for American Progress: Project 2025 Analysis"
+    type: analysis
+    tier: 2
+    url: "https://www.americanprogress.org/article/project-2025-would-destroy-the-u-s-system-of-checks-and-balances-and-create-an-imperial-presidency/"
+    institution: "Center for American Progress"
+    date: 2024
+    reliability: high
+    bias_notes: "Progressive-leaning think tank. Analysis focuses on institutional impacts."
+
+# Source Template for Adding New Sources:
+# - id: src_YYYY_NNN
+#   title: ""
+#   type: primary | analysis | journalism | specialized | social
+#   tier: 1-5
+#   url: ""
+#   archived: "" # web.archive.org URL if available
+#   author: "" # if applicable
+#   institution: "" # if applicable
+#   language: english | russian | other
+#   date: YYYY-MM-DD
+#   reliability: confirmed | high | moderate | low | unverified
+#   bias_notes: "" # known biases
+#   notes: ""
