@@ -347,3 +347,84 @@ rejected:
     imported_from: "project-2025-threat-model-addendum.md"
     quote: "It would be a very scary agency if you ended up with someone who's basically the investigative arm of the president... you would essentially have a government that resembles the mob."
     author: "Asha Rangappa (Former FBI Special Agent)"
+
+  # ==================================================
+  # DAVOS 2026 SOURCES (Added 2026-01-20)
+  # ==================================================
+
+  - id: src_wef_official_2026
+    title: "WEF: World Economic Forum Annual Meeting 2026"
+    type: primary
+    tier: 1
+    url: "https://www.weforum.org/meetings/world-economic-forum-annual-meeting-2026/"
+    date: 2026-01
+    reliability: confirmed
+    imported_from: "asmt_2026_002_davos.md"
+    notes: "Official WEF source for event details, dates, attendance"
+
+  - id: src_cnbc_davos_2026
+    title: "CNBC: Trump, World Economic Forum Davos - Who Isn't Going"
+    type: journalism
+    tier: 3
+    url: "https://www.cnbc.com/2026/01/19/trump-world-economic-forum-davos-who-isnt-going.html"
+    date: 2026-01-19
+    reliability: high
+    imported_from: "asmt_2026_002_davos.md"
+    human_verification_required: true
+    notes: "US delegation details, Denmark boycott confirmation, Klaus Schwab absence"
+
+  - id: src_euronews_davos_2026
+    title: "Euronews: World Leaders Gather at Davos as Trump Reshapes Global Order"
+    type: journalism
+    tier: 3
+    url: "https://www.euronews.com/2026/01/18/world-leaders-to-gather-at-davos-as-trump-reshapes-global-order"
+    date: 2026-01-18
+    reliability: high
+    imported_from: "asmt_2026_002_davos.md"
+    human_verification_required: true
+    notes: "Contains Danish PM Frederiksen quote about not being blackmailed"
+
+  - id: src_pbs_vondelleyen_davos
+    title: "PBS: Top EU Official Calls Trump's Greenland Tariff Threat a Mistake"
+    type: journalism
+    tier: 3
+    url: "https://www.pbs.org/newshour/world/top-eu-official-calls-trumps-greenland-tariff-threat-a-mistake"
+    date: 2026-01-20
+    reliability: high
+    imported_from: "asmt_2026_002_davos.md"
+    human_verification_required: true
+    quote: "The proposed additional tariffs are a mistake... especially between long-standing allies."
+
+  - id: src_npr_davos_joint_statement
+    title: "NPR: European Leaders Greenland Tariffs Downward Spiral"
+    type: journalism
+    tier: 3
+    url: "https://www.npr.org/2026/01/18/nx-s1-5681422/european-leaders-greenland-tariffs-downward-spiral"
+    date: 2026-01-18
+    reliability: high
+    imported_from: "asmt_2026_002_davos.md"
+    human_verification_required: true
+    notes: "8-nation joint statement condemning US Greenland policy"
+
+  - id: src_yahoo_macron_davos
+    title: "Yahoo Finance: Macron at Davos on US Trade Policy"
+    type: journalism
+    tier: 3
+    url: "https://finance.yahoo.com/news/live/trump-tariffs-live-updates-trump-links-greenland-threats-to-nobel-peace-prize-snub-eu-discusses-108-billion-in-retaliatory-tariffs-152657413.html"
+    date: 2026-01-20
+    reliability: moderate
+    imported_from: "asmt_2026_002_davos.md"
+    human_verification_required: true
+    quote: "Competition from the United States of America... openly aims to weaken and subordinate Europe... This is crazy."
+    notes: "Contains tariff details (10% Feb 1, 25% June 1), €93-108B EU retaliation figures"
+
+  - id: src_yahoo_eu_retaliation
+    title: "Yahoo Finance: EU Discusses 108 Billion in Retaliatory Tariffs"
+    type: journalism
+    tier: 3
+    url: "https://finance.yahoo.com/news/live/trump-tariffs-live-updates-trump-links-greenland-threats-to-nobel-peace-prize-snub-eu-discusses-108-billion-in-retaliatory-tariffs-152657413.html"
+    date: 2026-01-20
+    reliability: moderate
+    imported_from: "asmt_2026_002_davos.md"
+    human_verification_required: true
+    notes: "EU anti-coercion instrument consideration, €93-108B retaliation figures"

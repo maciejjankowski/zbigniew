@@ -260,16 +260,61 @@ predictions_import:
 # ============================================
 
 final_summary:
-  total_sources: 28
-  total_events: 12
-  total_predictions: 6
-  
-  tier_1_sources: 5
+  total_sources: 36  # +8 Davos sources
+  total_events: 18   # +6 Davos events
+  total_predictions: 9  # +3 Davos predictions
+
+  tier_1_sources: 6   # +1 WEF Official
   tier_2_sources: 12
-  tier_3_sources: 11
-  
-  human_verification_required: 12 items (all Jan 2026 journalism)
-  
+  tier_3_sources: 18  # +7 journalism
+
+  human_verification_required: 20 items (all Jan 2026 journalism)
+
   rejected_claims: 8
-  
+
   validation_status: "COMPLETE - Awaiting human URL verification"
+
+# ============================================
+# DAVOS 2026 ASSESSMENT IMPORT
+# Added: 2026-01-20 14:00 UTC
+# ============================================
+
+davos_2026_import:
+  assessment_id: "asmt_2026_002_davos"
+  source_file: "_assessments/active/asmt_2026_002_davos.md"
+
+  sources_added: 8
+  events_added: 6
+  predictions_added: 3
+
+  sources:
+    - src_wef_official_2026 (Tier 1)
+    - src_cnbc_davos_2026 (Tier 3)
+    - src_euronews_davos_2026 (Tier 3)
+    - src_pbs_vondelleyen_davos (Tier 3)
+    - src_npr_davos_joint_statement (Tier 3)
+    - src_yahoo_macron_davos (Tier 3)
+    - src_yahoo_eu_retaliation (Tier 3)
+
+  events:
+    - evt_2026_0118_joint_statement (8-nation statement)
+    - evt_2026_0119_davos_start (WEF opens, Denmark boycott)
+    - evt_2026_0120_vondelleyen_davos (EU Commission statement)
+    - evt_2026_0120_macron_davos (France statement)
+    - evt_2026_01_eu_anticoercion (Anti-coercion discussion)
+
+  predictions:
+    - pred_2026_007 (EU anti-coercion activation, 70%)
+    - pred_2026_008 (Greenland tariff escalation, 75%)
+    - pred_2026_009 (NATO Warsaw Summit tensions, 80%)
+
+  verified_quotes:
+    - von_der_leyen: "The proposed additional tariffs are a mistake... especially between long-standing allies."
+    - macron: "Competition from the United States of America... openly aims to weaken and subordinate Europe... This is crazy."
+    - frederiksen: "Europe will not be blackmailed... if anyone starts a trade war against us, we must of course respond."
+
+  human_verification_required:
+    - All 7 journalism URLs (Jan 2026)
+    - Direct quotes accuracy
+
+  validation_notes: "All claims backed by source URLs from Playwright fetch during assessment creation"
