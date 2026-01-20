@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "event.json",
+  "title": "ZBIGNIEW Event Schema",
+  "description": "Schema for timeline event entries in events.jsonl",
+  "type": "object",
+  "required": ["id", "date", "title", "description", "category", "confidence"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^evt_\\d{4}_\\d{4}_\\d{3}$|^evt_\\d{4}_\\d{2}_[a-z_]+$",
+      "description": "Event ID format: evt_YYYY_MMDD_NNN or evt_YYYY_MM_descriptor"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp"
+    },
+    "date": {
+      "type": "string",
+      "description": "Date string (YYYY-MM-DD or YYYY-MM or YYYY)"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 200,
+      "description": "Concise event title"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Detailed event description"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["policy", "military", "economic", "statement", "event", "action", "meta"],
+      "description": "Event category"
+    },
+    "vectors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["INSTITUTIONAL", "ALLIANCE", "ECONOMIC", "INFORMATION", "MILITARY", "POLITICAL", "SOCIAL"]
+      },
+      "description": "Affected destabilization vectors"
+    },
+    "actors": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Key actors involved"
+    },
+    "beneficiaries": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Who benefits from this event"
+    },
+    "sources": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Source IDs referencing _sources/index.yaml"
+    },
+    "confidence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Confidence level 1-5"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Searchable tags"
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "Whether event has been human-verified"
+    },
+    "human_verification_required": {
+      "type": "boolean",
+      "description": "Flag for events needing human URL verification"
+    },
+    "quote": {
+      "type": "string",
+      "description": "Key quote from event"
+    },
+    "quotes": {
+      "type": "object",
+      "additionalProperties": {"type": "string"},
+      "description": "Multiple quotes keyed by speaker"
+    },
+    "key_findings": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Key findings from event"
+    },
+    "imported_from": {
+      "type": "string",
+      "description": "Source document for import tracking"
+    },
+    "note": {
+      "type": "string",
+      "description": "Additional notes"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+"""
+ZBIGNIEW Protocol CLI
+
+Main entry point for all validation and tracking tools.
+"""
+
+import sys
+from pathlib import Path
+
+# Add validators to path
+script_dir = Path(__file__).parent
+sys.path.insert(0, str(script_dir))
+
+HELP_TEXT = """
+ZBIGNIEW Protocol CLI
+=====================
+
+Usage: zbigniew <command> [options]
+
+Commands:
+  validate          Run full validation suite
+  predictions       Show prediction status report
+  calibration       Show calibration analysis
+  overdue           List overdue predictions
+  due <days>        List predictions due within N days (default: 30)
+  vectors           Show predictions by vector
+  export            Export accuracy.md update
+
+Examples:
+  zbigniew validate
+  zbigniew predictions
+  zbigniew due 7
+  zbigniew calibration
+"""
+
+
+def main():
+    if len(sys.argv) < 2 or sys.argv[1] in ['-h', '--help', 'help']:
+        print(HELP_TEXT)
+        return 0
+
+    cmd = sys.argv[1]
+
+    if cmd == 'validate':
+        from validate import validate_all, ValidationResult
+        base_path = script_dir.parent
+        result = validate_all(base_path)
+        result.print_report()
+        return 0 if result.passed else 1
+
+    elif cmd == 'predictions':
+        from predictions import PredictionTracker
+        base_path = script_dir.parent
+        tracker = PredictionTracker(base_path)
+        tracker.print_status_report()
+        return 0
+
+    elif cmd == 'calibration':
+        from predictions import PredictionTracker
+        base_path = script_dir.parent
+        tracker = PredictionTracker(base_path)
+        tracker.print_calibration_report()
+        return 0
+
+    elif cmd == 'overdue':
+        from predictions import PredictionTracker
+        base_path = script_dir.parent
+        tracker = PredictionTracker(base_path)
+        overdue = tracker.get_overdue()
+        if overdue:
+            print(f"OVERDUE PREDICTIONS ({len(overdue)}):\n")
+            for p in overdue:
+                print(f"  {p.id}: {p.text[:60]}...")
+                print(f"    Deadline: {p.deadline} ({abs(p.days_until_deadline)} days ago)")
+        else:
+            print("No overdue predictions.")
+        return 0
+
+    elif cmd == 'due':
+        days = int(sys.argv[2]) if len(sys.argv) > 2 else 30
+        from predictions import PredictionTracker
+        base_path = script_dir.parent
+        tracker = PredictionTracker(base_path)
+        due_soon = tracker.get_due_soon(days)
+        if due_soon:
+            print(f"PREDICTIONS DUE WITHIN {days} DAYS ({len(due_soon)}):\n")
+            for p in sorted(due_soon, key=lambda x: x.deadline):
+                print(f"  {p.id}: {p.text[:60]}...")
+                print(f"    Deadline: {p.deadline} ({p.days_until_deadline} days)")
+        else:
+            print(f"No predictions due within {days} days.")
+        return 0
+
+    elif cmd == 'vectors':
+        from predictions import PredictionTracker
+        base_path = script_dir.parent
+        tracker = PredictionTracker(base_path)
+        tracker.print_vector_report()
+        return 0
+
+    elif cmd == 'export':
+        from predictions import PredictionTracker
+        base_path = script_dir.parent
+        tracker = PredictionTracker(base_path)
+        print(tracker.export_accuracy_update())
+        return 0
+
+    else:
+        print(f"Unknown command: {cmd}")
+        print("Run 'zbigniew help' for usage.")
+        return 1
+
+
+if __name__ == '__main__':
+    sys.exit(main())

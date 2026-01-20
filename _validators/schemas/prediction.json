@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "prediction.json",
+  "title": "ZBIGNIEW Prediction Schema",
+  "description": "Schema for prediction entries in active.jsonl",
+  "type": "object",
+  "required": ["id", "created", "prediction", "deadline", "confidence", "confidence_pct", "category", "vectors", "falsification", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^pred_\\d{4}_\\d{3}$",
+      "description": "Prediction ID format: pred_YYYY_NNN"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of prediction creation"
+    },
+    "assessment_ref": {
+      "type": "string",
+      "description": "Reference to source assessment"
+    },
+    "prediction": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Clear, falsifiable prediction statement"
+    },
+    "timeframe": {
+      "type": "string",
+      "description": "Human-readable timeframe"
+    },
+    "deadline": {
+      "type": "string",
+      "format": "date",
+      "description": "YYYY-MM-DD deadline for evaluation"
+    },
+    "confidence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Confidence level 1-5"
+    },
+    "confidence_pct": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 99,
+      "description": "Probability percentage (1-99%)"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["policy", "military", "economic", "diplomatic", "domestic", "social", "institutional"],
+      "description": "Prediction category"
+    },
+    "vectors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["INSTITUTIONAL", "ALLIANCE", "ECONOMIC", "INFORMATION", "MILITARY", "POLITICAL", "SOCIAL"]
+      },
+      "minItems": 1,
+      "description": "Affected destabilization vectors"
+    },
+    "falsification": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Clear criteria that would prove prediction wrong"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "confirmed", "refuted", "expired", "partial"],
+      "description": "Current prediction status"
+    },
+    "basis": {
+      "type": "string",
+      "description": "Evidence basis for prediction"
+    },
+    "resolution_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date prediction was resolved (if applicable)"
+    },
+    "resolution_notes": {
+      "type": "string",
+      "description": "Notes on how prediction resolved"
+    },
+    "imported_from": {
+      "type": "string",
+      "description": "Source document for import tracking"
+    },
+    "note": {
+      "type": "string",
+      "description": "Additional notes"
+    }
+  },
+  "additionalProperties": false
+}
