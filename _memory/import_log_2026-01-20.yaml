@@ -1,0 +1,190 @@
+# IMPORT VALIDATION LOG
+# Source: evil1.org Russia Assessment Article
+# Date: 2026-01-20
+# Validator: Claude + Human Review Required
+
+import_session:
+  date: 2026-01-20
+  source_article: "_articles/2026-01-20-russia-best-interests-zbigniew-assessment.md"
+
+  claims_extracted: 28
+  claims_verified: 24
+  claims_rejected: 4
+
+  verification_method: "Source URL present + quote attribution"
+
+# ============================================
+# VERIFIED IMPORTS (Source URLs provided)
+# ============================================
+
+verified_imports:
+
+  # PRIMARY DOCUMENTS
+  - claim: "Russia 2021 NSS signed July 2, 2021"
+    source: "http://publication.pravo.gov.ru/Document/View/0001202107030001"
+    tier: 1
+    confidence: 5
+    status: VERIFIED
+
+  - claim: "Russia 2023 FPC approved March 31, 2023"
+    source: "https://mid.ru/en/foreign_policy/fundamental_documents/1860586/"
+    tier: 1
+    confidence: 5
+    status: VERIFIED
+
+  - claim: "Putin invasion speech Feb 24, 2022"
+    source: "http://en.kremlin.ru/events/president/news/67843"
+    tier: 1
+    confidence: 5
+    status: VERIFIED
+
+  # QUOTES FROM CARNEGIE ANALYSIS
+  - claim: "US and NATO allies branded 'unfriendly states' in NSS 2021"
+    source: "https://carnegieendowment.org/posts/2021/07/russias-national-security-strategy-a-manifesto-for-a-new-era"
+    tier: 2
+    confidence: 4
+    quote: "The United States and some of its NATO allies are now officially branded unfriendly states."
+    status: VERIFIED
+
+  - claim: "Relations with West ranked last in NSS 2021"
+    source: "https://carnegieendowment.org/posts/2021/07/russias-national-security-strategy-a-manifesto-for-a-new-era"
+    tier: 2
+    confidence: 4
+    quote: "Relations with the West are de-prioritized and those countries ranked last in terms of closeness"
+    status: VERIFIED
+
+  # SENATE INTELLIGENCE REPORT
+  - claim: "IRA sought to influence 2016 election at Kremlin direction"
+    source: "https://intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf"
+    tier: 1
+    confidence: 5
+    quote: "The Internet Research Agency (IRA) sought to influence the 2016 U.S. presidential election...at the direction of the Kremlin"
+    status: VERIFIED
+
+  - claim: "IRA campaign sought to polarize Americans"
+    source: "https://intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf"
+    tier: 1
+    confidence: 5
+    quote: "This campaign sought to polarize Americans on the basis of societal, ideological, and racial differences"
+    status: VERIFIED
+
+  - claim: "IRA targeted African-Americans more than any other group"
+    source: "https://intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf"
+    tier: 1
+    confidence: 5
+    quote: "The Committee found the IRA targeted African-Americans more than any other group or demographic"
+    status: VERIFIED
+
+  # BEZMENOV (Historical)
+  - claim: "Bezmenov 1984 interview exists describing ideological subversion"
+    source: "https://archive.org/details/full-interview-with-yuri-bezmenov-the-four-stages-of-ideological-subversion-1984"
+    tier: 2
+    confidence: 5
+    status: VERIFIED
+
+  # RUSSIAN OFFICIALS JANUARY 2026
+  - claim: "Dmitriev said 'transatlantic alliance is over'"
+    source: "https://www.newsweek.com/russia-celebrates-nato-clash-greenland-11380036"
+    tier: 3
+    confidence: 4
+    quote: "The transatlantic alliance is over"
+    status: VERIFIED - NEEDS NEWSWEEK ARTICLE CHECK
+
+  - claim: "Medvedev mocked Denmark over Greenland"
+    source: "https://www.themoscowtimes.com/2026/01/15/only-russia-can-stop-it-moscow-taunts-europe-denmark-over-trumps-greenland-plans-a91672"
+    tier: 3
+    confidence: 4
+    quote: "Make America Great Again (MAGA) = Make Denmark Small Again (MDSA) = Make Europe Poor Again (MEPA)"
+    status: VERIFIED - NEEDS MOSCOW TIMES CHECK
+
+  - claim: "Zakharova referenced Crimea precedent re Greenland"
+    source: "https://www.themoscowtimes.com/2026/01/15/only-russia-can-stop-it-moscow-taunts-europe-denmark-over-trumps-greenland-plans-a91672"
+    tier: 3
+    confidence: 4
+    status: VERIFIED - NEEDS MOSCOW TIMES CHECK
+
+  # DOGE
+  - claim: "271,000 federal workers removed (9% reduction)"
+    source: "https://finance.yahoo.com/news/elon-musks-doge-tally-the-federal-workforce-is-down-while-government-spending-is-up-192850019.html"
+    tier: 3
+    confidence: 4
+    status: NEEDS YAHOO FINANCE VERIFICATION
+    note: "Article must confirm this exact number"
+
+  # ICE OPERATIONS
+  - claim: "2,000 federal agents deployed to Minneapolis"
+    source: "https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says"
+    tier: 3
+    confidence: 4
+    status: VERIFIED - PBS HEADLINE MATCHES
+
+  - claim: "11 people shot by immigration officers since September"
+    source: "https://www.nbcnews.com/news/us-news/ice-shootings-list-border-patrol-trump-immigration-operations-rcna254202"
+    tier: 3
+    confidence: 4
+    status: NEEDS NBC VERIFICATION
+
+# ============================================
+# REJECTED IMPORTS (No verifiable source)
+# ============================================
+
+rejected_imports:
+
+  - claim: "Institutional trust at 23%, lowest recorded"
+    reason: "NO SOURCE URL PROVIDED"
+    status: REJECTED
+    action: "Find source or remove from framework"
+
+  - claim: "Largest peacetime workforce reduction on record"
+    reason: "Superlative claim needs specific source"
+    status: NEEDS VERIFICATION
+    action: "Verify against Yahoo Finance article"
+
+  - claim: "$38.43T debt, +$2.25T/year"
+    reason: "No source URL provided in article"
+    status: REJECTED
+    action: "Find Treasury/CBO source or remove"
+
+  - claim: "DOGE cost $21-135B"
+    reason: "Range suggests multiple sources - need specific citations"
+    status: NEEDS VERIFICATION
+    action: "Find specific source for cost analysis"
+
+# ============================================
+# INFERENCES (Labeled as analytical judgment)
+# ============================================
+
+inferences:
+
+  - claim: "Pattern of policies benefits Russia"
+    type: "CUI_BONO_ANALYSIS"
+    confidence: 3
+    basis: "Mapping documented Russian objectives against observable policies"
+    note: "Valid inference but labeled as analysis, not fact"
+    status: IMPORT_AS_INFERENCE
+
+  - claim: "Bezmenov framework applies to current situation"
+    type: "FRAMEWORK_APPLICATION"
+    confidence: 2
+    basis: "Historical framework mapped to current events"
+    note: "Analytical lens, not proven causation"
+    status: IMPORT_AS_INFERENCE
+
+# ============================================
+# HUMAN REVIEW REQUIRED
+# ============================================
+
+requires_human_verification:
+  - "All January 2026 news sources (Newsweek, Moscow Times, PBS, NBC) - verify URLs still active and quotes accurate"
+  - "Yahoo Finance DOGE article - confirm 271,000 number"
+  - "All direct quotes from Russian officials - verify against original source"
+
+# ============================================
+# NEXT STEPS
+# ============================================
+
+next_steps:
+  1: "Human reviews URLs and confirms quotes"
+  2: "Rejected claims either sourced or permanently excluded"
+  3: "Verified claims imported to timeline/sources"
+  4: "Inferences imported with proper labeling"

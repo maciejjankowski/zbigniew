@@ -1,8 +1,14 @@
 # SOURCE INDEX
 # Reliability ratings: confirmed | high | moderate | low | unverified
+# Imported: 2026-01-20 from evil1.org assessments
+# Validation: Source URLs verified present in original articles
 
 sources:
-  # PRIMARY SOURCES - TIER 1
+
+  # ==================================================
+  # TIER 1: PRIMARY SOURCES (Government Documents)
+  # ==================================================
+
   - id: src_russia_nss_2021
     title: "Russia's 2021 National Security Strategy"
     type: primary
@@ -11,6 +17,7 @@ sources:
     language: russian
     date: 2021-07-02
     reliability: confirmed
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
     notes: "Official Kremlin publication. Foundational document for Russian strategic doctrine."
 
   - id: src_russia_fpc_2023
@@ -18,10 +25,36 @@ sources:
     type: primary
     tier: 1
     url: "https://mid.ru/en/foreign_policy/fundamental_documents/1860586/"
+    url_pdf: "https://www.reportdifesa.it/wp-content/uploads/2023/04/The-Concept-of-the-Foreign-Policy-of-the-Russian-Federation-The-Ministry-of-Foreign-Affairs-of-the-Russian-Federation.pdf"
     language: english
     date: 2023-03-31
     reliability: confirmed
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
     notes: "Russian Foreign Ministry official text. First comprehensive FPC since Ukraine invasion."
+
+  - id: src_putin_speech_2022_02_24
+    title: "Putin's Address on Military Operation in Ukraine"
+    type: primary
+    tier: 1
+    url: "http://en.kremlin.ru/events/president/news/67843"
+    url_alt: "https://www.spectator.co.uk/article/full-text-putin-s-declaration-of-war-on-ukraine/"
+    language: english
+    date: 2022-02-24
+    reliability: confirmed
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    notes: "Kremlin official transcript. Invasion announcement speech."
+
+  - id: src_senate_intel_vol2
+    title: "Senate Intelligence Committee Report on Russian Interference - Volume 2"
+    type: primary
+    tier: 1
+    url: "https://intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf"
+    url_archive: "https://digitalcommons.unl.edu/senatedocs/4/"
+    language: english
+    date: 2020
+    reliability: confirmed
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    notes: "Bipartisan Senate investigation. Primary source for IRA operations documentation."
 
   - id: src_project2025_mandate
     title: "Project 2025: Mandate for Leadership"
@@ -29,53 +62,170 @@ sources:
     tier: 1
     url: "https://static.heritage.org/project2025/2025_MandateForLeadership_FULL.pdf"
     language: english
-    date: 2023-04-01
+    date: 2023-04
     reliability: confirmed
-    notes: "Heritage Foundation's 922-page policy document. Primary source for policy blueprint analysis."
+    imported_from: "project-2025-threat-model-addendum.md"
+    notes: "Heritage Foundation's 922-page policy document."
 
-  # INSTITUTIONAL ANALYSIS - TIER 2
+  # ==================================================
+  # TIER 2: INSTITUTIONAL ANALYSIS
+  # ==================================================
+
   - id: src_carnegie_nss_2021
-    title: "Carnegie Endowment Analysis of Russia NSS 2021"
+    title: "Carnegie: Russia's National Security Strategy - A Manifesto for a New Era"
     type: analysis
     tier: 2
     url: "https://carnegieendowment.org/posts/2021/07/russias-national-security-strategy-a-manifesto-for-a-new-era"
     author: "Dmitri Trenin"
     institution: "Carnegie Endowment for International Peace"
-    date: 2021-07-05
+    date: 2021-07
     reliability: high
-    notes: "Expert analysis from Russia specialist. Provides context and interpretation."
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    notes: "Expert analysis from Russia specialist."
 
   - id: src_rusi_nss_2021
-    title: "RUSI Analysis of Russia NSS 2021"
+    title: "RUSI: Russia's 2021 National Security Strategy"
     type: analysis
     tier: 2
     url: "https://www.rusi.org/explore-our-research/publications/commentary/russias-2021-national-security-strategy-cool-change-forecasted-polar-regions"
     institution: "Royal United Services Institute"
     date: 2021-07
     reliability: high
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
     notes: "UK defense think tank analysis."
 
+  - id: src_usip_fpc_2023
+    title: "USIP: What You Need to Know About Russia's New Foreign Policy Concept"
+    type: analysis
+    tier: 2
+    url: "https://www.usip.org/publications/2023/05/what-you-need-know-about-russias-new-foreign-policy-concept"
+    institution: "United States Institute of Peace"
+    date: 2023-05
+    reliability: high
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+
+  - id: src_iiss_fpc_2023
+    title: "IISS: Russia's New Foreign Policy Concept"
+    type: analysis
+    tier: 2
+    url: "https://www.iiss.org/online-analysis/online-analysis/2023/04/russia-new-foreign-policy-concept-the-airing-of-grievances-and-a-new-vision-of-world-order/"
+    institution: "International Institute for Strategic Studies"
+    date: 2023-04
+    reliability: high
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+
+  - id: src_bezmenov_interview_1984
+    title: "Yuri Bezmenov 1984 Interview - Ideological Subversion"
+    type: historical
+    tier: 2
+    url: "https://archive.org/details/full-interview-with-yuri-bezmenov-the-four-stages-of-ideological-subversion-1984"
+    url_wikipedia: "https://en.wikipedia.org/wiki/Yuri_Bezmenov"
+    date: 1984
+    reliability: confirmed
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    notes: "Historical documentation of Soviet subversion doctrine."
+
   - id: src_cap_project2025
-    title: "Center for American Progress: Project 2025 Analysis"
+    title: "CAP: Project 2025 Would Destroy Checks and Balances"
     type: analysis
     tier: 2
     url: "https://www.americanprogress.org/article/project-2025-would-destroy-the-u-s-system-of-checks-and-balances-and-create-an-imperial-presidency/"
     institution: "Center for American Progress"
     date: 2024
     reliability: high
-    bias_notes: "Progressive-leaning think tank. Analysis focuses on institutional impacts."
+    bias_notes: "Progressive-leaning think tank"
+    imported_from: "project-2025-threat-model-addendum.md"
 
-# Source Template for Adding New Sources:
-# - id: src_YYYY_NNN
-#   title: ""
-#   type: primary | analysis | journalism | specialized | social
-#   tier: 1-5
-#   url: ""
-#   archived: "" # web.archive.org URL if available
-#   author: "" # if applicable
-#   institution: "" # if applicable
-#   language: english | russian | other
-#   date: YYYY-MM-DD
-#   reliability: confirmed | high | moderate | low | unverified
-#   bias_notes: "" # known biases
-#   notes: ""
+  # ==================================================
+  # TIER 3: QUALITY JOURNALISM (January 2026 events)
+  # HUMAN VERIFICATION REQUIRED - URLs may change
+  # ==================================================
+
+  - id: src_newsweek_greenland_2026_01
+    title: "Newsweek: Russia Celebrates NATO Clash Over Greenland"
+    type: journalism
+    tier: 3
+    url: "https://www.newsweek.com/russia-celebrates-nato-clash-greenland-11380036"
+    date: 2026-01
+    reliability: moderate
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    human_verification_required: true
+    notes: "Contains Dmitriev quote about 'transatlantic alliance over'"
+
+  - id: src_moscow_times_greenland_2026_01
+    title: "Moscow Times: Russia Taunts Europe Over Greenland"
+    type: journalism
+    tier: 3
+    url: "https://www.themoscowtimes.com/2026/01/15/only-russia-can-stop-it-moscow-taunts-europe-denmark-over-trumps-greenland-plans-a91672"
+    date: 2026-01-15
+    reliability: moderate
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    human_verification_required: true
+    notes: "Contains Medvedev and Zakharova quotes"
+
+  - id: src_pbs_minneapolis_ice_2026_01
+    title: "PBS: 2000 Federal Agents Sent to Minneapolis for Immigration Operation"
+    type: journalism
+    tier: 3
+    url: "https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says"
+    date: 2026-01
+    reliability: high
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    human_verification_required: true
+
+  - id: src_nbc_ice_shootings_2026_01
+    title: "NBC: ICE Shootings List"
+    type: journalism
+    tier: 3
+    url: "https://www.nbcnews.com/news/us-news/ice-shootings-list-border-patrol-trump-immigration-operations-rcna254202"
+    date: 2026-01
+    reliability: high
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    human_verification_required: true
+
+  - id: src_yahoo_doge_2025_12
+    title: "Yahoo Finance: DOGE Federal Workforce Reduction"
+    type: journalism
+    tier: 3
+    url: "https://finance.yahoo.com/news/elon-musks-doge-tally-the-federal-workforce-is-down-while-government-spending-is-up-192850019.html"
+    date: 2025-12
+    reliability: moderate
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    human_verification_required: true
+    notes: "Source for 271,000 workers claim - NEEDS VERIFICATION"
+
+  - id: src_euronews_putin_finland_2022_05
+    title: "Euronews: Putin on Finland/Sweden NATO Membership"
+    type: journalism
+    tier: 3
+    url: "https://www.euronews.com/2022/05/17/uk-ukraine-crisis-russia-nato"
+    date: 2022-05-17
+    reliability: high
+    imported_from: "russia-best-interests-zbigniew-assessment.md"
+    notes: "Putin quote about no threat from Finland/Sweden joining NATO"
+
+# ==================================================
+# SOURCES PENDING VERIFICATION
+# ==================================================
+
+pending_verification:
+  - claim: "271,000 federal workers removed"
+    source_id: src_yahoo_doge_2025_12
+    action: "Verify exact number against article"
+
+  - claim: "Largest peacetime workforce reduction"
+    source_id: src_yahoo_doge_2025_12
+    action: "Verify claim is in article"
+
+# ==================================================
+# REJECTED SOURCES (No URL provided in original)
+# ==================================================
+
+rejected:
+  - claim: "Institutional trust at 23%"
+    reason: "No source URL in original article"
+    action: "Find Gallup/Pew source or exclude"
+
+  - claim: "$38.43T debt figure"
+    reason: "No source URL in original article"
+    action: "Find Treasury source or exclude"
