@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZBIGNIEW Geopolitical Stress Simulator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #00ff00;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+        #simulation {
+            flex: 1;
+            position: relative;
+        }
+        #canvas-container {
+            width: 100%;
+            height: 100%;
+        }
+        #sidebar {
+            width: 320px;
+            background: #111;
+            border-left: 1px solid #333;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        h1 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #00ff00;
+        }
+        h2 {
+            font-size: 12px;
+            margin: 15px 0 8px;
+            color: #888;
+            text-transform: uppercase;
+        }
+        .info {
+            font-size: 11px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .metrics {
+            background: #1a1a1a;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+            font-size: 12px;
+        }
+        .metric-value {
+            color: #fff;
+        }
+        .stress-high { color: #ff4444; }
+        .stress-medium { color: #ffaa00; }
+        .stress-low { color: #44ff44; }
+        .legend {
+            margin: 10px 0;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            font-size: 11px;
+        }
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .controls {
+            margin-top: 15px;
+        }
+        button {
+            background: #222;
+            border: 1px solid #444;
+            color: #00ff00;
+            padding: 8px 12px;
+            margin: 3px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 11px;
+        }
+        button:hover {
+            background: #333;
+        }
+        button.active {
+            background: #004400;
+            border-color: #00ff00;
+        }
+        .scenario {
+            background: #1a1a1a;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+        .scenario:hover {
+            background: #222;
+        }
+        .scenario-name {
+            color: #fff;
+            margin-bottom: 3px;
+        }
+        .scenario-desc {
+            color: #666;
+            font-size: 10px;
+        }
+        #status {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.8);
+            padding: 10px;
+            font-size: 11px;
+            border-radius: 4px;
+        }
+        #alert {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255,0,0,0.9);
+            color: white;
+            padding: 20px 40px;
+            font-size: 18px;
+            border-radius: 8px;
+            display: none;
+            animation: pulse 0.5s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        .broken-link {
+            color: #ff4444;
+            font-size: 11px;
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="simulation">
+            <div id="canvas-container"></div>
+            <div id="status">
+                <div>Drag nodes to apply stress</div>
+                <div>Watch spring tensions change</div>
+            </div>
+            <div id="alert">CASCADE FAILURE</div>
+        </div>
+        <div id="sidebar">
+            <h1>ZBIGNIEW STRESS SIMULATOR</h1>
+            <div class="info">Physics-based geopolitical risk model</div>
+
+            <h2>System Metrics</h2>
+            <div class="metrics">
+                <div class="metric">
+                    <span>System Stability:</span>
+                    <span class="metric-value" id="stability">100%</span>
+                </div>
+                <div class="metric">
+                    <span>Max Link Stress:</span>
+                    <span class="metric-value" id="max-stress">0%</span>
+                </div>
+                <div class="metric">
+                    <span>Broken Links:</span>
+                    <span class="metric-value" id="broken-count">0</span>
+                </div>
+                <div class="metric">
+                    <span>Cascade Risk:</span>
+                    <span class="metric-value" id="cascade-risk">LOW</span>
+                </div>
+            </div>
+
+            <div id="broken-links"></div>
+
+            <h2>Actors</h2>
+            <div class="legend" id="legend"></div>
+
+            <h2>Scenarios</h2>
+            <div class="scenario" onclick="runScenario('greenland')">
+                <div class="scenario-name">Greenland Crisis</div>
+                <div class="scenario-desc">US applies pressure on Denmark/EU</div>
+            </div>
+            <div class="scenario" onclick="runScenario('nato-fracture')">
+                <div class="scenario-name">NATO Fracture</div>
+                <div class="scenario-desc">Alliance bonds weaken under US pressure</div>
+            </div>
+            <div class="scenario" onclick="runScenario('russia-test')">
+                <div class="scenario-name">Baltic Test</div>
+                <div class="scenario-desc">Russia probes weakened NATO</div>
+            </div>
+            <div class="scenario" onclick="runScenario('trade-war')">
+                <div class="scenario-name">Trade War Escalation</div>
+                <div class="scenario-desc">US-EU economic decoupling</div>
+            </div>
+
+            <h2>Controls</h2>
+            <div class="controls">
+                <button onclick="resetSimulation()">Reset</button>
+                <button onclick="toggleGravity()">Toggle Gravity</button>
+                <button onclick="addChaos()">Add Chaos</button>
+            </div>
+
+            <h2>Link Types</h2>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #44ff44;"></div>
+                    <span>Alliance (strong)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4488ff;"></div>
+                    <span>Economic tie</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff8844;"></div>
+                    <span>Tension/rivalry</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff4444;"></div>
+                    <span>Adversarial</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Matter.js setup
+        const { Engine, Render, Runner, Bodies, Body, Composite, Constraint, Mouse, MouseConstraint, Events } = Matter;
+
+        // Configuration
+        const BREAKING_THRESHOLD = 2.5; // Stress multiplier before link breaks
+        const STRESS_DECAY = 0.98; // How fast stress reduces
+
+        // Actors with positions and properties
+        const actors = {
+            'USA': { x: 400, y: 300, radius: 45, color: '#3366ff', mass: 10 },
+            'EU': { x: 600, y: 250, radius: 40, color: '#ffcc00', mass: 8 },
+            'NATO': { x: 500, y: 150, radius: 35, color: '#44aa44', mass: 6 },
+            'Russia': { x: 750, y: 350, radius: 38, color: '#ff4444', mass: 7 },
+            'China': { x: 800, y: 200, radius: 40, color: '#ff6600', mass: 9 },
+            'Denmark': { x: 550, y: 380, radius: 22, color: '#ff6688', mass: 2 },
+            'Germany': { x: 620, y: 320, radius: 28, color: '#666666', mass: 4 },
+            'UK': { x: 450, y: 400, radius: 26, color: '#8844ff', mass: 3 },
+            'Poland': { x: 680, y: 400, radius: 24, color: '#ffffff', mass: 3 },
+            'Baltics': { x: 720, y: 280, radius: 20, color: '#88ffff', mass: 2 },
+        };
+
+        // Relationships (links)
+        const relationships = [
+            // NATO alliances (strong springs)
+            { a: 'USA', b: 'NATO', type: 'alliance', strength: 1.0, stiffness: 0.02 },
+            { a: 'EU', b: 'NATO', type: 'alliance', strength: 0.8, stiffness: 0.015 },
+            { a: 'UK', b: 'NATO', type: 'alliance', strength: 0.9, stiffness: 0.018 },
+            { a: 'Germany', b: 'NATO', type: 'alliance', strength: 0.85, stiffness: 0.016 },
+            { a: 'Poland', b: 'NATO', type: 'alliance', strength: 0.9, stiffness: 0.018 },
+            { a: 'Denmark', b: 'NATO', type: 'alliance', strength: 0.8, stiffness: 0.015 },
+            { a: 'Baltics', b: 'NATO', type: 'alliance', strength: 0.85, stiffness: 0.016 },
+
+            // EU bonds
+            { a: 'Germany', b: 'EU', type: 'economic', strength: 0.95, stiffness: 0.02 },
+            { a: 'Denmark', b: 'EU', type: 'economic', strength: 0.8, stiffness: 0.015 },
+            { a: 'Poland', b: 'EU', type: 'economic', strength: 0.75, stiffness: 0.012 },
+
+            // US-EU economic
+            { a: 'USA', b: 'EU', type: 'economic', strength: 0.7, stiffness: 0.01 },
+            { a: 'USA', b: 'Germany', type: 'economic', strength: 0.6, stiffness: 0.008 },
+            { a: 'USA', b: 'UK', type: 'alliance', strength: 0.85, stiffness: 0.015 },
+
+            // Tensions
+            { a: 'Russia', b: 'NATO', type: 'adversarial', strength: -0.8, stiffness: 0.005 },
+            { a: 'Russia', b: 'Baltics', type: 'tension', strength: -0.6, stiffness: 0.003 },
+            { a: 'Russia', b: 'Poland', type: 'tension', strength: -0.5, stiffness: 0.004 },
+            { a: 'Russia', b: 'EU', type: 'tension', strength: -0.4, stiffness: 0.003 },
+
+            // China relationships
+            { a: 'China', b: 'Russia', type: 'economic', strength: 0.6, stiffness: 0.008 },
+            { a: 'China', b: 'EU', type: 'economic', strength: 0.5, stiffness: 0.006 },
+            { a: 'USA', b: 'China', type: 'tension', strength: -0.5, stiffness: 0.004 },
+
+            // Current crisis: US-Denmark tension
+            { a: 'USA', b: 'Denmark', type: 'tension', strength: -0.3, stiffness: 0.006 },
+        ];
+
+        // State
+        let engine, render, runner, world;
+        let bodies = {};
+        let constraints = [];
+        let originalLengths = {};
+        let brokenLinks = new Set();
+        let gravityOn = false;
+
+        function init() {
+            const container = document.getElementById('canvas-container');
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+
+            // Create engine
+            engine = Engine.create();
+            world = engine.world;
+            engine.world.gravity.y = 0;
+
+            // Create renderer
+            render = Render.create({
+                element: container,
+                engine: engine,
+                options: {
+                    width: width,
+                    height: height,
+                    wireframes: false,
+                    background: '#0a0a0a'
+                }
+            });
+
+            // Create bodies for actors
+            const legend = document.getElementById('legend');
+            legend.innerHTML = '';
+
+            for (const [name, props] of Object.entries(actors)) {
+                const body = Bodies.circle(props.x, props.y, props.radius, {
+                    label: name,
+                    render: {
+                        fillStyle: props.color,
+                        strokeStyle: '#fff',
+                        lineWidth: 2
+                    },
+                    mass: props.mass,
+                    frictionAir: 0.05
+                });
+                bodies[name] = body;
+                Composite.add(world, body);
+
+                // Add to legend
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.innerHTML = `<div class="legend-color" style="background: ${props.color};"></div><span>${name}</span>`;
+                legend.appendChild(item);
+            }
+
+            // Create constraints (springs)
+            for (const rel of relationships) {
+                if (bodies[rel.a] && bodies[rel.b]) {
+                    const bodyA = bodies[rel.a];
+                    const bodyB = bodies[rel.b];
+                    const dx = bodyB.position.x - bodyA.position.x;
+                    const dy = bodyB.position.y - bodyA.position.y;
+                    const length = Math.sqrt(dx * dx + dy * dy);
+
+                    const linkId = `${rel.a}-${rel.b}`;
+                    originalLengths[linkId] = length;
+
+                    const color = getRelationshipColor(rel.type, rel.strength);
+
+                    const constraint = Constraint.create({
+                        bodyA: bodyA,
+                        bodyB: bodyB,
+                        length: length,
+                        stiffness: rel.stiffness,
+                        damping: 0.1,
+                        render: {
+                            strokeStyle: color,
+                            lineWidth: Math.abs(rel.strength) * 3 + 1,
+                            type: 'line'
+                        },
+                        label: linkId,
+                        _relationship: rel
+                    });
+
+                    constraints.push(constraint);
+                    Composite.add(world, constraint);
+                }
+            }
+
+            // Mouse control
+            const mouse = Mouse.create(render.canvas);
+            const mouseConstraint = MouseConstraint.create(engine, {
+                mouse: mouse,
+                constraint: {
+                    stiffness: 0.2,
+                    render: { visible: false }
+                }
+            });
+            Composite.add(world, mouseConstraint);
+            render.mouse = mouse;
+
+            // Run
+            Render.run(render);
+            runner = Runner.create();
+            Runner.run(runner, engine);
+
+            // Update loop
+            Events.on(engine, 'afterUpdate', updateMetrics);
+
+            // Draw labels
+            Events.on(render, 'afterRender', drawLabels);
+        }
+
+        function getRelationshipColor(type, strength) {
+            switch(type) {
+                case 'alliance': return '#44ff44';
+                case 'economic': return '#4488ff';
+                case 'tension': return '#ff8844';
+                case 'adversarial': return '#ff4444';
+                default: return '#888888';
+            }
+        }
+
+        function drawLabels() {
+            const ctx = render.context;
+            ctx.font = '11px Courier New';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+
+            for (const [name, body] of Object.entries(bodies)) {
+                ctx.fillStyle = '#fff';
+                ctx.fillText(name, body.position.x, body.position.y);
+            }
+        }
+
+        function updateMetrics() {
+            let maxStress = 0;
+            let totalStress = 0;
+            let activeLinks = 0;
+
+            for (const constraint of constraints) {
+                if (brokenLinks.has(constraint.label)) continue;
+
+                const rel = constraint._relationship;
+                const linkId = constraint.label;
+                const originalLength = originalLengths[linkId];
+
+                const bodyA = constraint.bodyA;
+                const bodyB = constraint.bodyB;
+                const dx = bodyB.position.x - bodyA.position.x;
+                const dy = bodyB.position.y - bodyA.position.y;
+                const currentLength = Math.sqrt(dx * dx + dy * dy);
+
+                const stretch = currentLength / originalLength;
+                const stress = Math.abs(stretch - 1);
+
+                // Update link color based on stress
+                let color;
+                if (stress > 0.5) {
+                    color = '#ff0000';
+                } else if (stress > 0.3) {
+                    color = '#ff8800';
+                } else if (stress > 0.15) {
+                    color = '#ffff00';
+                } else {
+                    color = getRelationshipColor(rel.type, rel.strength);
+                }
+                constraint.render.strokeStyle = color;
+
+                // Check for breaking
+                if (stretch > BREAKING_THRESHOLD && rel.type !== 'adversarial') {
+                    breakLink(constraint);
+                }
+
+                maxStress = Math.max(maxStress, stress);
+                totalStress += stress;
+                activeLinks++;
+            }
+
+            // Update UI
+            const avgStress = activeLinks > 0 ? totalStress / activeLinks : 0;
+            const stability = Math.max(0, 100 - avgStress * 200);
+
+            document.getElementById('stability').textContent = stability.toFixed(0) + '%';
+            document.getElementById('stability').className = 'metric-value ' +
+                (stability < 50 ? 'stress-high' : stability < 75 ? 'stress-medium' : 'stress-low');
+
+            document.getElementById('max-stress').textContent = (maxStress * 100).toFixed(0) + '%';
+            document.getElementById('max-stress').className = 'metric-value ' +
+                (maxStress > 0.5 ? 'stress-high' : maxStress > 0.3 ? 'stress-medium' : 'stress-low');
+
+            document.getElementById('broken-count').textContent = brokenLinks.size;
+
+            const cascadeRisk = brokenLinks.size >= 3 ? 'CRITICAL' :
+                               brokenLinks.size >= 2 ? 'HIGH' :
+                               brokenLinks.size >= 1 ? 'MEDIUM' : 'LOW';
+            document.getElementById('cascade-risk').textContent = cascadeRisk;
+            document.getElementById('cascade-risk').className = 'metric-value ' +
+                (cascadeRisk === 'CRITICAL' ? 'stress-high' :
+                 cascadeRisk === 'HIGH' ? 'stress-high' :
+                 cascadeRisk === 'MEDIUM' ? 'stress-medium' : 'stress-low');
+
+            // Show alert on cascade
+            document.getElementById('alert').style.display = brokenLinks.size >= 3 ? 'block' : 'none';
+        }
+
+        function breakLink(constraint) {
+            const linkId = constraint.label;
+            if (brokenLinks.has(linkId)) return;
+
+            brokenLinks.add(linkId);
+            Composite.remove(world, constraint);
+
+            // Update broken links display
+            const brokenDiv = document.getElementById('broken-links');
+            const item = document.createElement('div');
+            item.className = 'broken-link';
+            item.textContent = `BROKEN: ${linkId}`;
+            brokenDiv.appendChild(item);
+
+            console.log(`Link broken: ${linkId}`);
+        }
+
+        function runScenario(name) {
+            resetSimulation();
+
+            setTimeout(() => {
+                switch(name) {
+                    case 'greenland':
+                        // US pulls away from Denmark/EU
+                        Body.applyForce(bodies['USA'], bodies['USA'].position, { x: -0.05, y: 0 });
+                        Body.applyForce(bodies['Denmark'], bodies['Denmark'].position, { x: 0.03, y: 0.02 });
+                        break;
+
+                    case 'nato-fracture':
+                        // US pulls away from NATO
+                        Body.applyForce(bodies['USA'], bodies['USA'].position, { x: -0.08, y: -0.04 });
+                        Body.applyForce(bodies['NATO'], bodies['NATO'].position, { x: 0.02, y: 0.01 });
+                        break;
+
+                    case 'russia-test':
+                        // Russia pushes toward Baltics
+                        Body.applyForce(bodies['Russia'], bodies['Russia'].position, { x: -0.04, y: -0.02 });
+                        Body.applyForce(bodies['Baltics'], bodies['Baltics'].position, { x: -0.02, y: 0.01 });
+                        break;
+
+                    case 'trade-war':
+                        // US and EU push apart
+                        Body.applyForce(bodies['USA'], bodies['USA'].position, { x: -0.06, y: 0 });
+                        Body.applyForce(bodies['EU'], bodies['EU'].position, { x: 0.04, y: 0 });
+                        Body.applyForce(bodies['China'], bodies['China'].position, { x: -0.02, y: 0.02 });
+                        break;
+                }
+            }, 100);
+        }
+
+        function resetSimulation() {
+            // Remove all bodies and constraints
+            Composite.clear(world, false);
+            bodies = {};
+            constraints = [];
+            brokenLinks.clear();
+            document.getElementById('broken-links').innerHTML = '';
+            document.getElementById('alert').style.display = 'none';
+
+            // Recreate
+            const legend = document.getElementById('legend');
+            legend.innerHTML = '';
+
+            for (const [name, props] of Object.entries(actors)) {
+                const body = Bodies.circle(props.x, props.y, props.radius, {
+                    label: name,
+                    render: {
+                        fillStyle: props.color,
+                        strokeStyle: '#fff',
+                        lineWidth: 2
+                    },
+                    mass: props.mass,
+                    frictionAir: 0.05
+                });
+                bodies[name] = body;
+                Composite.add(world, body);
+
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.innerHTML = `<div class="legend-color" style="background: ${props.color};"></div><span>${name}</span>`;
+                legend.appendChild(item);
+            }
+
+            for (const rel of relationships) {
+                if (bodies[rel.a] && bodies[rel.b]) {
+                    const bodyA = bodies[rel.a];
+                    const bodyB = bodies[rel.b];
+                    const length = originalLengths[`${rel.a}-${rel.b}`];
+                    const color = getRelationshipColor(rel.type, rel.strength);
+
+                    const constraint = Constraint.create({
+                        bodyA: bodyA,
+                        bodyB: bodyB,
+                        length: length,
+                        stiffness: rel.stiffness,
+                        damping: 0.1,
+                        render: {
+                            strokeStyle: color,
+                            lineWidth: Math.abs(rel.strength) * 3 + 1,
+                            type: 'line'
+                        },
+                        label: `${rel.a}-${rel.b}`,
+                        _relationship: rel
+                    });
+
+                    constraints.push(constraint);
+                    Composite.add(world, constraint);
+                }
+            }
+
+            // Re-add mouse constraint
+            const mouse = Mouse.create(render.canvas);
+            const mouseConstraint = MouseConstraint.create(engine, {
+                mouse: mouse,
+                constraint: {
+                    stiffness: 0.2,
+                    render: { visible: false }
+                }
+            });
+            Composite.add(world, mouseConstraint);
+            render.mouse = mouse;
+        }
+
+        function toggleGravity() {
+            gravityOn = !gravityOn;
+            engine.world.gravity.y = gravityOn ? 0.5 : 0;
+        }
+
+        function addChaos() {
+            for (const body of Object.values(bodies)) {
+                const fx = (Math.random() - 0.5) * 0.1;
+                const fy = (Math.random() - 0.5) * 0.1;
+                Body.applyForce(body, body.position, { x: fx, y: fy });
+            }
+        }
+
+        // Initialize on load
+        window.onload = init;
+        window.onresize = () => {
+            render.canvas.width = document.getElementById('canvas-container').clientWidth;
+            render.canvas.height = document.getElementById('canvas-container').clientHeight;
+        };
+    </script>
+</body>
+</html>
