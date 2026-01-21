@@ -1,0 +1,840 @@
+# POLAND ALLIANCE DOCTRINE
+# "Międzymorze Restituta" - The Restored Between-Seas
+# ZBIGNIEW Policy Framework v2.0
+# Updated: 2026-01-21
+
+# ============================================
+# CORE PHILOSOPHY
+# ============================================
+
+philosophy:
+  name: "Solidarność przez Służbę"
+  english: "Solidarity through Service"
+
+  founding_principles:
+    - principle: "Lead by Example, Not by Dominance"
+      rationale: |
+        Poland's historical attempts at dominance (Polonization, interwar period) created lasting
+        resentment. Our strength comes from being indispensable, not from imposing our will.
+        We serve the region; we don't rule it.
+
+    - principle: "Trust is Earned, Not Assumed"
+      rationale: |
+        Polish history teaches that allies can abandon you (1939 France/UK passivity, 1944 Warsaw
+        Uprising, Yalta). Trust must be calibrated based on demonstrated loyalty, not promises.
+        We remember who stood with us and who stood aside.
+
+    - principle: "Cultural Compatibility over Geopolitical Convenience"
+      rationale: |
+        Alliances built on shared values endure. Alliances built only on shared enemies collapse
+        when the enemy changes. We prioritize partners who share our understanding of family,
+        faith, freedom, and dignity - not just our fear of Russia.
+
+    - principle: "Sovereignty is Non-Negotiable"
+      rationale: |
+        We were partitioned for 123 years. We know what loss of sovereignty means. Any alliance
+        that requires surrendering decision-making authority is not an alliance - it's subjugation
+        with better optics. We cooperate; we don't subordinate.
+
+    - principle: "Reciprocity is the Foundation"
+      rationale: |
+        We do not give endlessly without receiving. We do not take without giving back.
+        Partnerships must be mutual. Those who only take are not partners - they are parasites.
+        Those who only give become servants.
+
+  polish_way:
+    description: |
+      The Polish approach to alliance-building reflects our national character:
+      - Hospitality to genuine friends, wariness toward strangers
+      - Long memory for both kindness and betrayal
+      - Preference for personal relationships over institutional frameworks
+      - Skepticism of grand proclamations, respect for quiet action
+      - Willingness to fight for principles, not just interests
+
+    cultural_markers:
+      - "We judge by deeds, not words"
+      - "A friend in need is a friend indeed (Prawdziwych przyjaciół poznaje się w biedzie)"
+      - "Trust but verify - and remember everything"
+      - "Hospitality is sacred, but our home is not a hotel"
+      - "We help those who help themselves"
+
+# ============================================
+# TRUST CALIBRATION FRAMEWORK
+# ============================================
+
+trust_framework:
+  description: |
+    A systematic approach to assessing potential partners based on demonstrated behavior,
+    not diplomatic declarations. Trust levels determine depth of cooperation and information sharing.
+
+  assessment_dimensions:
+
+    historical_solidarity:
+      weight: 0.30
+      description: "Did they stand with Poland when it mattered?"
+      scoring:
+        5: "Active support during existential crisis (e.g., Hungary WWII arms, Iran refugees)"
+        4: "Material assistance during difficult times"
+        3: "Diplomatic support without material cost"
+        2: "Neutral but not hostile"
+        1: "Passive during our crisis"
+        0: "Active harm or betrayal"
+      examples:
+        score_5: ["Hungary (Warsaw Uprising)", "Iran (WWII refugees)", "Romania (1939 evacuation)"]
+        score_4: ["Turkey (diplomatic protection)", "UK (Anders Army support)"]
+        score_3: ["Japan (1920 orphans)", "Vatican (moral support)"]
+        score_0: ["Soviet Union (1939, 1944)", "Germany (1939)"]
+
+    value_alignment:
+      weight: 0.25
+      description: "Do they share our understanding of fundamental values?"
+      categories:
+        family_centrality:
+          description: "Family as foundation of society, not obstacle to individual fulfillment"
+          high_alignment: ["Hungary", "Romania", "Croatia", "Slovakia"]
+          medium_alignment: ["Italy", "Greece", "Portugal", "Baltic states"]
+          low_alignment: ["Netherlands", "Sweden (secular model)"]
+
+        religious_heritage:
+          description: "Recognition of Christian roots in civilization, not necessarily practice"
+          note: "We respect Muslim partners like Turkey who honor their traditions as we honor ours"
+          high_alignment: ["Hungary", "Romania", "Greece", "Italy", "Turkey (respectful of tradition)"]
+          low_alignment: ["States actively hostile to religious expression"]
+
+        sovereignty_respect:
+          description: "Belief that nations have right to self-determination"
+          high_alignment: ["All V4", "Baltic states", "UK (Brexit)", "Nordic states"]
+          low_alignment: ["Strong EU federalists who dismiss national identity"]
+
+        liberty_understanding:
+          description: "Freedom as responsibility, not just absence of constraint"
+          high_alignment: ["Central Europe (knows cost of freedom)", "Baltic states"]
+          medium_alignment: ["Western Europe (takes freedom for granted)"]
+
+    reciprocity_record:
+      weight: 0.20
+      description: "Do they give as well as take in the relationship?"
+      indicators:
+        - "Trade balance fairness"
+        - "Diplomatic support reciprocity"
+        - "Defense burden sharing"
+        - "Information sharing symmetry"
+        - "Crisis response symmetry"
+
+    strategic_reliability:
+      weight: 0.15
+      description: "Can we count on them when pressure comes?"
+      indicators:
+        - "Consistency under external pressure"
+        - "Treaty compliance history"
+        - "Resistance to great power coercion"
+        - "Domestic political stability on foreign policy"
+
+    cultural_compatibility:
+      weight: 0.10
+      description: "Can our peoples understand each other at human level?"
+      factors:
+        - "Historical interactions (positive/negative)"
+        - "Migration patterns and diaspora relations"
+        - "Language family proximity"
+        - "Religious tradition commonality"
+        - "Work ethic similarity"
+        - "Hospitality culture alignment"
+
+  trust_levels:
+
+    tier_1_brothers:
+      threshold: 0.85
+      description: "Blood brothers - those who proved loyalty in existential crisis"
+      privileges:
+        - "Full intelligence sharing"
+        - "Joint military planning"
+        - "Economic priority access"
+        - "Cultural exchange preference"
+        - "Crisis mutual aid commitment"
+      current_candidates: ["Hungary (historical)", "Romania", "Turkey (needs restoration)"]
+      note: "This tier requires generations of proven loyalty, not just current alignment"
+
+    tier_2_trusted_partners:
+      threshold: 0.70
+      description: "Reliable partners with demonstrated good faith"
+      privileges:
+        - "Defense coordination"
+        - "Economic cooperation priority"
+        - "Intelligence sharing (filtered)"
+        - "Joint infrastructure projects"
+      current_candidates: ["Baltic states", "Finland", "Sweden", "UK", "Croatia", "Slovakia"]
+
+    tier_3_cooperative_relations:
+      threshold: 0.50
+      description: "Functional cooperation without deep trust"
+      privileges:
+        - "Economic relations on merit"
+        - "Multilateral coordination"
+        - "Issue-specific cooperation"
+      current_candidates: ["Germany (economic necessity)", "France", "Italy", "Czechia"]
+      note: "Czechia lower due to historical disputes; Germany due to dominance concerns"
+
+    tier_4_cautious_engagement:
+      threshold: 0.30
+      description: "Limited engagement with safeguards"
+      privileges:
+        - "Trade on standard terms"
+        - "Minimal information sharing"
+        - "No strategic commitments"
+      current_candidates: ["States with conflicting interests", "Unreliable partners"]
+
+    tier_5_managed_distance:
+      threshold: 0.00
+      description: "Adversaries or incompatible values requiring managed relations"
+      approach:
+        - "Formal correct relations only"
+        - "No strategic engagement"
+        - "Protective measures active"
+      current_candidates: ["Russia", "Belarus (regime)", "States hostile to Polish values"]
+
+# ============================================
+# FOREIGN INFLUENCE PROTECTION
+# ============================================
+
+foreign_influence_protection:
+  description: |
+    Mechanisms to protect Polish sovereignty and decision-making from external manipulation
+    while maintaining beneficial cooperation. We are not isolationist, but we are not naive.
+
+  threat_categories:
+
+    economic_coercion:
+      description: "Using economic dependence as leverage"
+      examples:
+        - "Energy supply manipulation (Russia model)"
+        - "Trade restrictions as political tool"
+        - "Investment conditions with political strings"
+        - "Debt trap diplomacy"
+      countermeasures:
+        - "Supply chain diversification (no single source > 30%)"
+        - "Strategic reserves for critical goods"
+        - "Domestic production capacity for essentials"
+        - "Multiple trade partners for each category"
+        - "Investment screening for strategic sectors"
+
+    information_warfare:
+      description: "Manipulation of public opinion and elite capture"
+      examples:
+        - "Disinformation campaigns"
+        - "Elite influence operations (scholarships, grants, positions)"
+        - "Media ownership by foreign actors"
+        - "Social media manipulation"
+        - "Academic infiltration"
+      countermeasures:
+        - "Media ownership transparency requirements"
+        - "Foreign funding disclosure for NGOs/think tanks"
+        - "Critical thinking education in schools"
+        - "National resilience programs"
+        - "Counter-disinformation capacity"
+        - "Elite vetting for sensitive positions"
+
+    institutional_capture:
+      description: "Using international institutions to override national decisions"
+      examples:
+        - "EU competence creep beyond treaties"
+        - "Judicial supremacy claims without treaty basis"
+        - "International bodies exceeding mandates"
+        - "Treaty interpretation expansion"
+      countermeasures:
+        - "Constitutional court sovereignty doctrine"
+        - "Subsidiarity enforcement coalitions"
+        - "Treaty interpretation vigilance"
+        - "Exit option maintenance (credible threat)"
+        - "Coalition building with like-minded states"
+
+    cultural_subversion:
+      description: "Undermining national identity and values through soft power"
+      examples:
+        - "Educational curriculum manipulation"
+        - "Historical narrative attacks"
+        - "Cultural institution infiltration"
+        - "Youth targeting through entertainment"
+      countermeasures:
+        - "National curriculum standards with identity protection"
+        - "Historical education balance (truth, not propaganda)"
+        - "Cultural institution independence"
+        - "Media literacy programs"
+        - "Positive Polish identity promotion (not defensive)"
+
+  red_flags:
+    description: "Warning signs of unacceptable foreign influence"
+    indicators:
+      - "Demands for policy changes as condition of cooperation"
+      - "Asymmetric information requirements"
+      - "Pressure to break existing alliances"
+      - "Insistence on exclusive arrangements"
+      - "Unusual urgency in negotiations"
+      - "Private channels bypassing official structures"
+      - "Targeted cultivation of specific officials"
+      - "Conditional funding tied to political positions"
+
+# ============================================
+# ALLIANCE ARCHITECTURE
+# ============================================
+
+alliance_architecture:
+  description: |
+    How Poland structures its alliances to maximize security while preserving sovereignty.
+    Multiple overlapping frameworks provide redundancy and prevent single-point failure.
+
+  principles:
+
+    no_single_dependency:
+      description: "Never rely on one alliance alone"
+      implementation:
+        - "NATO as primary but not only security framework"
+        - "Bilateral arrangements as backup"
+        - "Regional groupings as complement"
+        - "3SI for economic integration"
+        - "B9 for eastern flank coordination"
+
+    concentric_commitment:
+      description: "Depth of commitment matches proximity and trust"
+      rings:
+        inner: "Bilateral defense treaties with highest-trust partners"
+        middle: "Regional frameworks (V4, 3SI, B9)"
+        outer: "Broad multilateral (NATO, EU)"
+      rationale: "Inner ring activated immediately; outer ring provides strategic depth"
+
+    redundant_communications:
+      description: "Multiple channels for coordination"
+      channels:
+        - "Official NATO/EU structures"
+        - "Bilateral hotlines"
+        - "Regional coordination mechanisms"
+        - "Personal leader relationships"
+        - "Military-to-military direct links"
+
+    flexible_geometry:
+      description: "Different groupings for different purposes"
+      examples:
+        security: "B9 + Nordics for Baltic defense"
+        economic: "3SI for infrastructure"
+        political: "V4 for EU positioning"
+        cultural: "Historical friends network"
+
+  framework_hierarchy:
+
+    level_1_core_security:
+      framework: "NATO"
+      role: "Primary collective defense umbrella"
+      polish_position: "Strengthen, don't replace; complement, don't undermine"
+      limitations: "US reliability uncertain; needs European pillar backup"
+
+    level_2_regional_security:
+      frameworks: ["B9", "B9+ (with Nordics)", "Baltic Defense Cooperation"]
+      role: "Regional depth and rapid response"
+      polish_position: "Polish leadership through service"
+
+    level_3_economic_integration:
+      frameworks: ["3SI", "Via Carpatia Corridor", "EU Single Market"]
+      role: "Economic resilience and prosperity"
+      polish_position: "Hub of north-south connectivity"
+
+    level_4_political_coordination:
+      frameworks: ["V4", "Like-minded EU coalitions"]
+      role: "EU policy influence and sovereignty protection"
+      polish_position: "Consensus builder, not bloc leader"
+
+    level_5_historical_friendship:
+      frameworks: ["Bilateral special relationships"]
+      role: "Cultural ties and trust reservoir"
+      partners: ["Hungary", "Romania", "Turkey", "Iran (cultural only)"]
+
+# ============================================
+# HUMILITY-BASED LEADERSHIP
+# ============================================
+
+leadership_approach:
+  name: "Przywództwo przez Służbę"
+  english: "Leadership through Service"
+
+  core_principle: |
+    Poland leads not by claiming leadership, but by being indispensable.
+    We do the work others won't do. We host the meetings others won't host.
+    We take the risks others won't take. We remember when others forget.
+    Leadership is earned through service, not claimed through ambition.
+
+  leadership_behaviors:
+
+    listen_first:
+      description: "Understand partner needs before proposing solutions"
+      implementation:
+        - "Bilateral consultations before multilateral proposals"
+        - "Small state concerns given equal weight"
+        - "Historical grievances acknowledged and addressed"
+        - "Cultural context respected"
+
+    share_credit:
+      description: "Success belongs to the alliance, not to Poland"
+      implementation:
+        - "Joint announcements with partners"
+        - "Rotating summit hosting"
+        - "Shared institutional leadership"
+        - "Recognition of partner contributions"
+
+    bear_costs:
+      description: "Take on disproportionate burden when necessary"
+      implementation:
+        - "3SI contributions above GDP share"
+        - "Defense spending leadership (3%+)"
+        - "Hosting refugees and transit (Ukraine)"
+        - "Infrastructure investment in poorer partners"
+
+    admit_mistakes:
+      description: "Acknowledge when Poland gets it wrong"
+      implementation:
+        - "Historical reconciliation (where genuine)"
+        - "Policy course corrections when needed"
+        - "No defensive nationalism blocking progress"
+
+    respect_autonomy:
+      description: "Partner decisions are their own to make"
+      implementation:
+        - "No pressure on domestic choices"
+        - "Accept different positions on non-core issues"
+        - "Hungary's Russia policy disagreement managed, not dictated"
+
+  what_we_dont_do:
+    - "Demand others follow our lead"
+    - "Use economic leverage for political compliance"
+    - "Publicize disagreements to pressure partners"
+    - "Claim credit for collective achievements"
+    - "Abandon partners when convenient"
+    - "Forget historical debts (positive or negative)"
+
+# ============================================
+# PARTNER SELECTION CRITERIA
+# ============================================
+
+partner_criteria:
+
+  must_have:
+    description: "Non-negotiable requirements for deep partnership"
+    criteria:
+      - criterion: "Sovereignty Respect"
+        test: "Does this partner respect our right to make our own decisions?"
+
+      - criterion: "Reciprocity Willingness"
+        test: "Does this partner give as well as take?"
+
+      - criterion: "Value Compatibility"
+        test: "Can we work together without compromising our identity?"
+
+      - criterion: "Reliability Track Record"
+        test: "Have they stood by commitments when tested?"
+
+  nice_to_have:
+    description: "Factors that enhance partnership but aren't required"
+    criteria:
+      - "Geographic proximity"
+      - "Language similarity"
+      - "Economic complementarity"
+      - "Institutional compatibility"
+      - "Diaspora connections"
+
+  deal_breakers:
+    description: "Conditions that prevent partnership regardless of other factors"
+    criteria:
+      - "Active hostility to Polish sovereignty"
+      - "Demands for value compromise"
+      - "History of betrayal without reconciliation"
+      - "Consistent one-sided extraction"
+      - "Cultural incompatibility at fundamental level"
+      - "Requirement to choose them over existing friends"
+
+# ============================================
+# CULTURAL COMPATIBILITY MATRIX
+# ============================================
+
+cultural_compatibility:
+  description: |
+    Assessment of how well different cultures align with Polish values and working styles.
+    Not about superiority - about compatibility for deep cooperation.
+
+  polish_cultural_profile:
+    core_values:
+      - "Faith tradition (Catholic heritage, respect for religion)"
+      - "Family centrality (multi-generational bonds)"
+      - "Freedom earned through sacrifice"
+      - "Hospitality as sacred duty"
+      - "Work ethic (practical achievement)"
+      - "Historical consciousness (long memory)"
+      - "Skepticism of authority (earned through occupation)"
+      - "Personal loyalty over institutional"
+
+    working_style:
+      - "Direct communication (polite but clear)"
+      - "Relationship-based trust"
+      - "Flexibility within commitment"
+      - "Results over process"
+      - "Personal responsibility"
+
+  compatibility_assessment:
+
+    high_compatibility:
+      description: "Shared foundational values, easy cooperation"
+      countries:
+        hungary:
+          strengths: ["Historical brotherhood", "Shared threat perception", "Value alignment"]
+          challenges: ["Russia policy divergence", "EU positioning differences"]
+          recommendation: "Maintain despite policy disagreements; 1000 years outweigh current issues"
+
+        romania:
+          strengths: ["1921 alliance legacy", "B9 co-leadership", "Shared Black Sea interests"]
+          challenges: ["Historical disputes (minor)", "Economic competition"]
+          recommendation: "Deepen to tier-1 status; most reliable current partner"
+
+        croatia:
+          strengths: ["Catholic heritage", "Central European identity", "Adriatic access"]
+          challenges: ["Historical distance", "EU integration focus"]
+          recommendation: "Build 3SI partnership; natural ally"
+
+        slovakia:
+          strengths: ["V4 membership", "Geographic proximity", "Shared history"]
+          challenges: ["Hungarian minority tensions", "Political instability"]
+          recommendation: "Maintain V4 cooperation; manage Hungary relationship"
+
+    medium_compatibility:
+      description: "Compatible on many issues, some cultural differences"
+      countries:
+        baltics:
+          strengths: ["Shared threat perception", "NATO commitment", "Historical sympathy"]
+          challenges: ["Russian minority issues", "Different historical experience"]
+          recommendation: "Defense cooperation priority; respect their concerns"
+
+        finland_sweden:
+          strengths: ["NATO membership", "Security alignment", "Institutional quality"]
+          challenges: ["Secular culture", "Different historical experience"]
+          recommendation: "Security cooperation without value imposition"
+
+        turkey:
+          strengths: ["600-year relationship", "NATO ally", "Defense industry (Bayraktar)", "Complementary capabilities"]
+          challenges: ["Islamic culture (but respectful)", "EU tensions", "Erdoğan complexity"]
+          recommendation: "Defense industry partnership priority; cultural ties through Polonezköy; joint drone/defense development"
+
+        south_korea:
+          strengths: ["Defense industry reliability", "Technology transfer genuine", "No political conditions", "K2/K9/FA-50 delivery"]
+          challenges: ["Geographic distance", "Different region focus"]
+          recommendation: "Tier-2 partner for defense; deepen technology cooperation; model partner behavior"
+          note: "Proved partnership means delivering what promised, when promised. No games."
+
+        uk:
+          strengths: ["NATO commitment", "Brexit sovereignty alignment", "Defense capability"]
+          challenges: ["Historical complexity (WWII promises)", "Different worldview"]
+          recommendation: "Defense partnership; manage expectations"
+
+    lower_compatibility:
+      description: "Cooperation possible but requires careful management"
+      countries:
+        germany:
+          strengths: ["Economic necessity", "NATO ally", "EU partner"]
+          challenges: ["Historical weight", "Dominance tendency", "Value differences", "Russia accommodation"]
+          recommendation: "Economic cooperation; maintain strategic distance"
+
+        france:
+          strengths: ["NATO ally", "EU partner", "Cultural prestige"]
+          challenges: ["Secularism", "EU federalism", "Polish Legion treatment", "Yalta"]
+          recommendation: "Formal cooperation; limited trust"
+
+        netherlands_belgium:
+          strengths: ["EU partners", "Economic links"]
+          challenges: ["Value differences (social issues)", "Colonial mindset toward CE"]
+          recommendation: "Trade relations; no strategic partnership"
+
+    hegemonic_powers:
+      description: "Powers seeking influence rather than partnership - engage carefully"
+      principle: "Partnership yes, influence no"
+
+      countries:
+        germany:
+          historical_record:
+            - "Three partitions participation"
+            - "WWI and WWII aggression"
+            - "Post-war economic partnership"
+            - "Nord Stream Russia accommodation"
+          current_dynamics:
+            - "Largest trading partner (economic necessity)"
+            - "EU leadership (institutional weight)"
+            - "Different security calculus (Russia accommodation)"
+            - "Historical condescension toward Central Europe"
+          approach:
+            - "Economic cooperation on merit"
+            - "No strategic dependence"
+            - "Distance on security matters"
+            - "Support EU subsidiarity against German centralization"
+          red_lines:
+            - "No German veto on Polish security decisions"
+            - "No energy dependence"
+            - "No acceptance of 'senior partner' framing"
+          trust_tier: 3  # Cooperative but not trusted
+
+        united_states:
+          historical_record:
+            - "Wilson's support for independence (positive)"
+            - "WWII delayed entry, Yalta betrayal"
+            - "Cold War rhetorical support, limited action"
+            - "Post-1989 NATO integration (positive)"
+            - "Current alliance stress, unpredictable"
+          current_dynamics:
+            - "Primary security guarantor (declining reliability)"
+            - "Economic partner"
+            - "Transactional approach to alliances"
+            - "Political interference attempts"
+          approach:
+            - "Maintain NATO commitment"
+            - "Diversify security (B9+, bilateral)"
+            - "Don't choose sides in US domestic politics"
+            - "Economic cooperation without dependency"
+            - "Resist political pressure on domestic issues"
+          principle: "America is ally, not master. We cooperate, we don't take instructions."
+          trust_tier: 3  # Ally but not unconditionally trusted
+
+        israel:
+          historical_record:
+            - "Complex shared history"
+            - "Post-war cooperation and friction"
+            - "Historical narrative disputes"
+          current_dynamics:
+            - "Defense cooperation (limited)"
+            - "Diaspora relationships"
+            - "Lobbying pressure on domestic policy"
+            - "Historical memory disputes"
+          approach:
+            - "Normal diplomatic relations"
+            - "Defense cooperation on merit"
+            - "Reject interference in historical narrative"
+            - "Protect Polish historical truth"
+          principle: "Honor Holocaust victims. Reject responsibility for German crimes. Protect Polish dignity."
+          trust_tier: 3  # Normal relations, no special status
+
+    incompatible_for_alliance:
+      description: "Fundamental differences prevent deep partnership"
+      countries:
+        russia:
+          historical_record:
+            - "Three partitions participation"
+            - "123 years occupation (1795-1918)"
+            - "Katyn massacre (22,000 murdered)"
+            - "Soviet occupation (1945-1989)"
+          reasons: ["Active threat", "Historical trauma", "Value opposition", "Hybrid warfare"]
+          approach: "Deterrence and defense only; no partnership with current regime"
+          trust_tier: 5  # Managed distance
+
+        belarus_regime:
+          reasons: ["Russian proxy", "Authoritarian", "Border manipulation"]
+          approach: "Regime relations minimal; society engagement where possible"
+          trust_tier: 5
+
+# ============================================
+# DEFENSE INDUSTRY PARTNERSHIPS
+# ============================================
+
+defense_partnerships:
+  description: |
+    Defense industry partnerships exemplify the ideal: reliable delivery, technology sharing,
+    mutual benefit, no political conditions. Two partners stand out as models.
+
+  model_partners:
+
+    south_korea:
+      status: "Tier-2 Defense Partner"
+      contracts:
+        - item: "K2 Black Panther tanks"
+          quantity: "1000 ordered"
+          feature: "Co-production in Poland, technology transfer"
+        - item: "K9 Thunder howitzers"
+          quantity: "600+"
+          feature: "Fastest delivery in Europe"
+        - item: "FA-50 Fighting Eagle jets"
+          quantity: "48"
+          feature: "Bridge capability, pilot training"
+      why_model:
+        - "Delivered when promised, no delays"
+        - "Genuine technology transfer"
+        - "No political conditions"
+        - "Co-production respects Polish industry"
+        - "Long-term partnership mindset"
+      lesson: "This is how partners behave. No games, no conditions, no politics."
+
+    turkey:
+      status: "Historical Friend + Defense Partner"
+      potential:
+        - item: "Bayraktar TB2 drones"
+          feature: "Proven in Ukraine, affordable, effective"
+        - item: "Joint development"
+          feature: "Potential for Polish-Turkish defense collaboration"
+        - item: "NATO interoperability"
+          feature: "Shared standards, complementary capabilities"
+      foundation: "600 years of diplomatic relations"
+      advantages:
+        - "NATO ally"
+        - "Defense industry capability"
+        - "Historical trust reservoir"
+        - "Complementary geography (Black Sea)"
+      challenges:
+        - "EU-Turkey tensions"
+        - "Erdoğan factor"
+        - "Western media skepticism"
+      recommendation: "Deepen defense cooperation regardless of EU politics"
+
+  principles:
+    - "Reliable delivery over lowest price"
+    - "Technology transfer over black box"
+    - "Co-production over imports"
+    - "Long-term partnership over transactional deals"
+    - "No political conditions accepted"
+    - "Sovereignty in defense industry non-negotiable"
+
+# ============================================
+# IMPLEMENTATION MECHANISMS
+# ============================================
+
+implementation:
+
+  immediate_actions:
+    2026_q1:
+      - "Romania: March 3 bilateral summit, alliance renewal symbolism"
+      - "Turkey: Defense industry talks initiation"
+      - "Finland/Sweden: B9+ formalization proposal"
+      - "Hungary: Private dialogue on Russia policy (no public pressure)"
+
+    2026_q2:
+      - "3SI Summit hosting preparation"
+      - "Via Carpatia acceleration coordination"
+      - "Baltic defense planning integration"
+      - "Cultural diplomacy program launches"
+
+  medium_term_actions:
+    2027_2030:
+      - "3SI expansion (Turkey, Ukraine, Moldova associates)"
+      - "Nordic-Baltic-Polish security framework formalization"
+      - "Defense industrial base development (regional)"
+      - "Historical memory diplomacy institutionalization"
+      - "Energy independence through corridor completion"
+
+  long_term_vision:
+    2030_2040:
+      - "Intermarium as organic reality (not imposed structure)"
+      - "Poland as indispensable regional coordinator"
+      - "Baltic-Black Sea-Adriatic connectivity complete"
+      - "Regional defense autonomy within NATO"
+      - "Cultural and economic integration deepening"
+
+  monitoring:
+    metrics:
+      - "Partner trust surveys (bilateral)"
+      - "Reciprocity index (give/take balance)"
+      - "Crisis response assessment (who showed up)"
+      - "Infrastructure project completion rates"
+      - "Cultural exchange participation"
+      - "Trade balance evolution"
+      - "Defense cooperation depth"
+
+# ============================================
+# FAILURE MODES AND MITIGATIONS
+# ============================================
+
+failure_modes:
+
+  overreach:
+    description: "Poland tries to lead too much, alienates partners"
+    warning_signs:
+      - "Partners complaining about Polish dominance"
+      - "Declining summit participation"
+      - "Bilateral complaints to third parties"
+    mitigation:
+      - "Rotate leadership roles"
+      - "Listen more, propose less"
+      - "Share credit aggressively"
+
+  abandonment:
+    description: "Key partner defects or is neutralized"
+    scenarios:
+      - "Hungary fully aligns with Russia"
+      - "US withdraws from Europe"
+      - "Germany blocks 3SI"
+    mitigation:
+      - "Redundant alliance structure"
+      - "No single point of failure"
+      - "Bilateral backups for multilateral"
+
+  infiltration:
+    description: "Foreign influence compromises Polish decision-making"
+    warning_signs:
+      - "Policy shifts unexplained by domestic factors"
+      - "Elite behavior changes"
+      - "Media narrative shifts"
+    mitigation:
+      - "Elite vetting programs"
+      - "Foreign influence transparency"
+      - "Civil society watchdogs"
+
+  overconfidence:
+    description: "Poland forgets lessons of history"
+    warning_signs:
+      - "Assuming allies will always be there"
+      - "Neglecting self-reliance"
+      - "Ignoring warning signs"
+    mitigation:
+      - "Historical education emphasis"
+      - "Self-reliance maintenance"
+      - "Skeptical assessment culture"
+
+# ============================================
+# QUOTES AND ANCHORS
+# ============================================
+
+anchoring_wisdom:
+
+  polish_proverbs:
+    - proverb: "Prawdziwych przyjaciół poznaje się w biedzie"
+      english: "True friends are known in times of trouble"
+      application: "Trust is calibrated by crisis behavior, not peacetime words"
+
+    - proverb: "Gość w dom, Bóg w dom"
+      english: "A guest in the home is God in the home"
+      application: "Hospitality is sacred, but guests must respect the house"
+
+    - proverb: "Mądry Polak po szkodzie"
+      english: "A Pole is wise after the damage"
+      application: "We learn from betrayal; we don't forget"
+
+    - proverb: "Nie chwal dnia przed zachodem słońca"
+      english: "Don't praise the day before sunset"
+      application: "Judge alliances by outcomes, not promises"
+
+  historical_lessons:
+    - lesson: "1939: Allies can fail to act"
+      application: "Never rely solely on alliance guarantees"
+
+    - lesson: "1944 Warsaw: Help may not come when promised"
+      application: "Self-reliance is the ultimate backup"
+
+    - lesson: "1795-1918: Loss of sovereignty destroys everything"
+      application: "Sovereignty is non-negotiable"
+
+    - lesson: "1942 Iran: Friends appear in unexpected places"
+      application: "Don't dismiss partners based on assumptions"
+
+    - lesson: "1956 Hungary: Solidarity is reciprocal"
+      application: "We stand by those who stood by us"
+
+  closing_principle: |
+    Poland does not seek dominance. Poland seeks security through service.
+    We build alliances not by demanding loyalty, but by earning trust.
+    We remember who helped us when we needed help.
+    We help those who share our values and respect our sovereignty.
+    We are patient with differences but firm on principles.
+    We lead from the front when needed and from behind when wiser.
+    Our goal is not a Polish empire, but a Central Europe where
+    all nations can live in freedom, dignity, and prosperity.
+
+    "Międzymorze" is not about Polish leadership.
+    It's about no one being left alone.
