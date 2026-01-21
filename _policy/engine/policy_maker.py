@@ -323,6 +323,70 @@ class PolicyMaker:
             metrics=["Energy import dependency %", "Strategic reserve days", "Renewable capacity GW"]
         ))
 
+        # Cybersecurity capacity (immediate given tech threats)
+        recs.append(Recommendation(
+            id="REC_2026_004",
+            title="Cybersecurity Capacity Building",
+            description="Establish robust cyber defense given digital threats to critical infrastructure.",
+            horizon=Horizon.IMMEDIATE,
+            priority=Priority.HIGH,
+            vectors=[Vector.MILITARY, Vector.INSTITUTIONAL],
+            objectives_served=["OBJ_TECH_001", "OBJ_SEC_001"],
+            actions=[
+                "National Cybersecurity Center expansion",
+                "Critical infrastructure audit and hardening",
+                "Cyber reservist program launch",
+                "Information sharing with NATO partners",
+                "Supply chain security review (5G, cloud)"
+            ],
+            resources_required="€200-400M initial investment, ongoing operational costs",
+            risks=[
+                "Talent shortage",
+                "Technology obsolescence",
+                "Coordination challenges across agencies"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Poland (digital security)", "Critical infrastructure operators", "Citizens (data protection)"],
+                "secondary_beneficiaries": ["NATO (collective defense)", "Tech sector (demand)"],
+                "potential_losers": ["Cyber adversaries", "Vendors of insecure systems"],
+                "who_opposes": "Those profiting from current vulnerabilities"
+            },
+            confidence=0.85,
+            metrics=["Incidents detected/prevented", "Response time", "Infrastructure compliance"]
+        ))
+
+        # Education reform initiation
+        recs.append(Recommendation(
+            id="REC_2026_005",
+            title="Education Reform Consultation",
+            description="Launch comprehensive education system review with all stakeholders.",
+            horizon=Horizon.IMMEDIATE,
+            priority=Priority.MEDIUM,
+            vectors=[Vector.SOCIAL, Vector.INSTITUTIONAL],
+            objectives_served=["OBJ_EDU_001"],
+            actions=[
+                "National education consultation (teachers, parents, employers)",
+                "Vocational training needs assessment",
+                "Teacher compensation review",
+                "Curriculum modernization working groups",
+                "International best practices study"
+            ],
+            resources_required="Administrative effort, consultation budget",
+            risks=[
+                "Stakeholder resistance",
+                "Political interference",
+                "Implementation capacity"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Students (better preparation)", "Economy (skilled workforce)", "Teachers (if pay addressed)"],
+                "secondary_beneficiaries": ["Employers", "Universities"],
+                "potential_losers": ["Status quo beneficiaries", "Ideological extremes (both sides)"],
+                "who_opposes": "Those using education for political ends"
+            },
+            confidence=0.75,
+            metrics=["Consultation participation", "Stakeholder satisfaction", "Reform roadmap quality"]
+        ))
+
         return recs
 
     def _generate_medium_recommendations(self, threat_level: str) -> list[Recommendation]:
@@ -427,6 +491,134 @@ class PolicyMaker:
             metrics=["Domestic production %", "Export volume", "R&D spending", "Employment"]
         ))
 
+        # Education system transformation
+        recs.append(Recommendation(
+            id="REC_2026_013",
+            title="Education System Transformation",
+            description="Implement comprehensive education reform balancing skills and values.",
+            horizon=Horizon.MEDIUM,
+            priority=Priority.HIGH,
+            vectors=[Vector.SOCIAL, Vector.ECONOMIC, Vector.INSTITUTIONAL],
+            objectives_served=["OBJ_EDU_001"],
+            actions=[
+                "Curriculum overhaul (critical thinking + civic education)",
+                "Vocational track prestige restoration",
+                "Teacher pay competitiveness (80% of average wage)",
+                "University-industry partnerships program",
+                "Digital literacy universal by grade 6"
+            ],
+            resources_required="€3-5B over 5 years, significant political capital",
+            risks=[
+                "Political polarization of education",
+                "Teacher resistance to change",
+                "Implementation quality variation"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Students", "Economy (human capital)", "Teachers (if implemented well)"],
+                "secondary_beneficiaries": ["Employers", "Innovation ecosystem"],
+                "potential_losers": ["Ideological gatekeepers", "Low-quality institutions"],
+                "who_opposes": "Those using education for ideological ends"
+            },
+            confidence=0.70,
+            metrics=["PISA scores", "Vocational enrollment", "Teacher retention", "Employer satisfaction"]
+        ))
+
+        # Judicial system modernization
+        recs.append(Recommendation(
+            id="REC_2026_014",
+            title="Judicial System Modernization",
+            description="Achieve efficient, independent judiciary trusted by citizens and investors.",
+            horizon=Horizon.MEDIUM,
+            priority=Priority.HIGH,
+            vectors=[Vector.INSTITUTIONAL, Vector.POLITICAL],
+            objectives_served=["OBJ_JUDICIARY_001", "OBJ_INST_001"],
+            actions=[
+                "Case management system digitization",
+                "Judicial appointment transparency reform",
+                "Commercial court specialization",
+                "Alternative dispute resolution expansion",
+                "Court infrastructure modernization"
+            ],
+            resources_required="€1-2B over 5 years, constitutional considerations",
+            risks=[
+                "Political interference attempts",
+                "EU rule of law disputes",
+                "Judicial resistance to efficiency measures"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Citizens (access to justice)", "Business (contract enforcement)", "Democracy (rule of law)"],
+                "secondary_beneficiaries": ["Foreign investors", "EU relations"],
+                "potential_losers": ["Those benefiting from delays", "Political actors seeking control"],
+                "who_opposes": "Both those wanting executive control AND those fearing any reform"
+            },
+            confidence=0.65,
+            metrics=["Case processing time", "Trust in judiciary %", "Commercial dispute resolution speed"]
+        ))
+
+        # Food security and agriculture
+        recs.append(Recommendation(
+            id="REC_2026_015",
+            title="Agricultural Modernization & Food Security",
+            description="Achieve food self-sufficiency while building competitive export agriculture.",
+            horizon=Horizon.MEDIUM,
+            priority=Priority.MEDIUM,
+            vectors=[Vector.ECONOMIC, Vector.SOCIAL],
+            objectives_served=["OBJ_FOOD_001", "OBJ_ECON_001"],
+            actions=[
+                "Strategic grain reserve expansion (6 months)",
+                "Irrigation infrastructure investment",
+                "Agricultural technology adoption incentives",
+                "Processing capacity domestic expansion",
+                "Export market diversification (Asia, Middle East)"
+            ],
+            resources_required="€2-4B over 5 years, CAP utilization optimization",
+            risks=[
+                "Climate variability",
+                "CAP reform uncertainty",
+                "Rural labor shortage"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Food security", "Farmers", "Rural communities"],
+                "secondary_beneficiaries": ["Processing industry", "Export economy"],
+                "potential_losers": ["Import-dependent sectors"],
+                "who_opposes": "Free trade absolutists, cheap food importers"
+            },
+            confidence=0.75,
+            metrics=["Food self-sufficiency %", "Agricultural exports", "Rural income"]
+        ))
+
+        # Local government empowerment
+        recs.append(Recommendation(
+            id="REC_2026_016",
+            title="Local Government Empowerment",
+            description="Strengthen local democracy through fiscal decentralization.",
+            horizon=Horizon.MEDIUM,
+            priority=Priority.MEDIUM,
+            vectors=[Vector.INSTITUTIONAL, Vector.POLITICAL],
+            objectives_served=["OBJ_LOCAL_001", "OBJ_INST_001"],
+            actions=[
+                "Local tax base expansion",
+                "Revenue sharing formula reform",
+                "Inter-municipal cooperation incentives",
+                "Smart city programs for medium cities",
+                "Rural broadband completion"
+            ],
+            resources_required="Fiscal reform, €1B transition fund",
+            risks=[
+                "Capacity variation across municipalities",
+                "Accountability gaps",
+                "Regional inequality initial increase"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Local communities", "Regional development", "Democracy (closer to citizens)"],
+                "secondary_beneficiaries": ["Municipal innovation", "Local businesses"],
+                "potential_losers": ["Central government control", "Warsaw-centric interests"],
+                "who_opposes": "Centralizers, those benefiting from current distribution"
+            },
+            confidence=0.70,
+            metrics=["Local fiscal autonomy %", "Local turnout", "Service satisfaction"]
+        ))
+
         return recs
 
     def _generate_long_recommendations(self, threat_level: str) -> list[Recommendation]:
@@ -527,6 +719,136 @@ class PolicyMaker:
             },
             confidence=0.65,
             metrics=["Regional influence surveys", "Crisis response capacity", "Economic integration depth"]
+        ))
+
+        # Environmental transition
+        recs.append(Recommendation(
+            id="REC_2026_023",
+            title="Energy Transition with Security",
+            description="Achieve carbon neutrality trajectory while maintaining energy security and industrial base.",
+            horizon=Horizon.LONG,
+            priority=Priority.MEDIUM,
+            vectors=[Vector.ECONOMIC, Vector.SOCIAL],
+            objectives_served=["OBJ_ENV_001", "OBJ_ECON_001"],
+            actions=[
+                "Nuclear power program completion (3+ reactors by 2040)",
+                "Baltic offshore wind development (10+ GW)",
+                "Grid modernization for renewables integration",
+                "Silesian transformation fund (coal region transition)",
+                "Building efficiency program (net-zero new builds by 2035)"
+            ],
+            resources_required="€50-80B over 20 years, EU funding optimization",
+            risks=[
+                "Nuclear delays/cost overruns",
+                "Grid stability during transition",
+                "Energy poverty if mismanaged",
+                "Industrial competitiveness if too fast"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Future generations (climate)", "Energy security", "New energy industries"],
+                "secondary_beneficiaries": ["EU (climate goals)", "Technology sector", "Construction"],
+                "potential_losers": ["Coal sector (managed decline)", "High-emission industries"],
+                "who_opposes": "Coal lobby, climate absolutists (too slow for some)"
+            },
+            confidence=0.60,
+            metrics=["CO2 emissions trajectory", "Energy mix %", "Air quality", "Energy poverty rate"]
+        ))
+
+        # Technology sovereignty
+        recs.append(Recommendation(
+            id="REC_2026_024",
+            title="Technology Sovereignty Achievement",
+            description="Establish domestic control over critical digital infrastructure and capabilities.",
+            horizon=Horizon.LONG,
+            priority=Priority.HIGH,
+            vectors=[Vector.ECONOMIC, Vector.MILITARY, Vector.INSTITUTIONAL],
+            objectives_served=["OBJ_TECH_001", "OBJ_SEC_001", "OBJ_ECON_001"],
+            actions=[
+                "National AI research institute establishment",
+                "Sovereign cloud infrastructure (government + critical)",
+                "Cybersecurity industry development (export capability)",
+                "Tech talent retention program (competitive with Western hubs)",
+                "Critical technology manufacturing (semiconductors, defense electronics)"
+            ],
+            resources_required="€15-25B over 20 years, significant policy coordination",
+            risks=[
+                "Global competition for talent",
+                "Technology obsolescence",
+                "Protectionism backlash",
+                "Cost of catching up"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["National security", "Tech industry", "Skilled workforce"],
+                "secondary_beneficiaries": ["Digital economy", "Education sector", "Startups"],
+                "potential_losers": ["Foreign tech giants (reduced dominance)", "Status quo importers"],
+                "who_opposes": "Those profiting from tech dependency, free trade absolutists"
+            },
+            confidence=0.55,
+            metrics=["Tech sector GDP %", "Talent net migration", "Critical systems domestic %", "R&D spending"]
+        ))
+
+        # Cultural diplomacy and soft power
+        recs.append(Recommendation(
+            id="REC_2026_025",
+            title="Polish Soft Power Projection",
+            description="Build Polish cultural presence and influence globally through authentic engagement.",
+            horizon=Horizon.LONG,
+            priority=Priority.LOW,
+            vectors=[Vector.INFORMATION, Vector.SOCIAL],
+            objectives_served=["OBJ_CULTURE_001", "OBJ_LEAD_001"],
+            actions=[
+                "Polish Institute network expansion (50+ countries)",
+                "Film/game industry international competitiveness",
+                "Academic exchange programs (net positive)",
+                "Heritage site investment (UNESCO candidates)",
+                "Digital cultural presence (streaming, social media)"
+            ],
+            resources_required="€2-4B over 20 years, creative sector investment",
+            risks=[
+                "Cultural export difficult to manufacture",
+                "Propaganda perception if heavy-handed",
+                "Resource competition with hard power"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Polish identity abroad", "Tourism", "Cultural industries"],
+                "secondary_beneficiaries": ["Diplomacy (soft power)", "Diaspora identity"],
+                "potential_losers": ["Competing cultural narratives"],
+                "who_opposes": "Those preferring different Polish narrative, budget hawks"
+            },
+            confidence=0.50,
+            metrics=["Cultural institute reach", "Polish learners abroad", "Creative exports", "Tourism brand"]
+        ))
+
+        # Diaspora engagement
+        recs.append(Recommendation(
+            id="REC_2026_026",
+            title="Diaspora as Strategic Asset",
+            description="Transform 20 million Poles abroad from brain drain into strategic national asset.",
+            horizon=Horizon.LONG,
+            priority=Priority.MEDIUM,
+            vectors=[Vector.SOCIAL, Vector.ECONOMIC, Vector.POLITICAL],
+            objectives_served=["OBJ_DIASPORA_001", "OBJ_ECON_001"],
+            actions=[
+                "Diaspora investment vehicles (development bonds)",
+                "Return incentive package (housing, job placement, pension portability)",
+                "Consular services excellence program",
+                "Online Polish education for children abroad",
+                "Diaspora voting accessibility improvement"
+            ],
+            resources_required="€1-2B over 20 years, institutional reform",
+            risks=[
+                "Return incentives may not work",
+                "Political polarization of diaspora",
+                "Dual loyalty concerns in host countries"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Diaspora (connection maintained)", "Poland (talent/investment return)"],
+                "secondary_beneficiaries": ["Children of emigrants (identity)", "Economy (remittances, investment)"],
+                "potential_losers": ["Host countries (if return successful)"],
+                "who_opposes": "Those viewing diaspora as lost, isolationists"
+            },
+            confidence=0.60,
+            metrics=["Return migration (educated)", "Diaspora investment", "Voting participation", "Identity retention"]
         ))
 
         return recs

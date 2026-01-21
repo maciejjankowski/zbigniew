@@ -1,7 +1,7 @@
 # POLAND STRATEGIC OBJECTIVES
 # ZBIGNIEW Policy Framework
-# Version: 1.0
-# Updated: 2026-01-20
+# Version: 1.1
+# Updated: 2026-01-21
 
 # ============================================
 # CORE NATIONAL VISION
@@ -96,6 +96,99 @@ objectives:
         - "Civil service merit-based with competitive pay"
       dependencies: [INSTITUTIONAL]
 
+    - id: OBJ_EDU_001
+      name: "Education Excellence"
+      description: "World-class education preserving Polish identity"
+      priority: 2
+      horizon: 10_years
+      metrics:
+        - "PISA scores maintained in top 20 globally"
+        - "Vocational training aligned with industry needs"
+        - "Higher education research output growth"
+        - "STEM graduates per capita above EU average"
+        - "Teacher profession attractiveness restored"
+      principles:
+        - "Academic freedom protected"
+        - "Parental rights in education respected"
+        - "Historical education balanced and factual"
+        - "Civic education builds engaged citizens"
+        - "Multilingual proficiency (English + regional)"
+      implementation:
+        - "Curriculum modernization (critical thinking focus)"
+        - "Vocational track prestige restoration"
+        - "University-industry partnerships"
+        - "Teacher pay competitiveness"
+        - "Digital literacy universal"
+      dependencies: [INSTITUTIONAL, SOCIAL, ECONOMIC]
+
+    - id: OBJ_TECH_001
+      name: "Technology Sovereignty"
+      description: "Critical digital capabilities under national control"
+      priority: 2
+      horizon: 15_years
+      metrics:
+        - "Cybersecurity capacity NATO-compatible"
+        - "Critical infrastructure systems domestically maintained"
+        - "AI research presence (academic + commercial)"
+        - "Tech talent net positive migration"
+        - "Digital infrastructure ownership (telecom, cloud) >= 51% domestic"
+      sub_objectives:
+        - cybersecurity_capacity
+        - ai_research_presence
+        - digital_infrastructure
+        - tech_talent_retention
+      red_lines:
+        - "No 5G from adversary vendors"
+        - "Critical data stored domestically or in allied countries"
+        - "Military systems fully sovereign"
+      dependencies: [ECONOMIC, MILITARY, INSTITUTIONAL]
+
+    - id: OBJ_FOOD_001
+      name: "Food Security & Agriculture"
+      description: "Self-sufficient in essential foods, competitive agriculture"
+      priority: 2
+      horizon: 10_years
+      metrics:
+        - "Food self-sufficiency >= 90% for staples"
+        - "Strategic grain reserves (6 months)"
+        - "Agricultural export value growth"
+        - "Farm consolidation balanced with family farm preservation"
+        - "Rural infrastructure at urban parity"
+      principles:
+        - "Food production is national security"
+        - "CAP reform for Central European interests"
+        - "Rural communities vital (not museum pieces)"
+        - "Sustainable intensification (productivity + environment)"
+      implementation:
+        - "Strategic reserve management"
+        - "Irrigation infrastructure investment"
+        - "Agricultural technology adoption"
+        - "Supply chain resilience (processing domestic)"
+        - "Export market diversification"
+      dependencies: [ECONOMIC, SOCIAL]
+
+    - id: OBJ_JUDICIARY_001
+      name: "Judicial Independence & Efficiency"
+      description: "Courts independent, efficient, and trusted"
+      priority: 2
+      horizon: 10_years
+      metrics:
+        - "Case processing time at EU average"
+        - "Public trust in courts > 50%"
+        - "Judicial appointment transparency"
+        - "No political interference documented"
+        - "Commercial dispute resolution competitive"
+      principles:
+        - "Independence from executive (absolute)"
+        - "Independence from foreign courts (sovereign interpretation)"
+        - "Accountability through transparency (not political control)"
+        - "Efficiency serves justice (not bureaucracy)"
+      red_lines:
+        - "No executive appointment of judges without judicial council"
+        - "No retroactive application of law"
+        - "No unlimited detention without charge"
+      dependencies: [INSTITUTIONAL, POLITICAL]
+
   # TIER 3: QUALITY OF LIFE (5-10 year improvements)
   tier_3_quality:
 
@@ -136,6 +229,59 @@ objectives:
         - "Inflation < 3%"
         - "Unemployment < 5%"
         - "Gini coefficient stable or improving"
+      dependencies: [ECONOMIC, SOCIAL]
+
+    - id: OBJ_LOCAL_001
+      name: "Local Government & Regional Balance"
+      description: "Strong local democracy, balanced regional development"
+      priority: 3
+      horizon: 10_years
+      metrics:
+        - "Local government fiscal autonomy >= 50%"
+        - "Regional GDP disparity reduction"
+        - "Local election turnout > 50%"
+        - "Municipal service quality equalized"
+        - "Urban-rural infrastructure gap closed"
+      principles:
+        - "Subsidiarity starts at local level"
+        - "Fiscal decentralization with accountability"
+        - "Regional identity respected"
+        - "No Warsaw-centrism"
+      implementation:
+        - "Local tax base expansion"
+        - "Regional development fund reform"
+        - "Inter-municipal cooperation incentives"
+        - "Smart city programs for medium cities"
+        - "Rural broadband universal"
+      dependencies: [INSTITUTIONAL, ECONOMIC]
+
+    - id: OBJ_ENV_001
+      name: "Environmental Transition"
+      description: "Green transition at Polish pace, energy security first"
+      priority: 3
+      horizon: 20_years
+      metrics:
+        - "CO2 emissions trajectory Paris-compatible"
+        - "Air quality EU standards met"
+        - "Renewable energy >= 40% of mix by 2040"
+        - "Nuclear operational by 2035"
+        - "Coal transition managed (no cliff)"
+      principles:
+        - "Energy security before speed"
+        - "No deindustrialization for climate"
+        - "Nuclear as baseload (not ideological opposition)"
+        - "Just transition for coal regions"
+        - "Technology-neutral (no picking winners)"
+      red_lines:
+        - "No energy poverty increase"
+        - "No forced closure without replacement capacity"
+        - "No import dependency increase during transition"
+      implementation:
+        - "Nuclear power program acceleration"
+        - "Offshore wind development (Baltic)"
+        - "Grid modernization"
+        - "Silesian transformation fund"
+        - "Building efficiency program"
       dependencies: [ECONOMIC, SOCIAL]
 
   # TIER 4: STRATEGIC POSITIONING (5-20 year vision)
@@ -195,6 +341,55 @@ objectives:
         - "Border security effective"
         - "Organized crime networks disrupted"
 
+    - id: OBJ_CULTURE_001
+      name: "Cultural Diplomacy & Soft Power"
+      description: "Polish culture as bridge, not barrier"
+      priority: 4
+      horizon: 20_years
+      metrics:
+        - "Polish language learners abroad growth"
+        - "Cultural institute presence in key capitals"
+        - "Polish film/music/games international recognition"
+        - "Tourism brand strength"
+        - "Academic exchange balance improved"
+      principles:
+        - "Culture shows who we are (not propaganda)"
+        - "Diaspora as cultural ambassadors"
+        - "Historical narrative: truthful, dignified, not victim-only"
+        - "Contemporary culture supported (not only heritage)"
+      implementation:
+        - "Polish Institute network expansion"
+        - "Film/game industry tax incentives"
+        - "Scholarship programs (incoming)"
+        - "Heritage site investment (UNESCO candidates)"
+        - "Digital cultural presence (streaming, social)"
+      dependencies: [INFORMATION, SOCIAL]
+
+    - id: OBJ_DIASPORA_001
+      name: "Diaspora Engagement"
+      description: "20 million Poles abroad as asset, not loss"
+      priority: 4
+      horizon: 15_years
+      metrics:
+        - "Diaspora voting participation > 30%"
+        - "Return migration net positive (educated)"
+        - "Diaspora investment channeled (bonds, funds)"
+        - "Polish school attendance abroad maintained"
+        - "Second-generation identity retention"
+      principles:
+        - "Citizenship means something (rights + duties)"
+        - "Return is welcomed (not punished by bureaucracy)"
+        - "Staying abroad is not betrayal"
+        - "Children of emigrants are Polish too"
+      implementation:
+        - "Consular services excellence"
+        - "Return incentive package (housing, job placement)"
+        - "Diaspora investment vehicles (development bonds)"
+        - "Dual citizenship recognition expansion"
+        - "Online Polish education for children abroad"
+        - "Voting accessibility improvement"
+      dependencies: [SOCIAL, ECONOMIC, INSTITUTIONAL]
+
 # ============================================
 # CONSTRAINTS (Hard limits)
 # ============================================
@@ -251,6 +446,30 @@ tradeoffs:
     tension: "Automation vs job preservation"
     resolution: "Retraining investment; no Luddism"
 
+  - area: "Green Transition vs Energy Security"
+    tension: "Climate targets vs reliable power"
+    resolution: "Nuclear as bridge; no forced closures without replacement"
+
+  - area: "Centralization vs Local Autonomy"
+    tension: "National coherence vs regional identity"
+    resolution: "Fiscal decentralization with national standards"
+
+  - area: "Tech Sovereignty vs Innovation Speed"
+    tension: "Domestic control vs global competitiveness"
+    resolution: "Strategic sectors domestic; others open competition"
+
+  - area: "Education Modernization vs Tradition"
+    tension: "21st century skills vs cultural transmission"
+    resolution: "Both - critical thinking AND historical literacy"
+
+  - area: "Diaspora Return vs Brain Gain"
+    tension: "Encouraging return vs attracting global talent"
+    resolution: "Both welcome; return has cultural premium"
+
+  - area: "Agricultural Efficiency vs Rural Preservation"
+    tension: "Consolidation for competitiveness vs family farms"
+    resolution: "Mixed model - large for export, family for local + cultural"
+
 # ============================================
 # SUCCESS INDICATORS (Measurable outcomes)
 # ============================================
@@ -262,6 +481,9 @@ success_indicators:
     - "E-government portal launched"
     - "Three Seas summit hosted"
     - "Energy independence roadmap published"
+    - "Cybersecurity strategy approved"
+    - "Education reform consultation completed"
+    - "Diaspora engagement program launched"
 
   5_year:
     - "Energy independence >= 60%"
@@ -269,6 +491,12 @@ success_indicators:
     - "Healthcare wait times -30%"
     - "Central European coordination mechanism operational"
     - "Defense industry self-sufficiency in key areas"
+    - "Nuclear plant construction underway"
+    - "PISA scores maintained/improved"
+    - "Tech talent net migration positive"
+    - "Food self-sufficiency >= 85%"
+    - "Judicial case processing at EU average"
+    - "Local government fiscal autonomy >= 40%"
 
   20_year:
     - "Energy independence >= 80%"
@@ -276,6 +504,13 @@ success_indicators:
     - "Brain drain reversed (net positive migration of educated)"
     - "Regional leadership recognized"
     - "Institutional trust > 50%"
+    - "Carbon neutrality trajectory on track"
+    - "Nuclear baseload operational"
+    - "Polish cultural presence globally recognized"
+    - "Diaspora voting participation > 30%"
+    - "Technology sovereignty in critical sectors"
+    - "Regional GDP disparity < 30%"
+    - "Agricultural exports doubled"
 
 # ============================================
 # MONITORING & REVISION
