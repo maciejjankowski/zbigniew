@@ -83,6 +83,79 @@ objectives:
         - "Defense coordination with Baltic states"
       dependencies: [ALLIANCE, ECONOMIC, POLITICAL]
 
+    - id: OBJ_INTERM_001
+      name: "Intermarium Alliance Framework"
+      description: "Baltic-Black Sea-Adriatic alliance network with historical partners"
+      priority: 2
+      horizon: 20_years
+      metrics:
+        - "3SI membership expanded (15+ states/partners)"
+        - "B9+ format includes Nordic states"
+        - "Turkey-Poland strategic partnership active"
+        - "Romania bilateral alliance strongest in region"
+        - "Historical friend sentiment maintained (Hungary, Iran cultural)"
+      principles:
+        - "Build on existing institutions (3SI, B9, V4)"
+        - "Emphasize infrastructure/economic benefits, not bloc rhetoric"
+        - "Cultivate historical memory (shared suffering, mutual aid)"
+        - "NATO-compatible, not replacement"
+        - "Voluntary, consensus-based inclusion"
+      historical_allies:
+        turkey:
+          relationship_start: 1414
+          key_events:
+            - "1923 Treaty of Perpetual Friendship"
+            - "WWII: Protected Polish Embassy"
+            - "Polonezköy settlement (1842-present)"
+          current_status: "NATO ally, strategic partner"
+          sentiment: high
+        hungary:
+          relationship_start: 1108  # Defensive alliance
+          key_events:
+            - "1000+ years friendship"
+            - "WWII: Aided Warsaw Uprising despite Axis"
+            - "1956: Polish support for Hungarian Revolution"
+          current_status: "V4 partner, March 23 Friendship Day"
+          sentiment: very_high
+          note: "Russia policy divergence requires careful handling"
+        romania:
+          relationship_start: 1921  # Formal alliance
+          key_events:
+            - "1921-1939 Defensive Alliance (only Intermarium treaty)"
+            - "1939: 120,000 Polish troops evacuated through Romania"
+            - "2015: B9 co-founders"
+          current_status: "B9, 3SI, March 3 Solidarity Day"
+          sentiment: high
+        iran:
+          relationship_start: 1602  # First envoy
+          key_events:
+            - "1795: Refused to recognize Poland's partition"
+            - "1942: Sheltered 120,000 Polish refugees"
+            - "Isfahan: 'City of Polish Children' (2,300 orphans)"
+          current_status: "Limited by sanctions, cultural ties warm"
+          sentiment: high_popular_constrained_official
+          engagement_type: cultural_only
+        finland:
+          relationship_start: 1918  # Independence support
+          key_events:
+            - "Piłsudski's Prometheism supported Finnish independence"
+            - "2024: First B9 participation"
+            - "Shared anti-Russian strategic posture"
+          current_status: "NB8, ESSI, growing security integration"
+          sentiment: moderate_high
+      concentric_circles:
+        tier_1_core: ["Estonia", "Latvia", "Lithuania", "Romania"]
+        tier_2_extended: ["Hungary", "Czechia", "Slovakia", "Bulgaria", "Slovenia", "Croatia"]
+        tier_3_nordic: ["Finland", "Sweden", "Norway", "Denmark"]
+        tier_4_strategic: ["Turkey", "Ukraine", "Moldova", "Georgia"]
+        tier_5_cultural: ["Iran"]
+      red_lines:
+        - "No structures that could be seen as NATO replacement"
+        - "No Iran engagement violating sanctions"
+        - "No forced choice between EU and Intermarium"
+        - "No exclusion of Germany from infrastructure benefits"
+      dependencies: [ALLIANCE, ECONOMIC, POLITICAL, MILITARY]
+
     - id: OBJ_INST_001
       name: "Efficient Institutions"
       description: "State capacity without bureaucratic bloat"

@@ -387,6 +387,102 @@ class PolicyMaker:
             metrics=["Consultation participation", "Stakeholder satisfaction", "Reform roadmap quality"]
         ))
 
+        # Intermarium: Turkey defense cooperation
+        recs.append(Recommendation(
+            id="REC_2026_006",
+            title="Turkey Defense Industry Partnership",
+            description="Leverage 600-year friendship and NATO alliance for defense industrial cooperation.",
+            horizon=Horizon.IMMEDIATE,
+            priority=Priority.HIGH,
+            vectors=[Vector.ALLIANCE, Vector.MILITARY, Vector.ECONOMIC],
+            objectives_served=["OBJ_INTERM_001", "OBJ_SEC_001"],
+            actions=[
+                "Bilateral defense industry talks (drones, ammunition)",
+                "Joint military exercises expansion",
+                "100th anniversary Treaty of Friendship commemorations",
+                "Defense procurement coordination within NATO",
+                "Polonezköy cultural exchange enhancement"
+            ],
+            resources_required="Diplomatic effort, modest defense budget allocation",
+            risks=[
+                "EU-Turkey tensions spillover",
+                "US concerns about Turkey reliability",
+                "Domestic political criticism (Erdoğan relationship)"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Poland (defense capacity, southern flank access)", "Turkey (European foothold)", "NATO (burden sharing)"],
+                "secondary_beneficiaries": ["Defense industries (both)", "Regional stability"],
+                "potential_losers": ["Russia (NATO cohesion)", "Those seeking Turkey isolation"],
+                "who_opposes": "EU federalists, Turkey critics, Russia"
+            },
+            confidence=0.75,
+            metrics=["Defense agreements signed", "Joint exercise frequency", "Trade volume"]
+        ))
+
+        # Intermarium: Romania bilateral deepening
+        recs.append(Recommendation(
+            id="REC_2026_007",
+            title="Romania Strategic Partnership Deepening",
+            description="Build on 1921 alliance legacy to make Romania Poland's closest bilateral partner.",
+            horizon=Horizon.IMMEDIATE,
+            priority=Priority.HIGH,
+            vectors=[Vector.ALLIANCE, Vector.MILITARY, Vector.ECONOMIC],
+            objectives_served=["OBJ_INTERM_001", "OBJ_LEAD_001"],
+            actions=[
+                "March 3 Summit (Romanian-Polish Solidarity Day)",
+                "Joint Black Sea security initiative",
+                "Via Carpatia completion coordination",
+                "B9 joint leadership institutionalization",
+                "Defense industry cooperation (ammunition, vehicles)"
+            ],
+            resources_required="Summit hosting, infrastructure investment coordination",
+            risks=[
+                "Romania seeking own leadership role",
+                "Black Sea escalation exposure",
+                "Coordination complexity"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Poland (Black Sea access)", "Romania (Baltic depth)", "NATO eastern flank"],
+                "secondary_beneficiaries": ["Ukraine (supply corridor)", "3SI (north-south axis)"],
+                "potential_losers": ["Russia (encirclement)", "Competitors for regional leadership"],
+                "who_opposes": "Russia, those preferring bilateral with Germany"
+            },
+            confidence=0.85,
+            metrics=["Summit outcomes", "Infrastructure projects", "Defense agreements"]
+        ))
+
+        # Intermarium: Nordic-Baltic integration
+        recs.append(Recommendation(
+            id="REC_2026_008",
+            title="Nordic-Baltic-Polish Security Integration",
+            description="Extend B9 framework to include Finland and Sweden, creating Baltic Sea security community.",
+            horizon=Horizon.IMMEDIATE,
+            priority=Priority.HIGH,
+            vectors=[Vector.ALLIANCE, Vector.MILITARY],
+            objectives_served=["OBJ_INTERM_001", "OBJ_SEC_001"],
+            actions=[
+                "Formalize Finland/Sweden B9+ participation",
+                "European Sky Shield Initiative coordination",
+                "Baltic Sea defense planning integration",
+                "NB8 regular Polish participation",
+                "Joint air policing arrangements"
+            ],
+            resources_required="Diplomatic coordination, defense planning resources",
+            risks=[
+                "Nordic reluctance to Central European politics",
+                "NATO command structure conflicts",
+                "Over-institutionalization"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Poland (northern security depth)", "Baltic states (Nordic backup)", "Finland/Sweden (southern flank)"],
+                "secondary_beneficiaries": ["NATO (integrated defense)", "US (burden sharing)"],
+                "potential_losers": ["Russia (Baltic encirclement)", "Those preferring bilateral frameworks"],
+                "who_opposes": "Russia, Nordic isolationists"
+            },
+            confidence=0.80,
+            metrics=["B9+ meeting participation", "ESSI coordination", "Joint exercises"]
+        ))
+
         return recs
 
     def _generate_medium_recommendations(self, threat_level: str) -> list[Recommendation]:
@@ -619,6 +715,102 @@ class PolicyMaker:
             metrics=["Local fiscal autonomy %", "Local turnout", "Service satisfaction"]
         ))
 
+        # Intermarium: 3SI expansion
+        recs.append(Recommendation(
+            id="REC_2026_017",
+            title="Three Seas Initiative Expansion",
+            description="Expand 3SI to include Turkey, Ukraine, Moldova, Georgia as associates.",
+            horizon=Horizon.MEDIUM,
+            priority=Priority.HIGH,
+            vectors=[Vector.ALLIANCE, Vector.ECONOMIC, Vector.POLITICAL],
+            objectives_served=["OBJ_INTERM_001", "OBJ_LEAD_001", "OBJ_ECON_001"],
+            actions=[
+                "Turkey associate membership invitation",
+                "Ukraine/Moldova integration pathway",
+                "Georgia partnership framework",
+                "3SI Investment Fund expansion (€10B target)",
+                "Via Carpatia + Via Baltica completion"
+            ],
+            resources_required="€2-3B Polish contribution over 5 years, diplomatic capital",
+            risks=[
+                "EU friction (parallel structures)",
+                "Turkey complexity (EU relations)",
+                "Ukraine instability affecting projects"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Poland (regional hub)", "3SI states (infrastructure)", "Turkey (European integration path)"],
+                "secondary_beneficiaries": ["US (European cohesion)", "Private investors", "Construction sector"],
+                "potential_losers": ["Germany (reduced centrality)", "Russia (encirclement)"],
+                "who_opposes": "EU federalists, Germany (partially), Russia"
+            },
+            confidence=0.70,
+            metrics=["3SI membership count", "Investment fund size", "Infrastructure km completed"]
+        ))
+
+        # Intermarium: Historical memory diplomacy
+        recs.append(Recommendation(
+            id="REC_2026_018",
+            title="Historical Memory Diplomacy Program",
+            description="Leverage shared historical experiences to strengthen alliance bonds.",
+            horizon=Horizon.MEDIUM,
+            priority=Priority.MEDIUM,
+            vectors=[Vector.INFORMATION, Vector.ALLIANCE, Vector.SOCIAL],
+            objectives_served=["OBJ_INTERM_001", "OBJ_CULTURE_001"],
+            actions=[
+                "Iran: Isfahan Polish Children Memorial & academic exchange",
+                "Hungary: 1000-year friendship commemoration program",
+                "Turkey: Polonezköy heritage preservation, 1923 Treaty centennial",
+                "Romania: 1921 Alliance memorial, September 1939 evacuation tribute",
+                "Joint history textbook initiatives (balanced narratives)"
+            ],
+            resources_required="€50-100M over 5 years, cultural diplomacy resources",
+            risks=[
+                "Historical disputes surfacing",
+                "Propaganda perception if heavy-handed",
+                "Iran engagement limitations (sanctions)"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Bilateral relationships", "Polish soft power", "Diaspora identity"],
+                "secondary_beneficiaries": ["Tourism", "Academic cooperation", "Cultural industries"],
+                "potential_losers": ["Those preferring historical grievances", "Competing narratives"],
+                "who_opposes": "Historical revisionists, those with grievance-based politics"
+            },
+            confidence=0.65,
+            metrics=["Cultural exchanges", "Joint memorials", "Public sentiment surveys"]
+        ))
+
+        # Intermarium: Black Sea-Baltic corridor
+        recs.append(Recommendation(
+            id="REC_2026_019",
+            title="Baltic-Black Sea Corridor Development",
+            description="Complete north-south infrastructure axis connecting Baltic and Black Sea economies.",
+            horizon=Horizon.MEDIUM,
+            priority=Priority.HIGH,
+            vectors=[Vector.ECONOMIC, Vector.ALLIANCE],
+            objectives_served=["OBJ_INTERM_001", "OBJ_ECON_001", "OBJ_LEAD_001"],
+            actions=[
+                "Via Carpatia highway completion (Lithuania-Greece)",
+                "Rail Baltica integration with southern connections",
+                "LNG interconnector Baltic-Adriatic",
+                "Energy grid synchronization",
+                "Digital infrastructure corridor (5G, fiber)"
+            ],
+            resources_required="€15-25B (EU + national + private), 5-10 years",
+            risks=[
+                "Cost overruns",
+                "Coordination across 10+ countries",
+                "EU funding competition"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Poland (hub status)", "All corridor states", "Trade flows"],
+                "secondary_beneficiaries": ["Logistics industry", "Border regions", "Investors"],
+                "potential_losers": ["Western European transit hubs", "East-West axis incumbents"],
+                "who_opposes": "Status quo beneficiaries, those preferring east-west orientation"
+            },
+            confidence=0.75,
+            metrics=["Corridor km completed", "Trade volume increase", "Transit times"]
+        ))
+
         return recs
 
     def _generate_long_recommendations(self, threat_level: str) -> list[Recommendation]:
@@ -849,6 +1041,39 @@ class PolicyMaker:
             },
             confidence=0.60,
             metrics=["Return migration (educated)", "Diaspora investment", "Voting participation", "Identity retention"]
+        ))
+
+        # Intermarium: Full realization
+        recs.append(Recommendation(
+            id="REC_2026_027",
+            title="Intermarium Alliance Realization",
+            description="Achieve Piłsudski's vision through modern, voluntary, economic-first framework.",
+            horizon=Horizon.LONG,
+            priority=Priority.HIGH,
+            vectors=[Vector.ALLIANCE, Vector.ECONOMIC, Vector.POLITICAL, Vector.MILITARY],
+            objectives_served=["OBJ_INTERM_001", "OBJ_LEAD_001", "OBJ_SEC_001"],
+            actions=[
+                "3SI as primary economic integration vehicle (20+ members)",
+                "B9+ as security coordination mechanism (include Nordics)",
+                "Turkey strategic partnership institutionalized",
+                "Baltic-Black Sea-Adriatic infrastructure network complete",
+                "Regional defense industrial base established"
+            ],
+            resources_required="Sustained diplomatic leadership, €50-100B collective investment",
+            risks=[
+                "Great power opposition (Russia, Germany friction)",
+                "Internal disputes (Hungary-Ukraine, historical)",
+                "EU integration vs parallel structure tension",
+                "Overextension of Polish capacity"
+            ],
+            cui_bono={
+                "primary_beneficiaries": ["Poland (regional leadership)", "All Intermarium states (security, prosperity)", "NATO (burden sharing)"],
+                "secondary_beneficiaries": ["US (European stability)", "Ukraine (integration path)", "Democracy"],
+                "potential_losers": ["Russia (strategic encirclement)", "German hegemony", "EU centralization"],
+                "who_opposes": "Russia, EU federalists, status quo powers"
+            },
+            confidence=0.55,
+            metrics=["Alliance cohesion index", "Infrastructure connectivity", "Trade within region", "Security cooperation depth"]
         ))
 
         return recs
