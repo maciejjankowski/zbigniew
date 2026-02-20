@@ -356,11 +356,126 @@ The money is cheap. The question is whether the leash is worth it.
 
 ---
 
+## ADDENDUM: WHO REALLY CASHES THE CHECK?
+
+**Date**: 2026-02-20
+**Trigger**: Cui bono follow-up — trace where Poland's €44 billion physically ends up
+
+---
+
+### The Money Flow Diagram
+
+```
+Poland borrows €43.7B
+        │
+        ▼
+┌──────────────────────────────────┐
+│  65% MUST go to EU-origin systems │
+│  = ~€28.4 BILLION                │
+└──────────┬───────────────────────┘
+           │
+           ▼
+┌─────────────────────────────────────────────┐
+│  WHO MAKES EU-ORIGIN DEFENCE SYSTEMS?       │
+│                                             │
+│  Airbus (FR/DE/ES)     — MRTT, Eurodrone    │
+│  Rheinmetall (DE)      — ammo, AFVs, AD     │
+│  KNDS (FR/DE)          — tanks, artillery   │
+│  Thales (FR)           — electronics, radar │
+│  MBDA (FR/UK/IT)       — missiles           │
+│  Leonardo (IT)         — helicopters, EW    │
+│  Diehl Defence (DE)    — missiles, sensors  │
+│  Saab (SE)             — Gripen, sensors    │
+└─────────────────────────────────────────────┘
+           │
+           ▼
+    POLAND GETS: equipment + 45 years of debt + conditionality
+    THEY GET: revenue + zero debt + no conditions
+```
+
+### The Asymmetry Table
+
+| | Poland (Borrower) | Germany/France/Italy (Suppliers) |
+|---|---|---|
+| **Takes on debt** | €43.7 billion | €0 (Germany, Sweden, Netherlands did NOT apply) |
+| **Accepts conditionality** | Rule of Law 2020/2092 | None — they are selling, not borrowing |
+| **Duration of obligation** | 45 years | None — paid on delivery |
+| **Content restriction** | Must buy 65% EU-origin | Benefits from 65% EU-origin rule as sellers |
+| **Political exposure** | Disbursements can be frozen | Revenue already booked |
+| **Industrial benefit** | 80% domestic (claimed, unverified) | Guaranteed demand pipeline worth tens of billions |
+| **Stock market reaction** | Debt-to-GDP increases | Rheinmetall +400% since 2022; KNDS IPO planned |
+
+### The Demand-Side Subsidy Problem
+
+Here is the structural insight that the financial terms obscure:
+
+**SAFE is not a grant. It is not a subsidy. It is a loan that Poland must repay over 45 years. But the 65% content rule means Poland is borrowing money in order to be a captive customer.**
+
+This is a *demand-side subsidy paid for by the borrower*.
+
+In normal industrial policy, when a government wants to subsidize its own industry, the government pays. Under SAFE:
+- Poland pays (45 years of debt service)
+- But the 65% content rule means much of the demand is served by **other countries' industries**
+- Those countries get the revenue, the jobs, the technology base, the exports
+- Poland gets the equipment — and the bill
+
+### Who Benefits, Ranked
+
+| Rank | Beneficiary | Mechanism | They Pay |
+|------|-------------|-----------|----------|
+| 1 | **German defence industry** | €28B+ captive demand pipeline; Rheinmetall, KNDS, Diehl positioned as primary suppliers. Germany itself borrows €0 from SAFE. | Nothing |
+| 2 | **French defence industry** | Airbus MRTT (no EU competitor), Thales electronics, MBDA missiles. France pushed hardest for protectionist content rules. | France is also borrowing, but less than Poland |
+| 3 | **EU Commission** | Historic expansion into defence competence. Conditionality over 19 member states' defence procurement. | Nothing |
+| 4 | **EU bond market** | New €150B of AAA-rated long-duration assets. Pension funds, insurers, ECB all benefit. | They are the lenders — they profit |
+| 5 | **Polish defence industry** | Real but capped benefit. PGZ, WB Group get contracts. But PGZ cannot build MRTT aircraft or compete with Rheinmetall at scale. | Poland pays for 45 years |
+| 6 | **Poland (security)** | Gets actual military equipment it genuinely needs. This is not nothing. | €43.7 billion + conditionality + sovereignty constraints |
+
+### The Germany Question
+
+Germany deserves its own section because the pattern is striking:
+
+- Germany **did not apply** for SAFE loans
+- Germany's Rheinmetall is the single largest beneficiary of European defence spending increases
+- Germany's KNDS (Krauss-Maffei + Nexter) produces the tanks and artillery that SAFE borrowers will purchase
+- Germany pushed for strict content rules that exclude US/Korean competitors
+- Germany's defence industry stock prices have risen 300-400% since 2022
+- Germany is positioned as the **supplier** to a programme it does not need to borrow from
+
+One PiS MP noted, with characteristic bluntness, that the German ambassador was *"probably worried about the expected stock market crash of Rheinmetall AG if SAFE is rejected in Poland."* This is [partisan rhetoric](https://rmx.news/article/the-polish-right-fears-the-eus-e45-billion-armament-loan-is-coming-with-dangerous-strings-attached/), but it points at a structural truth.
+
+### The Historical Parallel
+
+This pattern — peripheral states borrowing to buy from core states, under conditions set by core-state-dominated institutions — has a name in European political economy. It is the dynamic that characterized the Eurozone crisis of 2010-2015: Greece borrowed cheaply (euro rates), spent heavily (on German/French goods), and when the bill came due, the creditors set the conditions.
+
+SAFE is not the Eurozone crisis. The terms are better, the purpose is nobler, the threat is real. But the *structure* — borrow from the center, spend at the center, accept conditions from the center — rhymes.
+
+### The Uncomfortable Question
+
+> If Germany and France believed SAFE was primarily about European security, why did they design it so that the borrowers buy from them, under their conditions, with their content rules, overseen by their Commission — while they themselves take on zero SAFE debt?
+
+The answer may be benign: they don't need the loans because they can borrow cheaply on their own. Their industries are large because they invested for decades. The content rules exist because European strategic autonomy requires European industry.
+
+Or the answer is: **because this is how industrial empires have always worked. You finance the customer.**
+
+Both explanations are probably true simultaneously.
+
+---
+
+### Updated Predictions
+
+| ID | Prediction | Deadline | Confidence | Falsification |
+|----|------------|----------|------------|---------------|
+| pred_2026_014 | German defence firms (Rheinmetall, KNDS, Diehl) will capture ≥30% of Poland's SAFE-funded procurement value | 2030-12-31 | 70% | Verified data shows <15% German share |
+| pred_2026_015 | SAFE will be cited as a model for future EU fiscal instruments in non-defence domains | 2028-12-31 | 65% | No such proposals emerge |
+
+---
+
 ## REVISION HISTORY
 
 | Date | Change | Reason |
 |------|--------|--------|
 | 2026-02-20 | Initial publication | SAFE Council approval for Poland (2026-02-17) |
+| 2026-02-20 | Addendum: money flow analysis | Follow-up cui bono — who cashes the check? |
 
 ---
 
