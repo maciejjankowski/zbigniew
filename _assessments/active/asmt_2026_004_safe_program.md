@@ -470,12 +470,196 @@ Both explanations are probably true simultaneously.
 
 ---
 
+## ADDENDUM II: THE PERSONNEL FILE — WHO IS PUSHING THIS AND WHAT HAVE THEY PUSHED BEFORE?
+
+**Date**: 2026-02-20
+**Trigger**: Pattern analysis — do the people promoting SAFE have track records that should concern Poland?
+
+---
+
+### METHODOLOGY NOTE
+
+This is not an accusation exercise. This is pattern recognition. We map:
+1. Who designed SAFE at the EU level
+2. Who is pushing it in Warsaw
+3. What their **prior actions** meant for Polish sovereignty and security
+4. Whether the pattern suggests reliable stewardship of €44 billion in Polish defence dependency
+
+**Confidence levels are individual per claim. All claims are sourced.**
+
+---
+
+### TIER 1: THE EU ARCHITECTS
+
+#### URSULA VON DER LEYEN — Commission President, SAFE's Political Sponsor
+
+**The case for concern:**
+
+| Fact | Source | Relevance |
+|------|--------|-----------|
+| As German Defence Minister (2013-2019), oversaw the **decline of the Bundeswehr** to the point where Germany lacked operational tanks, helicopters, and aircraft | [EU Today](https://eutoday.net/ursula-von-der-leyens-troubled-tenure-as-german-defence-minister/), [Institut Montaigne](https://www.institutmontaigne.org/en/expressions/who-are-you-ursula-von-der-leyen) | The person who **failed to maintain Germany's own defence** now manages €150B in European defence loans |
+| **Consultancy Affair** (*Berateraffäre*): Hundreds of millions in contracts to McKinsey, Accenture without competitive bidding. Federal Audit Office flagged irregularities in 2018 | [Debug Lies](https://debuglies.com/2025/02/15/ursula-von-der-leyen-controversies-allegations-and-political-scandals-a-deep-examination-of-power-and-ethics-in-the-european-union/) | Track record of channeling public defence money to private consultants through opaque procurement |
+| **McKinsey hired her daughter** (Johanna) during the period McKinsey received substantial Ministry of Defence contracts | [Same source](https://debuglies.com/2025/02/15/ursula-von-der-leyen-controversies-allegations-and-political-scandals-a-deep-examination-of-power-and-ethics-in-the-european-union/) | Documented conflict-of-interest pattern in *defence procurement specifically* |
+| **Wiped phone data** during parliamentary investigation. Claimed "security reasons." | [diem25](https://diem25.org/ursula-von-der-leyen-a-legacy-of-secrecy-and-decline/) | Evidence destruction during defence spending investigation |
+| **Katrin Suder**, ex-McKinsey Berlin chief, hired as State Secretary at Defence Ministry in 2014 — consultant contracts skyrocketed under her watch | [German Foreign Policy](https://www.german-foreign-policy.com/en/news/detail/8171) | Revolving door between consultancy firms and defence procurement |
+| Husband **Heiko von der Leyen** heads biotech firm **Orgenesis**, which received EU Horizon Europe grants during her Commission presidency | [Sri Lanka Guardian](https://slguardian.org/eu-presidency-ursula-von-der-leyen-faces-growing-scandals/) | Pattern: family members benefit from institutions she leads |
+| **Pfizergate**: Privately negotiated €35B vaccine deal via text messages with Pfizer CEO, then claimed to have "deleted" all messages. EPPO investigation ongoing. | [European Conservative](https://europeanconservative.com/articles/news/eu-commission-chief-faces-investigation-by-german-public-prosecutor/) | Pattern: opaque mega-deals, deleted communications, investigation stonewalled |
+
+**Pattern**: Von der Leyen's track record in defence procurement specifically is one of **opacity, revolving doors, and evidence destruction**. She is now the political patron of the largest EU defence financing instrument in history. The woman who couldn't keep the Bundeswehr operational is managing €150 billion.
+
+**Confidence**: HIGH (documented through Federal Audit Office reports, parliamentary inquiry, EPPO investigation)
+
+---
+
+#### THIERRY BRETON — Former Commissioner, SAFE's Intellectual Architect
+
+**The case for concern:**
+
+| Fact | Source | Relevance |
+|------|--------|-----------|
+| CEO of **Atos** (2009-2019) — French IT/defence firm. Became Commissioner overseeing digital and defence industrial policy — **his former company's exact market** | [Corporate Europe Observatory](https://corporateeurope.org/en/2019/11/thierry-breton-corporate-commissioner) | Massive, documented conflict of interest at appointment |
+| Atos received **€107 million** in EU Commission funding in 2018 alone | [Same source](https://corporateeurope.org/en/2019/11/thierry-breton-corporate-commissioner) | His former company was a major EU funding recipient while he shaped EU industrial policy |
+| Atos's **Moscow office** purchased software for the EU's biometric border system (EES) while operating under an **FSB license** for cryptographic tools since 2016 | [CEPA](https://cepa.org/article/laffaire-atos-european-sovereignty-put-to-the-test/), [Financial Times via The Insider](https://theins.ru/en/news/278582) | The company Breton built and led had an FSB-licensed Russian subsidiary working on EU border security infrastructure |
+| EPPO investigating the Atos-Russia-EES connection as of February 2025 | [EU Today](https://eutoday.net/atos-russia-and-the-eu-biometric-border-system/) | Active criminal investigation into his former company's Russian security ties |
+| As Commissioner, proposed the **€100B defence fund** that evolved into SAFE, with protectionist "European preference" rules benefiting French industry | [Jacques Delors Centre](https://www.delorscentre.eu/en/publications/detail/publication/turbo-charging-the-eus-defence-industry-and-security-posture) | Designed the framework that channels borrower money to French/German primes |
+| Atos's collapse post-Breton: market value fell **90%** from €5B to €588M. France forced to rescue its military/nuclear divisions | [Fortune](https://fortune.com/europe/2024/04/10/french-it-cybersecurity-atos-15-billion-debt-government-thierry-breton/) | The company he ran for a decade imploded after he left. Its military division needed a government bailout. |
+
+**Pattern**: Breton built a company with Russian FSB-licensed operations, moved to the Commission to oversee defence industrial policy (a direct conflict of interest flagged at appointment), then designed the procurement framework that channels €150B toward the very industry where his former company operated. The company itself collapsed and its Russian subsidiary was building EU border infrastructure under an FSB licence.
+
+**Confidence**: HIGH (Corporate Europe Observatory, CEPA, EPPO investigation documented)
+
+---
+
+#### ANDRIUS KUBILIUS — Defence Commissioner, SAFE's Operational Lead
+
+**Assessment**: **No significant pattern of concern detected.**
+
+Kubilius is the cleanest actor in this picture. Former Lithuanian PM who sued Gazprom, fought for Lithuanian energy independence, and has been a consistent anti-Kremlin voice since the 1990s. His appointment signals genuine Baltic-state seriousness about the Russian threat.
+
+If SAFE has a genuine security advocate in its institutional architecture, it is Kubilius.
+
+**Confidence**: HIGH (extensive public record, Sąjūdis movement, Gazprom lawsuit documented)
+
+---
+
+#### KAJA KALLAS — EU High Representative for Foreign Affairs
+
+**Assessment**: **No significant pattern of concern detected for Poland specifically.**
+
+Estonian PM who was placed on Russia's wanted list for removing Soviet monuments. Family deported to Siberia. Genuine anti-Kremlin credentials.
+
+One minor note: Her father **Siim Kallas** served as European Commissioner (2004-2014) and was involved in an Estonian financial controversy in the 1990s ("Siim Kallas affair"). The relevance to SAFE is minimal. She is not a SAFE architect but provides the foreign policy umbrella.
+
+**Confidence**: MODERATE (clean record on substance; family political dynasty is noted but not disqualifying)
+
+---
+
+### TIER 2: THE POLISH PROMOTERS
+
+#### DONALD TUSK — Prime Minister, SAFE's Chief Domestic Advocate
+
+**The case for concern:**
+
+| Fact | Source | Relevance |
+|------|--------|-----------|
+| As PM (2007-2014), maintained close alliance with Angela Merkel while **Nord Stream 1 & 2 proceeded** — Poland's single greatest energy security failure of the 21st century | [Notes From Poland](https://notesfrompoland.com/2021/09/10/tusk-nord-stream-pipeline-is-unforgivable-mistake-german-selfishness-and-against-eu-interests/) | Tusk later called Nord Stream "an unforgivable mistake" and "German selfishness" — but it happened on his watch and Merkel's, while they were close allies |
+| As **European Council President** (2014-2019), reappointed with Merkel's explicit backing, 27-1 vote over Poland's objection. PiS framed this as "German diktat" | [TIME](https://time.com/4697725/european-union-donald-tusk-eu-poland/), [Consilium](https://www.consilium.europa.eu/en/european-council/former-euco-presidents/donald-tusk/) | Pattern of operating within the Franco-German institutional framework, even when Warsaw objects |
+| Now pushing €44B SAFE with 65% EU content rule that channels money to Franco-German primes | Defence24, Consilium | The same dynamic: Poland borrows, Germany/France supply, Tusk facilitates |
+| Framed SAFE as explicitly **anti-PiS**: "This is better than PiS-era Korean financing" — domestic political weapon, not just security policy | [Brussels Signal](https://brusselssignal.eu/2026/02/pm-tusk-says-poland-will-borrow-from-eu-for-defence-even-if-president-vetoes-move/) | Using defence procurement as partisan instrument |
+| Said government will sign SAFE **even if President Nawrocki vetoes the bill** | [Brussels Signal](https://brusselssignal.eu/2026/02/pm-tusk-says-poland-will-borrow-from-eu-for-defence-even-if-president-vetoes-move/) | Willing to circumvent constitutional checks to lock in EU financial dependency |
+
+**The counterargument**: Tusk has also been the loudest European voice against Nord Stream since leaving the Council. He warned against restoring Russian gas ties. He refused to extradite the Nord Stream sabotage suspect. His defense spending is 4.12% of GDP — highest in NATO. His anti-Russia credentials in the current period are real.
+
+**Pattern**: Tusk's career oscillates between genuine pro-Polish security stances and deep integration into the Franco-German institutional framework that consistently benefits Berlin and Paris at Warsaw's expense. The Nord Stream era is the skeleton in his closet: he now calls it "unforgivable" but was Merkel's closest EU partner while it was built. SAFE repeats the structural pattern — Poland embedded in an EU framework designed by and for the Western European core — even if the immediate security justification is real.
+
+**Confidence**: MODERATE (facts confirmed; intent is debatable)
+
+---
+
+#### RADOSŁAW SIKORSKI — Deputy PM / Foreign Minister, SAFE's Diplomatic Framing
+
+**The case for concern:**
+
+| Fact | Source | Relevance |
+|------|--------|-----------|
+| **2014 "Waitergate" tape**: Recorded saying "the Polish-American alliance is worthless, even harmful, as it gives Poland a false sense of security" and Poles are "suckers, total suckers" | [TIME](https://time.com/2909289/poland-foreign-minister-worthless/), [RFE/RL](https://www.rferl.org/a/polish-foreign-minister-calls-leaked-tapes-attack-by-organized-crime/25432156.html) | The man now framing SAFE as a complement to NATO privately dismissed Poland's US alliance as "worthless" — exactly the posture that makes EU dependency attractive |
+| The leaked tape **cost him the EU High Representative post** in 2014 — he was the frontrunner before publication | [Newsweek](https://www.newsweek.com/2014/07/11/polands-leaks-drama-causing-mayhem-261074.html) | Career derailed by his own privately stated views on Poland's alliances |
+| **Married to Anne Applebaum**, prominent US commentator who has advocated strongly for European strategic autonomy and reduced US-dependence — views that align with SAFE's design philosophy | Public knowledge | Not disqualifying, but the intellectual ecosystem around Sikorski favors EU-centric security architecture |
+| **Compared Nord Stream to Molotov-Ribbentrop** in 2006 — then served as FM under Tusk while Nord Stream proceeded | [Wikipedia](https://en.wikipedia.org/wiki/Rados%C5%82aw_Sikorski), [multiple sources] | Identified the threat correctly, then served in the government that failed to stop it |
+
+**The counterargument**: Sikorski's public record since 2022 is aggressively anti-Russian. He has pushed for 5% GDP defence spending, maximum Ukraine support, and EU defence integration. He called the leaked tape an "organized criminal group" attack and said it was taken out of context. His 2006 Nord Stream comparison was prescient.
+
+**Pattern**: Sikorski is a paradox. He saw the threat from Russia and Germany's energy policy earlier than almost anyone (Molotov-Ribbentrop comparison, 2006). But he privately dismissed Poland's US alliance as worthless (2014), served in a government that watched Nord Stream proceed, and now promotes a framework that deepens EU dependency. His *analysis* has often been correct. His *actions* have not always matched.
+
+**Confidence**: MODERATE (tape is verified; context is disputed)
+
+---
+
+#### MAGDALENA SOBKOWIAK-CZARNECKA — Government Plenipotentiary for SAFE
+
+**The case for concern:**
+
+| Fact | Source | Relevance |
+|------|--------|-----------|
+| **Worked at the European Commission** (2016-2018) on defence and space policy — *during the period when EDIS and proto-SAFE frameworks were being designed* | [Warsaw Security Forum](https://warsawsecurityforum.org/profile/magdalena-sobkowiak-czarnecka-2025/), [EEC](https://www.eecpoland.eu/2021/en/speakers/magdalena-sobkowiak-czarnecka,16425.html) | Now administers the Polish side of a programme she helped design from the Brussels side |
+| Head of advisory team for **Władysław Kosiniak-Kamysz** (2019-2023), current Defence Minister and coalition partner | [same sources] | Political appointee from coalition party, not military/procurement professional |
+| **German Marshall Fund** fellow — recognised as "future European leader" | [same sources] | GMF is US-German transatlantic network. Not disqualifying, but indicates deep integration in the Brussels-Berlin institutional orbit |
+| **No military, procurement, or defence industry background** — journalist, EC staffer, political adviser | [Wikipedia PL](https://pl.wikipedia.org/wiki/Magdalena_Sobkowiak-Czarnecka) | Managing €44B in defence procurement with no procurement expertise |
+| Claims 80-90% of SAFE funds will stay in Polish industry — **unverified, and contradicted by the 65% EU content rule** which guarantees significant outflows to Western primes | [Defence24](https://defence24.com/defence-policy/poland-safe-plenipotentiary-for-defence24-a-record-breaking-standard-for-european-defense-investments) | Either the 80% claim is misleading or the 65% rule doesn't mean what it says |
+
+**Pattern**: Sobkowiak-Czarnecka is not a "bad apple" in the corruption sense. She is a pattern example: a Brussels-trained political operative placed in charge of a programme she lacks the technical expertise to critically evaluate. Her career path — EC defence policy staffer → coalition adviser → SAFE plenipotentiary — is the revolving door between Brussels and national capitals that makes EU institutional capture work.
+
+**Confidence**: MODERATE (career facts confirmed; capability assessment is inferential)
+
+---
+
+### PATTERN SYNTHESIS: THE BAD APPLES MATRIX
+
+| Person | Role | Documented Concern | Severity |
+|--------|------|-------------------|----------|
+| **Von der Leyen** | Commission President | Defence consultancy scandal, wiped evidence, family conflicts of interest, ruined Bundeswehr | **HIGH** |
+| **Breton** | Intellectual architect | Company had FSB-licensed Russian subsidiary, massive conflict of interest at appointment, company collapsed | **HIGH** |
+| **Tusk** | Polish PM | Nord Stream proceeded on his watch with Merkel; SAFE repeats core-periphery pattern | **MODERATE** |
+| **Sikorski** | Deputy PM / FM | Privately dismissed US alliance as "worthless"; served while Nord Stream advanced | **MODERATE** |
+| **Sobkowiak-Czarnecka** | SAFE Plenipotentiary | No procurement expertise; Brussels career pipeline; unverifiable domestic absorption claims | **LOW-MODERATE** |
+| **Kubilius** | Defence Commissioner | **None found** — cleanest record | **NONE** |
+| **Kallas** | HR/VP Foreign Affairs | **None significant** — genuine anti-Kremlin record | **NONE** |
+
+### THE UNCOMFORTABLE PATTERN
+
+Three things are true simultaneously:
+
+1. **The Russian threat is real.** Poland genuinely needs to rearm. The people pushing SAFE are not wrong about the threat.
+
+2. **The people with the worst track records on defence governance are in charge of the money.** Von der Leyen ran the Bundeswehr into the ground and destroyed evidence during a procurement scandal. Breton's company had FSB connections and collapsed. These are the people managing €150 billion.
+
+3. **The Polish promoters have a pattern of embedding Poland in Franco-German frameworks that serve Berlin's interests.** Tusk's Merkel alliance during Nord Stream, Sikorski's private dismissal of the US alliance, and the placement of a Brussels-trained political operative over €44B in procurement — these are not random. They are a consistent pattern of institutional integration that advantages the EU core at Poland's expense.
+
+**The key question**: Can people with documented track records of opacity, conflicts of interest, and poor defence governance be trusted with 45 years of Poland's defence procurement sovereignty?
+
+History's answer is usually: the institutions serve the interests of those who design them, not those who borrow from them.
+
+---
+
+### RED TEAM ON THIS ADDENDUM
+
+1. **Strongest counterargument**: "You're cherry-picking negatives from complex careers. Everyone in European politics has compromises. The alternative — not rearming — is worse than imperfect governance."
+
+2. **Am I being fair?**: Partially. Tusk and Sikorski have both taken genuinely brave anti-Russian stances post-2022. Von der Leyen's consultancy affair never resulted in criminal charges. Breton was cleared of direct wrongdoing at appointment. I am presenting patterns, not verdicts.
+
+3. **What would change this assessment?**: If SAFE procurement proves transparent, if the 80% domestic claim holds, if conditionality is never leveraged, and if the people in charge demonstrate different behaviour than their track records predict — this addendum will look like character assassination dressed as analysis.
+
+4. **The bias I must acknowledge**: There is a conservatism inherent in sovereignty-focused analysis. If you start from "EU institutions cannot be trusted," every piece of evidence confirms the prior. I have tried to note counterarguments throughout. The reader should weigh them.
+
+---
+
 ## REVISION HISTORY
 
 | Date | Change | Reason |
 |------|--------|--------|
 | 2026-02-20 | Initial publication | SAFE Council approval for Poland (2026-02-17) |
-| 2026-02-20 | Addendum: money flow analysis | Follow-up cui bono — who cashes the check? |
+| 2026-02-20 | Addendum I: money flow analysis | Follow-up cui bono — who cashes the check? |
+| 2026-02-20 | Addendum II: personnel file | Pattern analysis of SAFE architects and promoters |
 
 ---
 
