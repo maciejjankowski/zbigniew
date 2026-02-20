@@ -497,13 +497,13 @@ This is not an accusation exercise. This is pattern recognition. We map:
 
 | Fact | Source | Relevance |
 |------|--------|-----------|
-| As German Defence Minister (2013-2019), oversaw the **decline of the Bundeswehr** to the point where Germany lacked operational tanks, helicopters, and aircraft | [EU Today](https://eutoday.net/ursula-von-der-leyens-troubled-tenure-as-german-defence-minister/), [Institut Montaigne](https://www.institutmontaigne.org/en/expressions/who-are-you-ursula-von-der-leyen) | The person who **failed to maintain Germany's own defence** now manages €150B in European defence loans |
-| **Consultancy Affair** (*Berateraffäre*): Hundreds of millions in contracts to McKinsey, Accenture without competitive bidding. Federal Audit Office flagged irregularities in 2018 | [Debug Lies](https://debuglies.com/2025/02/15/ursula-von-der-leyen-controversies-allegations-and-political-scandals-a-deep-examination-of-power-and-ethics-in-the-european-union/) | Track record of channeling public defence money to private consultants through opaque procurement |
-| **McKinsey hired her daughter** (Johanna) during the period McKinsey received substantial Ministry of Defence contracts | [Same source](https://debuglies.com/2025/02/15/ursula-von-der-leyen-controversies-allegations-and-political-scandals-a-deep-examination-of-power-and-ethics-in-the-european-union/) | Documented conflict-of-interest pattern in *defence procurement specifically* |
-| **Wiped phone data** during parliamentary investigation. Claimed "security reasons." | [diem25](https://diem25.org/ursula-von-der-leyen-a-legacy-of-secrecy-and-decline/) | Evidence destruction during defence spending investigation |
+| As German Defence Minister (2013-2019), oversaw the **decline of the Bundeswehr** to the point where Germany lacked operational tanks, helicopters, and aircraft | [Institut Montaigne](https://www.institutmontaigne.org/en/expressions/who-are-you-ursula-von-der-leyen), [Wikipedia — verified claims](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen) | The person who **failed to maintain Germany's own defence** now manages €150B in European defence loans |
+| **Consultancy Affair** (*Berateraffäre*): Hundreds of millions in contracts to McKinsey, Accenture without competitive bidding. Federal Audit Office flagged irregularities in 2018. Bundestag opened parliamentary inquiry. | [Der Tagesspiegel](https://www.tagesspiegel.de/politik/handydaten-von-ex-ministerin-von-der-leyen-geloscht-4677535.html), [The Week](https://theweek.com/107207/ursula-von-der-leyen-eu-commission-president-contract-scandal), [German Foreign Policy](https://www.german-foreign-policy.com/en/news/detail/8171) | Track record of channeling public defence money to private consultants through opaque procurement |
+| **McKinsey hired her daughter** Johanna in Berlin office during the period McKinsey received substantial Ministry of Defence contracts. No direct causal link proven, but conflict-of-interest perception documented. | [Wikipedia](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen), [Wikidata — Johanna von der Leyen](https://www.wikidata.org/wiki/Q17278969) | Documented conflict-of-interest *perception* in defence procurement. Parliamentary committee noted it but did not establish causal link. |
+| **Wiped phone data** during parliamentary investigation. Two phones confiscated, both wiped before return. Ministry claimed "security reasons." Bundestag members called it "deliberate evidence destruction." | [Der Tagesspiegel](https://www.tagesspiegel.de/politik/handydaten-von-ex-ministerin-von-der-leyen-geloscht-4677535.html), [Brussels Times](https://www.brusselstimes.com/91585/the-curious-case-of-the-commission-presidents-mobile-phones) | Evidence destruction during defence spending investigation. Green MP Lindner filed criminal complaint. |
 | **Katrin Suder**, ex-McKinsey Berlin chief, hired as State Secretary at Defence Ministry in 2014 — consultant contracts skyrocketed under her watch | [German Foreign Policy](https://www.german-foreign-policy.com/en/news/detail/8171) | Revolving door between consultancy firms and defence procurement |
-| Husband **Heiko von der Leyen** heads biotech firm **Orgenesis**, which received EU Horizon Europe grants during her Commission presidency | [Sri Lanka Guardian](https://slguardian.org/eu-presidency-ursula-von-der-leyen-faces-growing-scandals/) | Pattern: family members benefit from institutions she leads |
-| **Pfizergate**: Privately negotiated €35B vaccine deal via text messages with Pfizer CEO, then claimed to have "deleted" all messages. EPPO investigation ongoing. | [European Conservative](https://europeanconservative.com/articles/news/eu-commission-chief-faces-investigation-by-german-public-prosecutor/) | Pattern: opaque mega-deals, deleted communications, investigation stonewalled |
+| Husband **Heiko von der Leyen** is Medical Director of US biotech firm **Orgenesis**, which received EU Horizon Europe grants during her Commission presidency. Multiple MEPs raised formal conflict-of-interest questions. EU Transparency Commissioner cleared him, but he stepped down from an EU-funded project board. | [European Parliament Question E-003717/2022](https://www.europarl.europa.eu/doceo/document/E-9-2022-003717_EN.html), [EP Question E-003740/2022](https://www.europarl.europa.eu/doceo/document/E-9-2022-003740_EN.html) | Pattern: family members benefit from institutions she leads. NOTE: Orgenesis is NOT owned by Pfizer — that claim has been debunked by multiple fact-checkers. |
+| **Pfizergate**: Privately negotiated ~€35B vaccine deal via text messages with Pfizer CEO Bourla, then claimed to have "deleted" all messages. Mönchengladbach prosecutor investigating. EPPO launched separate probe in April 2024. | [European Conservative](https://europeanconservative.com/articles/news/eu-commission-chief-faces-investigation-by-german-public-prosecutor/), [Wikipedia — Pfizergate](https://en.wikipedia.org/wiki/Pfizergate) | Pattern: opaque mega-deals, deleted communications, active investigation |
 
 **Pattern**: Von der Leyen's track record in defence procurement specifically is one of **opacity, revolving doors, and evidence destruction**. She is now the political patron of the largest EU defence financing instrument in history. The woman who couldn't keep the Bundeswehr operational is managing €150 billion.
 
@@ -653,6 +653,168 @@ History's answer is usually: the institutions serve the interests of those who d
 
 ---
 
+## ADDENDUM III: THE ALTERNATIVES — KOREA, AMERICA, OR OURSELVES?
+
+**Date**: 2026-02-20
+**Trigger**: If not SAFE, then what? Fact-checking the alternatives honestly.
+
+---
+
+### JUNIOR ANALYST'S PRIORS (STATED FOR TRANSPARENCY)
+
+A member of this analytical team stated:
+- **Strong positive sentiment toward South Korea** as a defence partner
+- **High aversion to US "best friend" rhetoric** — viewed as instrumental, not genuine
+- Requested brutal fact-checking of these priors
+
+What follows is that fact-check. No sacred cows.
+
+---
+
+### SOUTH KOREA: THE CASE FOR (AND AGAINST)
+
+#### What Korea Gets Right — Confirmed
+
+| Claim | Verdict | Evidence |
+|-------|---------|----------|
+| Korea delivers fast | **TRUE** | First K2 tanks arrived 4 months after contract signature. FA-50s within 10 months. No Western OEM matches this. ([RAND](https://www.rand.org/pubs/commentary/2025/09/missiles-markets-and-mutual-interests-poland-and-south.html)) |
+| Korea transfers technology | **TRUE** | K2PL: 61 of 64 tanks to be built in Poland by PGZ/Bumar-Łabędy. Hyundai Rotem providing tooling, equipment, assembly line. ([Defence News](https://www.defensenews.com/global/europe/2025/08/01/poland-doubles-down-on-south-korean-tanks-with-65-billion-deal/)) |
+| Korea doesn't attach political conditions | **TRUE** | Seoul "does not employ comprehensive end-use monitoring or political restrictions like Washington." ([Carnegie Endowment](https://carnegieendowment.org/russia-eurasia/research/2026/02/are-long-term-nato-south-korea-defense-ties-possible-transitioning-from-an-arms-exporter-to-a-trusted-defense-partner)) |
+| Korea treats Poland as a strategic partner, not a vassal | **TRUE** | Poland accounts for 46% of Korean defence exports. Joint ventures (Hanwha-WB Group guided munitions). Poland positioned as K2 European production hub. ([Korea Herald](https://www.koreaherald.com/article/10570882)) |
+| Korean terms are commercially honest | **TRUE** | No 65% content rules, no conditionality, no political strings. Price and delivery are the negotiation, not sovereignty. |
+
+#### What Korea Gets Wrong — Also Confirmed
+
+| Claim | Verdict | Evidence |
+|-------|---------|----------|
+| Korean financing hit a wall | **TRUE** | Eximbank lending cap reached in 2024. National Assembly had to pass legislation raising cap from 15T to 25T won. Poland rejected Korea's terms for the second K2 contract as insufficient. ([Korea Times](https://www.koreatimes.co.kr/www/nation/2024/09/113_373220.html), [Business Korea](https://www.businesskorea.co.kr/news/articleView.html?idxno=249133)) |
+| Korea cannot match SAFE scale | **TRUE** | Total Korean financing: ~$18B across all programmes. SAFE: €44B for Poland alone. Korea cannot lend 45 years at 3.3%. |
+| Korean tech has US dependencies | **TRUE** | K2's engine (MTU licensed), fire control, some electronics contain US-origin ITAR-controlled components. Korea's defence tech "heavily depends on the US for key technologies." ([Carnegie](https://carnegieendowment.org/russia-eurasia/research/2026/02/are-long-term-nato-south-korea-defense-ties-possible-transitioning-from-an-arms-exporter-to-a-trusted-defense-partner)) |
+| Korea's domestic politics create risk | **TRUE** | 2024-2025 political crisis (martial law attempt, impeachment). Delivery continuity was questioned. ([Breaking Defense](https://breakingdefense.com/2025/01/will-s-koreas-drama-cause-problems-or-savings-for-polands-large-weapon-buys/)) |
+| Korea can't cover all capability gaps | **TRUE** | No Korean MRTT, no Korean air defence equivalent to SAMP/T or Patriot, no Korean 5th-gen fighter. Poland needs systems Korea doesn't make. |
+
+#### Korea Assessment
+
+**Your instinct is correct but incomplete.** Korea is the best *transactional* defence partner Poland has. No strings, fast delivery, real technology transfer, commercially honest. But Korea cannot finance at SAFE scale, cannot cover all capability gaps, and has its own political instability. Korea is the answer for armour, artillery, and selected munitions. It is not the answer for everything.
+
+**Confidence**: HIGH
+
+---
+
+### THE UNITED STATES: FACT-CHECKING "BEST FRIEND" RHETORIC
+
+#### What America Delivers — Confirmed
+
+| Claim | Verdict | Evidence |
+|-------|---------|----------|
+| US makes the best high-end systems | **TRUE** | F-35 is the only available 5th-gen fighter. Patriot/IBCS is the proven air defence backbone. HIMARS is combat-validated. No equivalent exists from Korea or Europe. |
+| US provides nuclear umbrella and Article 5 backbone | **TRUE** | US forces stationed in Poland (V Corps forward HQ, Redzikowo Aegis Ashore). No substitute exists. |
+| US military aid to Poland is substantial | **TRUE** | $4B+ in FMS loans since 2023. F-35, Patriot, Abrams, HIMARS, MQ-9B. ([The Defense Post](https://thedefensepost.com/2024/07/11/poland-borrows-us-patriot/)) |
+
+#### What America Gets Wrong — Also Confirmed
+
+| Claim | Verdict | Evidence |
+|-------|---------|----------|
+| FMS is slow and opaque | **TRUE** | Polish F-35 deliveries delayed: 2026 batch pushed from March-June to Nov-Dec. "US government does not guarantee price, completion date, or other terms." ([Defence24](https://defence24.com/industry/polish-f-35-deliveries-delayed-exclusive), [Pulaski Foundation](https://pulaski.pl/en/the-role-of-foreign-military-sales-in-the-polish-armed-forces-procurement-program-for-its-wisla-air-defense-system/)) |
+| FMS costs are unpredictable | **TRUE** | Patriot radar costs "not fully known" at contract signing. Poland "assumes responsibility for total cost, which may be higher than contract states." ([Pulaski Foundation](https://pulaski.pl/en/the-role-of-foreign-military-sales-in-the-polish-armed-forces-procurement-program-for-its-wisla-air-defense-system/)) |
+| Technology transfer is minimal | **TRUE** | F-35: no technology transfer. Software is US-controlled. Poland builds Patriot launchers at HSW but core radar and software remain Raytheon IP. Contrast with Korea's K2PL full production transfer. |
+| ITAR creates dependency | **TRUE** | Any system with US components requires US approval for re-export, modification, or integration. "Maintaining an integrated transatlantic defense industrial base implies accepting supply-chain dependence that will likely be asymmetric." ([Bruegel](https://www.bruegel.org/policy-brief/europes-dependence-us-foreign-military-sales-and-what-do-about-it)) |
+| "Best friend" rhetoric is transactional | **MOSTLY TRUE** | US-Poland relations track US political cycles. Bush: close (Iraq). Obama: lukewarm. Trump 1.0: transactional ("Fort Trump" pitch). Biden: warm. Trump 2.0: Greenland tariffs on European allies, NATO doubts. Poland is a valued customer, not a peer partner. |
+| US has reprioritised deliveries away from Poland | **TRUE** | Patriot deliveries to Switzerland delayed to prioritize Germany, which sent systems to Ukraine. Production capacity constraints mean Poland competes with other buyers. ([Bruegel](https://www.bruegel.org/policy-brief/europes-dependence-us-foreign-military-sales-and-what-do-about-it)) |
+
+#### America Assessment
+
+**Your aversion has factual basis but goes too far.** The US "best friend" rhetoric is indeed instrumental — Poland is a customer, not a peer. FMS is slow, opaque, non-transferable, and creates permanent dependency through ITAR. The "special relationship" evaporates when domestic US politics shift.
+
+**However**: There is no substitute for F-35, Patriot, or the Article 5 nuclear umbrella. Zero. Korea doesn't make them. Europe doesn't make equivalents. Poland cannot afford to alienate the US even if the relationship is asymmetric. The correct posture is: **buy American where irreplaceable, refuse American where alternatives exist, never pretend the relationship is sentimental.**
+
+Sikorski's 2014 leaked tape — "the Polish-American alliance is worthless" — was wrong on the conclusion but right on the diagnosis. The alliance has value. The sentimentality around it is worthless.
+
+**Confidence**: HIGH
+
+---
+
+### THE ZBIGNIEW DOCTRINE: WHAT POLAND SHOULD ACTUALLY DO
+
+Based on everything in this assessment — SAFE analysis, money flows, personnel patterns, alternative evaluation — here is what an optimal Polish defence procurement strategy looks like:
+
+#### The Three-Pillar Model
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│              POLISH DEFENCE PROCUREMENT DOCTRINE             │
+├─────────────┬──────────────────┬────────────────────────────┤
+│  PILLAR 1   │    PILLAR 2      │        PILLAR 3            │
+│  KOREAN     │    AMERICAN      │        EUROPEAN (incl SAFE) │
+│  (preferred)│    (irreplaceable)│        (selective)          │
+├─────────────┼──────────────────┼────────────────────────────┤
+│ K2PL tanks  │ F-35             │ Borsuk IFV (domestic)      │
+│ K9 howitzers│ Patriot/IBCS     │ MRTT (Airbus — no alt.)    │
+│ FA-50 → KF-21│ HIMARS/ATACMS  │ Eurodrone (if viable)      │
+│ Chunmoo MLRS│ MQ-9B           │ Missiles (MBDA — limited)  │
+│ Guided mun. │ Nuclear umbrella │ San counter-UAS (domestic) │
+│ Submarines  │ Intelligence     │ Ammunition (Rheinmetall    │
+│ (KSS-III)  │  sharing         │  licensed in PL)           │
+├─────────────┼──────────────────┼────────────────────────────┤
+│ FINANCING:  │ FINANCING:       │ FINANCING:                 │
+│ Eximbank +  │ FMS loans +      │ SAFE (€15-20B, NOT €44B)   │
+│ sovereign   │ sovereign        │ For systems where 65%      │
+│ bonds       │ bonds            │ EU content is natural      │
+├─────────────┼──────────────────┼────────────────────────────┤
+│ CONDITIONS: │ CONDITIONS:      │ CONDITIONS:                │
+│ None.       │ ITAR (accept for │ Rule of Law conditionality │
+│ Technology  │ irreplaceable    │ (minimize exposure)        │
+│ transfer    │ systems only)    │                            │
+│ included.   │                  │                            │
+└─────────────┴──────────────────┴────────────────────────────┘
+```
+
+#### The Key Numbers
+
+| Pillar | Allocation | Financing | Conditions Accepted |
+|--------|-----------|-----------|-------------------|
+| **Korean** | ~40% of procurement value | Eximbank + sovereign FWSZ bonds | None |
+| **American** | ~25% of procurement value | FMS loans + sovereign bonds | ITAR (unavoidable for F-35/Patriot) |
+| **European/SAFE** | ~20% of procurement value | SAFE at €15-20B (not €44B) | EU conditionality (limited exposure) |
+| **Domestic** | ~15% of procurement value | Sovereign FWSZ bonds | None |
+
+#### Why This Is Better Than Full SAFE
+
+| Factor | Full SAFE (€44B) | Three-Pillar Model |
+|--------|------------------|-------------------|
+| Conditionality exposure | Maximum — 45 years | Limited — €15-20B only for naturally EU-origin |
+| Supplier diversification | Restricted to 65% EU | Full diversification across 3 sources |
+| Technology transfer | Minimal from EU primes | Maximum from Korea, growing domestic |
+| Political dependency | High — single institutional lever | Distributed — no single actor can freeze all procurement |
+| Industrial base growth | Claims 80% domestic (unverified) | Korean tech transfer + domestic Borsuk/San = verified domestic growth |
+| Cost | 3.3% on €44B = €1.45B/yr in interest alone | Higher blended rate (~4%) but on smaller conditional portion |
+| Sovereignty preserved | Compromised for 45 years | Maintained on 80% of procurement |
+
+#### The Polish Twist: Become the Hub
+
+The real play — and this is where Korean cooperation and SAFE could actually be complementary instead of competing — is:
+
+1. **Build K2PL in Poland** (Korean tech transfer, already contracted)
+2. **Export K2PL to other EU states** (Romania, Slovakia, Estonia are watching)
+3. **Use SAFE financing for those buyer states** (their SAFE loans buy Polish-built K2PL)
+4. **Poland becomes a net defence exporter** instead of a net borrower
+
+This turns the 65% rule from a constraint into a weapon: K2PL built in Poland *is* EU-origin content. Other countries' SAFE money flows *to* Poland. Poland transforms from customer to supplier.
+
+This is the Intermarium play applied to defence industrial policy.
+
+---
+
+### PREDICTIONS
+
+| ID | Prediction | Deadline | Confidence | Falsification |
+|----|------------|----------|------------|---------------|
+| pred_2026_016 | Poland-Korea defence trade will exceed $25B cumulative by 2030 | 2030-12-31 | 75% | Trade stagnates below $20B |
+| pred_2026_017 | At least one EU state will purchase Polish-built K2PL using SAFE funds | 2030-12-31 | 55% | No such purchase occurs |
+| pred_2026_018 | US FMS delivery delays to Poland will exceed 12 months on at least one major programme by 2028 | 2028-12-31 | 70% | All deliveries on schedule |
+
+---
+
 ## REVISION HISTORY
 
 | Date | Change | Reason |
@@ -660,6 +822,8 @@ History's answer is usually: the institutions serve the interests of those who d
 | 2026-02-20 | Initial publication | SAFE Council approval for Poland (2026-02-17) |
 | 2026-02-20 | Addendum I: money flow analysis | Follow-up cui bono — who cashes the check? |
 | 2026-02-20 | Addendum II: personnel file | Pattern analysis of SAFE architects and promoters |
+| 2026-02-20 | Addendum III: alternatives analysis | Korea, America, or ourselves? |
+| 2026-02-20 | Source verification pass | Von der Leyen claims verified, sources upgraded to primary documents |
 
 ---
 
