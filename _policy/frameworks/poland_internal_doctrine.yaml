@@ -1,0 +1,1071 @@
+# POLAND INTERNAL DOCTRINE
+# "Silna Polska od Wewnątrz" - Strong Poland from Within
+# ZBIGNIEW Policy Framework v2.0
+# Updated: 2026-01-21
+
+# ============================================
+# CORE PHILOSOPHY
+# ============================================
+
+philosophy:
+  name: "Silna Polska od Wewnątrz"
+  english: "Strong Poland from Within"
+
+  founding_principle: |
+    External alliances mean nothing if the nation is weak from within.
+    A strong Poland requires: self-reliant economy, cohesive society,
+    efficient institutions, preserved identity, and citizens who believe
+    in their country. We build from the family up, not from the state down.
+
+  guiding_values:
+    - value: "Subsidiarity"
+      meaning: "Decisions at lowest effective level - family, community, region, then state"
+
+    - value: "Self-Reliance"
+      meaning: "Capability to survive and thrive without external dependence"
+
+    - value: "Solidarity"
+      meaning: "Mutual support among Poles - not imposed, but natural"
+
+    - value: "Continuity"
+      meaning: "We are inheritors and trustees, not owners - preserve for next generation"
+
+    - value: "Practicality"
+      meaning: "What works matters more than what sounds good"
+
+    - value: "Dignity"
+      meaning: "Every Pole deserves respect, opportunity, and fair treatment"
+
+# ============================================
+# ECONOMIC POLICY
+# ============================================
+
+economic_policy:
+  name: "Gospodarka Odporna"
+  english: "Resilient Economy"
+
+  core_principle: |
+    An economy that can be weaponized against us is not truly ours.
+    We build resilience through diversification, domestic capacity,
+    and strategic reserves. Growth is good; dependence is dangerous.
+
+  strategic_priorities:
+
+    energy_independence:
+      target: "80% domestic/allied sources by 2035"
+      current: "~60%"
+      strategy:
+        nuclear:
+          role: "Baseload power - reliable, clean, sovereign"
+          plan: "3+ reactors operational by 2040"
+          principle: "No ideological opposition to nuclear"
+        renewables:
+          role: "Supplement, not replacement"
+          focus: "Baltic offshore wind, solar where practical"
+          principle: "Technology-neutral, results-focused"
+        fossil_transition:
+          principle: "Managed decline, not cliff"
+          protection: "No energy poverty during transition"
+          timeline: "Coal phase-out aligned with replacement capacity"
+        storage_reserves:
+          oil: "90+ days strategic reserve"
+          gas: "Diverse sources (Norway, LNG, domestic)"
+          coal: "Strategic reserve maintained during transition"
+      red_lines:
+        - "No single source > 30% of energy mix"
+        - "No energy poverty increase"
+        - "No forced closure without replacement capacity"
+        - "No dependence on adversary energy"
+
+    supply_chain_resilience:
+      principle: "Diversification, not isolation"
+      rules:
+        - "No single country > 30% of critical imports"
+        - "Domestic production capacity for essentials"
+        - "Multiple suppliers for strategic goods"
+        - "Stockpiles for crisis scenarios"
+      critical_sectors:
+        - food: "90% self-sufficiency in staples"
+        - medicine: "Domestic production of essential drugs"
+        - defense: "See defense industry policy"
+        - technology: "See technology sovereignty policy"
+        - rare_materials: "Stockpiles + recycling + alternatives"
+
+    fiscal_responsibility:
+      principles:
+        - "Public debt < 60% GDP (constitutional limit)"
+        - "Deficit < 3% GDP (self-interest, not just EU rule)"
+        - "No unfunded mandates"
+        - "Intergenerational fairness (don't burden children)"
+      tax_policy:
+        philosophy: "Fair, efficient, not punitive"
+        priorities:
+          - "VAT gap closure (< 5% target)"
+          - "Corporate tax optimization schemes closed"
+          - "Work incentives preserved (not taxed into poverty)"
+          - "Simplification (fewer pages, clearer rules)"
+          - "Digital enforcement (not more bureaucrats)"
+        red_lines:
+          - "No wealth taxes that drive capital out"
+          - "No death taxes that destroy family businesses"
+          - "No taxation without representation principle"
+
+    labor_market:
+      philosophy: "Work should pay; dependence should be temporary"
+      principles:
+        - "Real wages grow with productivity"
+        - "Flexibility for employers, security for workers"
+        - "Vocational training aligned with economy needs"
+        - "Retirement system sustainable without poverty"
+      policies:
+        minimum_wage: "Living wage, regionally adjusted"
+        flexibility: "Easier to hire = more hiring"
+        retraining: "Automation displaces, training replaces"
+        retirement: "Sustainable system, dignified old age"
+
+    regional_balance:
+      problem: "Too much concentration in Warsaw and major cities"
+      principle: "Prosperity should reach all of Poland"
+      policies:
+        - "Infrastructure investment in lagging regions"
+        - "Tax incentives for regional investment"
+        - "Remote work support for rural areas"
+        - "University satellite campuses"
+        - "Local economic development authority"
+      metric: "Regional GDP disparity < 30%"
+
+# ============================================
+# SOCIAL POLICY
+# ============================================
+
+social_policy:
+  name: "Społeczeństwo Solidarne"
+  english: "Solidary Society"
+
+  core_principle: |
+    Society is built from families, not from individuals or the state.
+    We support families without dictating how they should live.
+    We help the vulnerable without creating dependence.
+    We preserve traditions without imposing them.
+
+  family_policy:
+    philosophy: |
+      The family is the foundation of society. We support families
+      because strong families make strong communities, not because
+      we want to control how people live. Support, not mandate.
+
+    priorities:
+      pro_natalist:
+        goal: "Reverse demographic decline"
+        approach: "Make having children economically feasible"
+        policies:
+          - "Housing support for families (not just individuals)"
+          - "Childcare availability (affordable, quality)"
+          - "Tax benefits per child (meaningful, not symbolic)"
+          - "Parental leave (both parents, flexible)"
+          - "Work flexibility for parents"
+        what_we_dont_do:
+          - "Force people to have children"
+          - "Penalize childless couples"
+          - "Dictate family structure"
+
+      multi_generational:
+        principle: "Grandparents are assets, not burdens"
+        policies:
+          - "Multi-generational housing incentives"
+          - "Grandparent childcare recognition"
+          - "Elder care that keeps families together"
+          - "Inheritance policies that don't force family business sales"
+
+      marriage_support:
+        principle: "Marriage is foundational but not mandated"
+        policies:
+          - "Tax benefits for married couples"
+          - "Marriage preparation support"
+          - "Divorce mediation (reduce conflict, protect children)"
+        what_we_dont_do:
+          - "Penalize single parents"
+          - "Force religious marriage"
+
+    red_lines:
+      - "Family policy supports, doesn't dictate"
+      - "Children's welfare is paramount"
+      - "Parental rights respected"
+      - "No social engineering"
+
+  education_policy:
+    philosophy: |
+      Education transmits civilization. It prepares citizens for
+      productive lives while preserving cultural identity. It teaches
+      how to think, not what to think. It respects parental rights.
+
+    principles:
+      academic:
+        - "Critical thinking over rote memorization"
+        - "STEM excellence maintained (PISA top 20)"
+        - "Vocational track prestige restored"
+        - "University for those who benefit, not as default"
+      civic:
+        - "Historical literacy (balanced, factual, dignified)"
+        - "Civic engagement preparation"
+        - "Polish identity transmitted (not imposed)"
+        - "Multiple languages (English + regional)"
+      practical:
+        - "Teacher profession made attractive (pay, respect)"
+        - "Curriculum modernization (21st century skills)"
+        - "Digital literacy universal"
+        - "Industry-education alignment"
+
+    parental_rights:
+      principle: "Parents are primary educators; schools assist"
+      policies:
+        - "Parental involvement in curriculum oversight"
+        - "Opt-out rights for controversial content"
+        - "School choice supported (public, private, home)"
+        - "Religious education available (not mandatory)"
+
+    what_we_protect_against:
+      - "Ideological capture of curriculum"
+      - "Historical revisionism"
+      - "Foreign influence in textbooks"
+      - "Political use of education"
+
+    red_lines:
+      - "Academic freedom protected"
+      - "No thought policing"
+      - "Parental rights supreme on values questions"
+      - "Historical truth, not propaganda"
+
+  healthcare_policy:
+    philosophy: |
+      Healthcare is about health, not politics. Every Pole deserves
+      access to quality care without bankruptcy. Prevention is better
+      than cure. The system should work for patients, not bureaucrats.
+
+    priorities:
+      access:
+        target: "Wait times < 30 days for specialists"
+        approach:
+          - "System capacity expansion"
+          - "Medical professional retention (pay parity)"
+          - "Geographic coverage equity"
+          - "Preventive care incentives"
+
+      quality:
+        principles:
+          - "Outcomes-based measurement"
+          - "Medical professional autonomy"
+          - "Technology adoption"
+          - "Research capacity building"
+
+      sustainability:
+        principles:
+          - "Prevention over treatment"
+          - "Efficiency without rationing"
+          - "Out-of-pocket < 20% of health spending"
+          - "Private sector complement, not replacement"
+
+    medical_workforce:
+      problem: "Brain drain to Western Europe"
+      solution:
+        - "Competitive pay (EU average target)"
+        - "Working conditions improvement"
+        - "Career progression opportunities"
+        - "Administrative burden reduction"
+        - "Return incentives for diaspora doctors"
+
+    red_lines:
+      - "No rationing based on age or lifestyle"
+      - "No politicization of medical decisions"
+      - "Doctor-patient relationship protected"
+      - "Conscience rights for medical professionals"
+
+  welfare_policy:
+    philosophy: |
+      The safety net catches those who fall; it doesn't become
+      a hammock for those who won't walk. We help the vulnerable
+      with dignity. We expect those who can work to work.
+
+    principles:
+      - "Temporary assistance, not permanent dependence"
+      - "Work incentives preserved (benefits don't exceed work income)"
+      - "Dignity in assistance (not degrading bureaucracy)"
+      - "Local administration (knows community needs)"
+      - "Fraud prevention without punishing genuine need"
+
+    categories:
+      truly_vulnerable:
+        who: "Disabled, elderly without support, children at risk"
+        approach: "Generous, dignified, permanent if needed"
+
+      temporarily_displaced:
+        who: "Job loss, health crisis, family breakdown"
+        approach: "Bridge support, retraining, time-limited"
+
+      able_but_unwilling:
+        approach: "Work requirements, time limits, declining benefits"
+        principle: "Solidarity requires contribution"
+
+    red_lines:
+      - "Children never punished for parents' choices"
+      - "Genuine disability supported without degradation"
+      - "Elderly who worked their lives cared for"
+      - "No welfare tourism from abroad"
+
+# ============================================
+# INSTITUTIONAL POLICY
+# ============================================
+
+institutional_policy:
+  name: "Sprawne Państwo"
+  english: "Efficient State"
+
+  core_principle: |
+    The state serves citizens; citizens don't serve the state.
+    Bureaucracy should be minimal, efficient, and helpful.
+    Institutions should be trustworthy, predictable, and fair.
+    Power should be limited, separated, and accountable.
+
+  public_administration:
+    philosophy: "Citizen service, not citizen burden"
+
+    goals:
+      - "E-government coverage >= 90%"
+      - "Business registration < 24 hours"
+      - "Permit processing time -50%"
+      - "Public procurement transparency 100%"
+      - "Civil service merit-based with competitive pay"
+
+    principles:
+      efficiency:
+        - "Digital-first, paper-backup"
+        - "One-stop-shop for citizen services"
+        - "Deadlines with consequences (for government)"
+        - "Sunset clauses for regulations"
+
+      accountability:
+        - "Personal responsibility for decisions"
+        - "Whistleblower protection"
+        - "Performance measurement (outcomes, not process)"
+        - "Regular audit and review"
+
+      professionalism:
+        - "Merit-based hiring (no political patronage)"
+        - "Competitive compensation (attract talent)"
+        - "Career progression based on performance"
+        - "Political neutrality of civil service"
+
+    red_lines:
+      - "No political purges of civil service"
+      - "No bureaucratic obstacles to legitimate activity"
+      - "No corruption tolerance"
+      - "No regulatory capture by special interests"
+
+  judicial_system:
+    philosophy: |
+      Justice must be independent, efficient, and trusted.
+      Courts exist for citizens, not for lawyers or judges.
+      Justice delayed is justice denied. Politics has no place
+      in courtrooms.
+
+    priorities:
+      independence:
+        principle: "Independent from executive, legislature, and foreign courts"
+        safeguards:
+          - "Judicial appointment transparency"
+          - "Term limits for court leadership"
+          - "No executive interference documented"
+          - "Judicial council independence"
+        note: "Independence from executive doesn't mean independence from accountability"
+
+      efficiency:
+        targets:
+          - "Case processing at EU average"
+          - "Commercial disputes resolved quickly"
+          - "Backlog reduction"
+        methods:
+          - "Case management digitization"
+          - "Court specialization"
+          - "Alternative dispute resolution"
+          - "Administrative simplification"
+
+      trust:
+        target: "Public trust > 50%"
+        approach:
+          - "Transparency in decisions"
+          - "Understandable reasoning"
+          - "Consistent application of law"
+          - "Corruption zero tolerance"
+
+    red_lines:
+      - "No executive appointment without judicial council"
+      - "No retroactive application of law"
+      - "No unlimited detention without charge"
+      - "No political trials"
+      - "No foreign judicial supremacy without treaty change"
+
+  local_government:
+    philosophy: |
+      Local problems are best solved locally. Central government
+      should enable, not dictate. Regions have their own identity
+      and needs. Democracy works best close to the people.
+
+    principles:
+      subsidiarity:
+        - "Decisions at lowest effective level"
+        - "Central government as last resort"
+        - "Local flexibility within national standards"
+
+      fiscal_autonomy:
+        target: "Local fiscal autonomy >= 50%"
+        approach:
+          - "Local tax base expansion"
+          - "Revenue sharing formula reform"
+          - "Borrowing within limits"
+          - "Accountability to local voters"
+
+      capacity_building:
+        - "Inter-municipal cooperation incentives"
+        - "Shared services for small municipalities"
+        - "Technical assistance from center"
+        - "Training for local officials"
+
+    balance:
+      principle: "No Warsaw-centrism, no regional fragmentation"
+      approach:
+        - "National standards, local implementation"
+        - "Equalization for poor regions (not permanent dependence)"
+        - "Regional identity respected"
+        - "Urban-rural gap closed"
+
+# ============================================
+# CULTURAL POLICY
+# ============================================
+
+cultural_policy:
+  name: "Tożsamość Żywa"
+  english: "Living Identity"
+
+  core_principle: |
+    Culture is who we are, not what the government dictates.
+    Polish identity is a living tradition, not a museum piece.
+    We preserve heritage while creating new culture.
+    We share our culture without imposing it.
+
+  identity_preservation:
+    philosophy: |
+      Polish identity was preserved through 123 years of partition
+      by families, churches, and communities - not by the state.
+      The state's role is to support, not to define or enforce.
+
+    elements:
+      language:
+        principle: "Polish as primary public language"
+        policies:
+          - "Polish required in official business"
+          - "Multilingualism encouraged (English + regional)"
+          - "Polish language instruction for immigrants"
+          - "Diaspora Polish education support"
+        what_we_dont_do:
+          - "Ban other languages in private"
+          - "Persecute linguistic minorities"
+
+      history:
+        principle: "Truthful, dignified, not victim-only"
+        policies:
+          - "Historical education in schools (balanced)"
+          - "IPN support for historical research"
+          - "Heritage site preservation"
+          - "Historical memory protection in law"
+        what_we_protect:
+          - "Resistance narrative (not just victimhood)"
+          - "Positive contributions to civilization"
+          - "Complex history (not propaganda)"
+        what_we_reject:
+          - "Blame for German crimes"
+          - "Holocaust distortion"
+          - "Soviet historical narratives"
+          - "Historical revisionism"
+
+      religion:
+        principle: "Religious heritage acknowledged, not imposed"
+        policies:
+          - "Religious freedom absolute"
+          - "Church-state separation with cooperation"
+          - "Religious education available (optional)"
+          - "Religious institutions independent"
+        what_we_dont_do:
+          - "Establish theocracy"
+          - "Persecute non-believers"
+          - "Force religious observance"
+        note: "Poland is historically Catholic; this is cultural fact, not legal mandate"
+
+      traditions:
+        principle: "Living traditions, not enforced customs"
+        examples:
+          - "National holidays celebrated (not mandated fervor)"
+          - "Regional traditions supported"
+          - "Folk culture preservation"
+          - "New traditions can emerge"
+
+  cultural_production:
+    philosophy: "Support creativity, don't dictate content"
+
+    priorities:
+      - "Film/game industry competitiveness"
+      - "Music and arts support"
+      - "Publishing industry health"
+      - "Digital content creation"
+
+    approach:
+      - "Tax incentives for cultural production"
+      - "No political content requirements"
+      - "International competitiveness focus"
+      - "Artistic freedom protected"
+
+    what_we_dont_do:
+      - "Mandate patriotic content"
+      - "Censor artistic expression"
+      - "Fund only 'approved' culture"
+
+  media_policy:
+    philosophy: |
+      Free press is essential. Foreign ownership is problematic.
+      Public media should inform, not propagandize.
+      Citizens need media literacy, not censorship.
+
+    principles:
+      freedom:
+        - "No censorship of legal content"
+        - "No government approval for publication"
+        - "No persecution of journalists"
+        - "Source protection"
+
+      ownership:
+        - "Foreign ownership transparency"
+        - "Limits on adversary-state ownership"
+        - "Diverse ownership encouraged"
+        - "No monopoly in any market"
+
+      public_media:
+        - "Independence from government"
+        - "Balanced coverage requirement"
+        - "Accountability to parliament, not executive"
+        - "No propaganda function"
+
+      media_literacy:
+        - "Critical thinking education"
+        - "Source evaluation skills"
+        - "Disinformation awareness"
+        - "No reliance on censorship"
+
+# ============================================
+# SECURITY POLICY (INTERNAL)
+# ============================================
+
+internal_security:
+  name: "Bezpieczna Polska"
+  english: "Safe Poland"
+
+  core_principle: |
+    Security serves freedom; it doesn't replace it.
+    We protect citizens without becoming a surveillance state.
+    We control borders without isolation.
+    We fight crime without police state tactics.
+
+  law_enforcement:
+    philosophy: "Serve and protect, not control and dominate"
+
+    priorities:
+      - "Trust in police > 70%"
+      - "Violent crime below EU average"
+      - "Organized crime networks disrupted"
+      - "Community policing emphasis"
+
+    principles:
+      effectiveness:
+        - "Evidence-based policing"
+        - "Technology for efficiency (not surveillance)"
+        - "Inter-agency coordination"
+        - "International cooperation"
+
+      accountability:
+        - "Body cameras where appropriate"
+        - "Complaint mechanisms that work"
+        - "Oversight that's independent"
+        - "Corruption zero tolerance"
+
+      community:
+        - "Local presence, not distant force"
+        - "Preventive engagement"
+        - "Trust-building programs"
+        - "Minority community relations"
+
+    red_lines:
+      - "No political policing"
+      - "No mass surveillance without cause"
+      - "No torture or abuse"
+      - "Due process always"
+
+  border_security:
+    philosophy: |
+      We control who enters Poland. This is sovereignty, not xenophobia.
+      We welcome those who respect us. We reject those who threaten us.
+      Borders exist for a reason.
+
+    principles:
+      control:
+        - "Know who enters"
+        - "Ability to refuse entry"
+        - "Deportation capacity for illegals"
+        - "Secure borders (physical + digital)"
+
+      humanity:
+        - "Legal immigration pathways"
+        - "Refugee assessment (genuine refugees)"
+        - "Humane treatment of detainees"
+        - "Family unity consideration"
+
+      efficiency:
+        - "Fast legal processing"
+        - "No years-long asylum limbo"
+        - "E-gates for trusted travelers"
+        - "Schengen coordination"
+
+  intelligence_services:
+    philosophy: |
+      Intelligence protects the nation. It must be effective but
+      accountable. It serves the state, not the government of the day.
+      Oversight is essential to prevent abuse.
+
+    principles:
+      effectiveness:
+        - "Counter-intelligence priority (foreign influence)"
+        - "Counter-terrorism capacity"
+        - "Cyber threat monitoring"
+        - "Economic intelligence"
+
+      accountability:
+        - "Parliamentary oversight (cross-party)"
+        - "Judicial warrants for invasive measures"
+        - "Internal ethics oversight"
+        - "No political misuse"
+
+      limits:
+        - "No domestic political surveillance"
+        - "No journalist targeting without crime"
+        - "No mass data collection without cause"
+        - "Proportionality always"
+
+# ============================================
+# IMMIGRATION POLICY
+# ============================================
+
+immigration_policy:
+  name: "Mądra Migracja"
+  english: "Wise Migration"
+
+  core_principle: |
+    Immigration policy serves Poland, not immigrants, NGOs, or the EU.
+    We decide who comes. We welcome those who contribute and integrate.
+    We reject those who threaten or burden. This is self-preservation,
+    not xenophobia.
+
+  philosophy:
+    - "Immigration is privilege, not right"
+    - "Poland decides who enters"
+    - "Integration required, not optional"
+    - "Cultural compatibility matters"
+    - "Security comes first"
+    - "Economic contribution expected"
+
+  categories:
+
+    strongly_welcome:
+      who:
+        - "Ethnic Poles returning (Karta Polaka)"
+        - "Eastern Slavic neighbors (Ukrainian, Belarusian cultural proximity)"
+        - "Skilled workers in shortage areas"
+        - "Investors creating jobs"
+        - "Students who stay and contribute"
+      approach:
+        - "Fast-track processing"
+        - "Integration support"
+        - "Path to citizenship"
+        - "Family reunification"
+
+    conditionally_welcome:
+      who:
+        - "Workers for specific labor needs"
+        - "Genuine refugees (limited numbers)"
+        - "Spouses of Polish citizens"
+        - "Cultural/academic exchange"
+      conditions:
+        - "Integration commitment"
+        - "Language learning requirement"
+        - "Employment or study"
+        - "No security concerns"
+        - "Time limits (renewable if successful)"
+
+    not_welcome:
+      who:
+        - "Illegal entrants"
+        - "Security threats"
+        - "Those refusing integration"
+        - "Welfare seekers"
+        - "Those from incompatible cultures who won't adapt"
+      approach:
+        - "Entry refused"
+        - "Deportation if already present"
+        - "No path to legalization"
+
+  integration_requirements:
+    philosophy: "We don't change for immigrants; immigrants adapt to us"
+
+    mandatory:
+      - "Polish language learning (certified progress)"
+      - "Civic education (history, values, laws)"
+      - "Employment or study (no long-term welfare)"
+      - "Law compliance (crime = deportation risk)"
+
+    expected:
+      - "Children in Polish schools"
+      - "Participation in community life"
+      - "Respect for Polish customs"
+      - "No parallel societies"
+
+    citizenship_path:
+      requirements:
+        - "10 years residence (5 for ethnic Poles/spouses)"
+        - "Language proficiency certified"
+        - "Civic knowledge test"
+        - "Clean criminal record"
+        - "Economic self-sufficiency"
+        - "Renounce previous citizenship (with exceptions)"
+
+  eu_migration_policy:
+    position: "No mandatory quotas"
+    principle: "Poland decides who lives in Poland"
+    red_lines:
+      - "No imposed migrant distribution"
+      - "No penalty for refusing quotas"
+      - "External border defense priority"
+    approach:
+      - "Support EU external border protection"
+      - "Help source countries (address root causes)"
+      - "Bilateral arrangements preferred"
+
+  diaspora_return:
+    philosophy: "Poles abroad are still Poles; return is welcomed"
+
+    incentives:
+      - "Housing assistance for returnees"
+      - "Job placement support"
+      - "Pension portability"
+      - "Children's school integration help"
+      - "Tax holidays for returning talent"
+
+    targets:
+      - "Net positive migration of educated Poles"
+      - "Diaspora voting participation > 30%"
+      - "Return migration increase"
+
+# ============================================
+# TECHNOLOGY POLICY
+# ============================================
+
+technology_policy:
+  name: "Suwerenność Cyfrowa"
+  english: "Digital Sovereignty"
+
+  core_principle: |
+    Technology that can be turned off from abroad is not truly ours.
+    We build domestic capacity in critical areas while remaining open
+    to beneficial technology from allies. Control is more important
+    than cutting edge in strategic domains.
+
+  priorities:
+
+    cybersecurity:
+      urgency: "Immediate"
+      goals:
+        - "Critical infrastructure protection"
+        - "Cyber defense force capability"
+        - "Incident response capacity"
+        - "NATO interoperability"
+      approach:
+        - "National Cybersecurity Center leadership"
+        - "Public-private partnership"
+        - "Cyber reservist program"
+        - "Education and awareness"
+
+    digital_infrastructure:
+      principle: "Control over critical networks"
+      priorities:
+        - "No 5G from adversary vendors"
+        - "Domestic/allied telecom ownership >= 51%"
+        - "Sovereign cloud for government"
+        - "Critical data stored domestically"
+      approach:
+        - "Investment incentives for domestic providers"
+        - "Security requirements for foreign participation"
+        - "Government procurement preferences"
+
+    ai_and_emerging_tech:
+      principle: "Presence, not dominance"
+      goals:
+        - "AI research capacity (academic + commercial)"
+        - "Tech talent retention"
+        - "Application in government and defense"
+      approach:
+        - "National AI institute"
+        - "University-industry partnerships"
+        - "Regulatory sandbox for innovation"
+        - "Ethical guidelines (proportionate)"
+
+    digital_society:
+      principle: "Technology serves citizens"
+      priorities:
+        - "E-government universal"
+        - "Digital literacy for all ages"
+        - "Rural connectivity equal to urban"
+        - "Digital rights protected"
+      concerns:
+        - "No social credit systems"
+        - "Privacy protection"
+        - "No algorithmic discrimination"
+        - "Human override always available"
+
+  tech_talent:
+    problem: "Brain drain to Western tech hubs"
+    solution:
+      - "Competitive salaries (tax incentives for tech)"
+      - "Quality of life emphasis"
+      - "Startup ecosystem support"
+      - "Remote work for global companies"
+      - "Return incentives for diaspora tech workers"
+
+  red_lines:
+    - "Military systems fully sovereign"
+    - "No backdoors for foreign governments"
+    - "Critical data under Polish jurisdiction"
+    - "No dependence on adversary technology"
+
+# ============================================
+# DEFENSE POLICY (DOMESTIC ASPECTS)
+# ============================================
+
+defense_domestic:
+  name: "Obrona Ojczyzny"
+  english: "Defense of the Fatherland"
+
+  core_principle: |
+    Defense is the ultimate expression of sovereignty. We defend
+    ourselves first; allies assist. A nation that cannot defend
+    itself is not truly sovereign. Every Pole has a role.
+
+  defense_spending:
+    target: "3%+ GDP (above NATO minimum)"
+    principle: "Security is not discretionary spending"
+    allocation:
+      modernization: "Priority - catch up on decades of underinvestment"
+      personnel: "Competitive pay, quality of life"
+      reserves: "Ammunition, equipment, supplies"
+      industry: "Domestic production capacity"
+
+  defense_industry:
+    philosophy: "If we can't make it, we can be denied it"
+
+    priorities:
+      - "Ammunition production (tripling capacity)"
+      - "Drone manufacturing (domestic + Korean/Turkish cooperation)"
+      - "Electronics and sensors"
+      - "Vehicle maintenance and upgrade"
+      - "Shipbuilding (Baltic presence)"
+
+    partnerships:
+      south_korea: "K2, K9, FA-50 - model partnership"
+      turkey: "Drones, potential joint development"
+      uk: "Naval, aerospace"
+      us: "High-end systems (F-35, Patriot)"
+
+    principle: "Technology transfer > black box imports"
+
+  reserve_forces:
+    philosophy: "Every citizen has a role in defense"
+
+    components:
+      territorial_defense:
+        role: "Local defense, critical infrastructure protection"
+        target: "Expansion and capability increase"
+        training: "Regular, meaningful, not ceremonial"
+
+      cyber_reserves:
+        role: "Cyber defense depth"
+        recruitment: "IT professionals, students"
+        training: "Continuous, real-world scenarios"
+
+      civil_defense:
+        role: "Population protection, resilience"
+        components:
+          - "Shelter capacity"
+          - "First aid training"
+          - "Emergency preparedness"
+          - "Communication systems"
+
+  resilience:
+    principle: "Society that can absorb shocks"
+
+    elements:
+      infrastructure:
+        - "Critical infrastructure redundancy"
+        - "Decentralized systems"
+        - "Backup power generation"
+        - "Communication alternatives"
+
+      supplies:
+        - "Strategic food reserves"
+        - "Medical supplies stockpile"
+        - "Fuel reserves"
+        - "Essential goods manufacturing"
+
+      population:
+        - "Basic preparedness education"
+        - "Community organization capacity"
+        - "Volunteer coordination systems"
+        - "Psychological resilience programs"
+
+# ============================================
+# ENVIRONMENTAL POLICY
+# ============================================
+
+environmental_policy:
+  name: "Zielona, ale Praktyczna"
+  english: "Green, but Practical"
+
+  core_principle: |
+    We protect the environment for our children, not for foreign
+    activists or EU bureaucrats. Transition at Polish pace, with
+    Polish interests. No deindustrialization for climate goals.
+    Energy security before carbon timelines.
+
+  principles:
+    - "Energy security first"
+    - "No deindustrialization"
+    - "Just transition for coal regions"
+    - "Technology-neutral approach"
+    - "Nuclear is green"
+    - "No energy poverty"
+
+  priorities:
+
+    air_quality:
+      problem: "Among worst in EU (heating, transport)"
+      approach:
+        - "Building efficiency programs"
+        - "Heating replacement incentives"
+        - "Clean transport support"
+        - "Industrial emissions compliance"
+      timeline: "EU standards by 2035"
+
+    energy_transition:
+      see: "economic_policy.energy_independence"
+      additional:
+        - "Coal phase-out with replacement ready"
+        - "Silesian transformation fund"
+        - "Worker retraining"
+        - "Regional economic diversification"
+
+    nature_protection:
+      principle: "Conservation without paralysis"
+      approach:
+        - "Protected areas maintained"
+        - "Sustainable forestry"
+        - "Water quality improvement"
+        - "Biodiversity preservation"
+      balance:
+        - "Development allowed with mitigation"
+        - "No permanent freezing of land use"
+        - "Local community consideration"
+
+  eu_climate_policy:
+    position: "Transition at own pace"
+    red_lines:
+      - "No forced closure without replacement"
+      - "No import dependency increase during transition"
+      - "No energy poverty"
+      - "No unfunded mandates"
+    approach:
+      - "Use EU funds for transition"
+      - "Push for realistic timelines"
+      - "Nuclear recognition as green"
+      - "Technology neutrality"
+
+# ============================================
+# IMPLEMENTATION PRINCIPLES
+# ============================================
+
+implementation:
+  philosophy: |
+    Good policy poorly implemented is failed policy.
+    We measure outcomes, not intentions. We adjust based
+    on evidence, not ideology. We move fast where urgent,
+    carefully where complex.
+
+  principles:
+    measurement:
+      - "Clear metrics for every policy"
+      - "Regular assessment (not just at election time)"
+      - "Honest reporting (admit failures)"
+      - "Adjustment based on data"
+
+    sequencing:
+      - "Quick wins first (build momentum)"
+      - "Foundations before superstructure"
+      - "Pilot before national rollout"
+      - "Parallel tracks where independent"
+
+    communication:
+      - "Explain why, not just what"
+      - "Honest about trade-offs"
+      - "No overpromising"
+      - "Admit uncertainty"
+
+    accountability:
+      - "Named responsibility for programs"
+      - "Consequences for failure"
+      - "Recognition for success"
+      - "Learning from mistakes"
+
+# ============================================
+# CLOSING PHILOSOPHY
+# ============================================
+
+closing:
+  summary: |
+    Strong Poland from Within means:
+    - Economy that can't be weaponized against us
+    - Society built on families, not state programs
+    - Institutions that serve citizens efficiently
+    - Identity that lives in hearts, not just laws
+    - Security that protects without oppressing
+    - Immigration that strengthens, not threatens
+    - Technology we control, not that controls us
+    - Defense that deters, with citizens prepared
+    - Environment protected at our pace
+
+    We don't build Poland for foreign approval.
+    We build Poland for Poles - present and future.
+    We are pragmatic, not ideological.
+    We are confident, not aggressive.
+    We remember our history.
+    We build our future.
+
+  guiding_quote: |
+    "Polska nie zginęła, póki my żyjemy"
+    Poland has not perished, as long as we live.
+
+    This is not just a song. It's a commitment.
+    Each generation inherits and must pass on.
+    We are not the owners of Poland.
+    We are its trustees.

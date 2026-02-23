@@ -495,15 +495,15 @@ This is not an accusation exercise. This is pattern recognition. We map:
 
 **The case for concern:**
 
-| Fact | Source | Relevance |
-|------|--------|-----------|
-| As German Defence Minister (2013-2019), oversaw the **decline of the Bundeswehr** to the point where Germany lacked operational tanks, helicopters, and aircraft | [Institut Montaigne](https://www.institutmontaigne.org/en/expressions/who-are-you-ursula-von-der-leyen), [Wikipedia — verified claims](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen) | The person who **failed to maintain Germany's own defence** now manages €150B in European defence loans |
-| **Consultancy Affair** (*Berateraffäre*): Hundreds of millions in contracts to McKinsey, Accenture without competitive bidding. Federal Audit Office flagged irregularities in 2018. Bundestag opened parliamentary inquiry. | [Der Tagesspiegel](https://www.tagesspiegel.de/politik/handydaten-von-ex-ministerin-von-der-leyen-geloscht-4677535.html), [The Week](https://theweek.com/107207/ursula-von-der-leyen-eu-commission-president-contract-scandal), [German Foreign Policy](https://www.german-foreign-policy.com/en/news/detail/8171) | Track record of channeling public defence money to private consultants through opaque procurement |
-| **McKinsey hired her daughter** Johanna in Berlin office during the period McKinsey received substantial Ministry of Defence contracts. No direct causal link proven, but conflict-of-interest perception documented. | [Wikipedia](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen), [Wikidata — Johanna von der Leyen](https://www.wikidata.org/wiki/Q17278969) | Documented conflict-of-interest *perception* in defence procurement. Parliamentary committee noted it but did not establish causal link. |
-| **Wiped phone data** during parliamentary investigation. Two phones confiscated, both wiped before return. Ministry claimed "security reasons." Bundestag members called it "deliberate evidence destruction." | [Der Tagesspiegel](https://www.tagesspiegel.de/politik/handydaten-von-ex-ministerin-von-der-leyen-geloscht-4677535.html), [Brussels Times](https://www.brusselstimes.com/91585/the-curious-case-of-the-commission-presidents-mobile-phones) | Evidence destruction during defence spending investigation. Green MP Lindner filed criminal complaint. |
-| **Katrin Suder**, ex-McKinsey Berlin chief, hired as State Secretary at Defence Ministry in 2014 — consultant contracts skyrocketed under her watch | [German Foreign Policy](https://www.german-foreign-policy.com/en/news/detail/8171) | Revolving door between consultancy firms and defence procurement |
-| Husband **Heiko von der Leyen** is Medical Director of US biotech firm **Orgenesis**, which received EU Horizon Europe grants during her Commission presidency. Multiple MEPs raised formal conflict-of-interest questions. EU Transparency Commissioner cleared him, but he stepped down from an EU-funded project board. | [European Parliament Question E-003717/2022](https://www.europarl.europa.eu/doceo/document/E-9-2022-003717_EN.html), [EP Question E-003740/2022](https://www.europarl.europa.eu/doceo/document/E-9-2022-003740_EN.html) | Pattern: family members benefit from institutions she leads. NOTE: Orgenesis is NOT owned by Pfizer — that claim has been debunked by multiple fact-checkers. |
-| **Pfizergate**: Privately negotiated ~€35B vaccine deal via text messages with Pfizer CEO Bourla, then claimed to have "deleted" all messages. Mönchengladbach prosecutor investigating. EPPO launched separate probe in April 2024. | [European Conservative](https://europeanconservative.com/articles/news/eu-commission-chief-faces-investigation-by-german-public-prosecutor/), [Wikipedia — Pfizergate](https://en.wikipedia.org/wiki/Pfizergate) | Pattern: opaque mega-deals, deleted communications, active investigation |
+| Fact                                                                                                                                                                                                                                                                                                                       | Source                                                                                                                                                                                                                                                                                                             | Relevance                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| As German Defence Minister (2013-2019), oversaw the **decline of the Bundeswehr** to the point where Germany lacked operational tanks, helicopters, and aircraft                                                                                                                                                           | [Institut Montaigne](https://www.institutmontaigne.org/en/expressions/who-are-you-ursula-von-der-leyen), [Wikipedia — verified claims](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen)                                                                                                                         | The person who **failed to maintain Germany's own defence** now manages €150B in European defence loans                                                       |
+| **Consultancy Affair** (*Berateraffäre*): Hundreds of millions in contracts to McKinsey, Accenture without competitive bidding. Federal Audit Office flagged irregularities in 2018. Bundestag opened parliamentary inquiry.                                                                                               | [Der Tagesspiegel](https://www.tagesspiegel.de/politik/handydaten-von-ex-ministerin-von-der-leyen-geloscht-4677535.html), [The Week](https://theweek.com/107207/ursula-von-der-leyen-eu-commission-president-contract-scandal), [German Foreign Policy](https://www.german-foreign-policy.com/en/news/detail/8171) | Track record of channeling public defence money to private consultants through opaque procurement                                                             |
+| **McKinsey hired her daughter** Johanna in Berlin office during the period McKinsey received substantial Ministry of Defence contracts. No direct causal link proven, but conflict-of-interest perception documented.                                                                                                      | [Wikipedia](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen), [Wikidata — Johanna von der Leyen](https://www.wikidata.org/wiki/Q17278969)                                                                                                                                                                       | Documented conflict-of-interest *perception* in defence procurement. Parliamentary committee noted it but did not establish causal link.                      |
+| **Wiped phone data** during parliamentary investigation. Two phones confiscated, both wiped before return. Ministry claimed "security reasons." Bundestag members called it "deliberate evidence destruction."                                                                                                             | [Der Tagesspiegel](https://www.tagesspiegel.de/politik/handydaten-von-ex-ministerin-von-der-leyen-geloscht-4677535.html), [Brussels Times](https://www.brusselstimes.com/91585/the-curious-case-of-the-commission-presidents-mobile-phones)                                                                        | Evidence destruction during defence spending investigation. Green MP Lindner filed criminal complaint.                                                        |
+| **Katrin Suder**, ex-McKinsey Berlin chief, hired as State Secretary at Defence Ministry in 2014 — consultant contracts skyrocketed under her watch                                                                                                                                                                        | [German Foreign Policy](https://www.german-foreign-policy.com/en/news/detail/8171)                                                                                                                                                                                                                                 | Revolving door between consultancy firms and defence procurement                                                                                              |
+| Husband **Heiko von der Leyen** is Medical Director of US biotech firm **Orgenesis**, which received EU Horizon Europe grants during her Commission presidency. Multiple MEPs raised formal conflict-of-interest questions. EU Transparency Commissioner cleared him, but he stepped down from an EU-funded project board. | [European Parliament Question E-003717/2022](https://www.europarl.europa.eu/doceo/document/E-9-2022-003717_EN.html), [EP Question E-003740/2022](https://www.europarl.europa.eu/doceo/document/E-9-2022-003740_EN.html)                                                                                            | Pattern: family members benefit from institutions she leads. NOTE: Orgenesis is NOT owned by Pfizer — that claim has been debunked by multiple fact-checkers. |
+| **Pfizergate**: Privately negotiated ~€35B vaccine deal via text messages with Pfizer CEO Bourla, then claimed to have "deleted" all messages. Mönchengladbach prosecutor investigating. EPPO launched separate probe in April 2024.                                                                                       | [European Conservative](https://europeanconservative.com/articles/news/eu-commission-chief-faces-investigation-by-german-public-prosecutor/), [Wikipedia — Pfizergate](https://en.wikipedia.org/wiki/Pfizergate)                                                                                                   | Pattern: opaque mega-deals, deleted communications, active investigation                                                                                      |
 
 **Pattern**: Von der Leyen's track record in defence procurement specifically is one of **opacity, revolving doors, and evidence destruction**. She is now the political patron of the largest EU defence financing instrument in history. The woman who couldn't keep the Bundeswehr operational is managing €150 billion.
 
@@ -724,7 +724,7 @@ What follows is that fact-check. No sacred cows.
 
 #### America Assessment
 
-**Your aversion has factual basis but goes too far.** The US "best friend" rhetoric is indeed instrumental — Poland is a customer, not a peer. FMS is slow, opaque, non-transferable, and creates permanent dependency through ITAR. The "special relationship" evaporates when domestic US politics shift.
+**Aversion to USA has factual basis but goes too far.** The US "best friend" rhetoric is indeed instrumental — Poland is a customer, not a peer. FMS is slow, opaque, non-transferable, and creates permanent dependency through ITAR. The "special relationship" evaporates when domestic US politics shift.
 
 **However**: There is no substitute for F-35, Patriot, or the Article 5 nuclear umbrella. Zero. Korea doesn't make them. Europe doesn't make equivalents. Poland cannot afford to alienate the US even if the relationship is asymmetric. The correct posture is: **buy American where irreplaceable, refuse American where alternatives exist, never pretend the relationship is sentimental.**
 
@@ -741,32 +741,32 @@ Based on everything in this assessment — SAFE analysis, money flows, personnel
 #### The Three-Pillar Model
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│              POLISH DEFENCE PROCUREMENT DOCTRINE             │
-├─────────────┬──────────────────┬────────────────────────────┤
-│  PILLAR 1   │    PILLAR 2      │        PILLAR 3            │
-│  KOREAN     │    AMERICAN      │        EUROPEAN (incl SAFE) │
-│  (preferred)│    (irreplaceable)│        (selective)          │
-├─────────────┼──────────────────┼────────────────────────────┤
-│ K2PL tanks  │ F-35             │ Borsuk IFV (domestic)      │
-│ K9 howitzers│ Patriot/IBCS     │ MRTT (Airbus — no alt.)    │
-│ FA-50 → KF-21│ HIMARS/ATACMS  │ Eurodrone (if viable)      │
-│ Chunmoo MLRS│ MQ-9B           │ Missiles (MBDA — limited)  │
-│ Guided mun. │ Nuclear umbrella │ San counter-UAS (domestic) │
-│ Submarines  │ Intelligence     │ Ammunition (Rheinmetall    │
-│ (KSS-III)  │  sharing         │  licensed in PL)           │
-├─────────────┼──────────────────┼────────────────────────────┤
-│ FINANCING:  │ FINANCING:       │ FINANCING:                 │
-│ Eximbank +  │ FMS loans +      │ SAFE (€15-20B, NOT €44B)   │
-│ sovereign   │ sovereign        │ For systems where 65%      │
-│ bonds       │ bonds            │ EU content is natural      │
-├─────────────┼──────────────────┼────────────────────────────┤
-│ CONDITIONS: │ CONDITIONS:      │ CONDITIONS:                │
-│ None.       │ ITAR (accept for │ Rule of Law conditionality │
-│ Technology  │ irreplaceable    │ (minimize exposure)        │
-│ transfer    │ systems only)    │                            │
-│ included.   │                  │                            │
-└─────────────┴──────────────────┴────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│               POLISH DEFENCE PROCUREMENT DOCTRINE             │
+├──────────────┬──────────────────┬─────────────────────────────┤
+│  PILLAR 1    │    PILLAR 2      │        PILLAR 3             │
+│  KOREAN      │    AMERICAN      │        EUROPEAN (incl SAFE) │
+│  (preferred) │    (irreplaceable)│        (selective)         │
+├──────────────┼──────────────────┼─────────────────────────────┤
+│ K2PL tanks   │ F-35             │ Borsuk IFV (domestic)       │
+│ K9 howitzers │ Patriot/IBCS     │ MRTT (Airbus — no alt.)     │
+│ FA-50 → KF-21│ HIMARS/ATACMS.   │ Eurodrone (if viable)       │
+│ Chunmoo MLRS │ MQ-9B            │ Missiles (MBDA — limited)   │
+│ Guided mun.  │ Nuclear umbrella │ San counter-UAS (domestic)  │
+│ Submarines   │ Intelligence     │ Ammunition (Rheinmetall     │
+│ (KSS-III)    │  sharing         │  licensed in PL)            │
+├──────────────┼──────────────────┼─────────────────────────────┤
+│ FINANCING:   │ FINANCING:       │ FINANCING:                  │
+│ Eximbank +   │ FMS loans +      │ SAFE (€15-20B, NOT €44B)    │
+│ sovereign    │ sovereign        │ For systems where 65%       │
+│ bonds        │ bonds            │ EU content is natural       │
+├──────────────┼──────────────────┼─────────────────────────────┤
+│ CONDITIONS:  │ CONDITIONS:      │ CONDITIONS:                 │
+│ None.        │ ITAR (accept for │ Rule of Law conditionality  │
+│ Technology   │ irreplaceable    │ (minimize exposure)         │
+│ transfer     │ systems only)    │                             │
+│ included.    │                  │                             │
+└──────────────┴──────────────────┴─────────────────────────────┘
 ```
 
 #### The Key Numbers

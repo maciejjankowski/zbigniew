@@ -428,3 +428,246 @@ rejected:
     imported_from: "asmt_2026_002_davos.md"
     human_verification_required: true
     notes: "EU anti-coercion instrument consideration, €93-108B retaliation figures"
+
+  # ==================================================
+  # SAFE PROGRAM SOURCES (asmt_2026_004)
+  # Added: 2026-02-20
+  # ==================================================
+
+  # --- TIER 1: PRIMARY ---
+
+  - id: src_safe_council_adoption
+    title: "EU Council: SAFE Adoption — 150 Billion Boost for Joint Procurement"
+    type: primary
+    tier: 1
+    url: "https://www.consilium.europa.eu/en/press/press-releases/2025/05/27/safe-council-adopts-150-billion-boost-for-joint-procurement-on-european-security-and-defence/"
+    date: 2025-05-27
+    reliability: confirmed
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Official Council press release. SAFE adopted under Art. 122 TFEU."
+
+  - id: src_safe_ec_overview
+    title: "European Commission: SAFE — Security Action for Europe"
+    type: primary
+    tier: 1
+    url: "https://defence-industry-space.ec.europa.eu/eu-defence-industry/safe-security-action-europe_en"
+    date: 2025-05-27
+    reliability: confirmed
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "EC official SAFE overview. Key structural features, content rules, conditionality."
+
+  - id: src_safe_ec_borrower
+    title: "European Commission: SAFE Borrower/Investor Relations"
+    type: primary
+    tier: 1
+    url: "https://commission.europa.eu/strategy-and-policy/eu-budget/eu-borrower-investor-relations/safe_en"
+    date: 2025-12-01
+    reliability: confirmed
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Financial terms: 45-year maturity, 10-year grace, ~3.3% rate, AAA-backed."
+
+  # --- TIER 2: INSTITUTIONAL ANALYSIS ---
+
+  - id: src_safe_osw
+    title: "OSW: Imperfect Balance — EU's Defence Loan Mechanism SAFE"
+    type: institutional
+    tier: 2
+    url: "https://www.osw.waw.pl/en/publikacje/analyses/2025-05-28/imperfect-balance-eus-defence-loan-mechanism-safe"
+    date: 2025-05-28
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Polish think tank. Budget substitution risk, additionality gap, 65% content analysis."
+
+  - id: src_safe_iiss
+    title: "IISS: SAFE Regulation and Implications for Non-EU Defence Suppliers"
+    type: institutional
+    tier: 2
+    url: "https://www.iiss.org/research-paper/2025/12/the-safe-regulation-and-its-implications-for-non-eu-defence-suppliers/"
+    date: 2025-12-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Impact on US/Korean suppliers. Content rule analysis. Supplier concentration."
+
+  - id: src_safe_ordo_iuris
+    title: "Ordo Iuris: SAFE as Tool for Exerting Influence on Member States"
+    type: institutional
+    tier: 2
+    url: "https://ordoiuris.pl/en/analyses/the-new-safe-mechanism-to-finance-defense-in-the-eu-another-tool-for-exerting-influence-on-member-states/"
+    date: 2025-12-15
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Rule of Law conditionality analysis. 2020/2092 mechanism. Conservative legal perspective."
+
+  - id: src_safe_bocconi
+    title: "IEP Bocconi: Safeguarding Effectiveness of SAFE Through Soft Law"
+    type: institutional
+    tier: 2
+    url: "https://iep.unibocconi.eu/safeguarding-effectiveness-security-action-for-europe-through-soft-law"
+    date: 2025-11-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Additionality problem. Budget substitution risk. Soft law recommendations."
+
+  - id: src_safe_atlantic_council
+    title: "Atlantic Council: Poland Defence Spending and Growth"
+    type: institutional
+    tier: 2
+    url: "https://www.atlanticcouncil.org/blogs/new-atlanticist/poland-doesnt-have-to-choose-between-defense-spending-and-growth-if-it-makes-the-right-reforms/"
+    date: 2025-10-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "4.12% GDP spending context. Fiscal strain analysis."
+
+  - id: src_safe_rand_korea
+    title: "RAND: Missiles, Markets, and Mutual Interests — Poland and South Korea"
+    type: institutional
+    tier: 2
+    url: "https://www.rand.org/pubs/commentary/2025/09/missiles-markets-and-mutual-interests-poland-and-south.html"
+    date: 2025-09-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Korea delivery speed (K2 in 4 months). Technology transfer. Alternative financing."
+
+  - id: src_safe_carnegie_korea
+    title: "Carnegie: NATO-South Korea Defence Ties — From Arms Exporter to Trusted Partner"
+    type: institutional
+    tier: 2
+    url: "https://carnegieendowment.org/russia-eurasia/research/2026/02/are-long-term-nato-south-korea-defense-ties-possible-transitioning-from-an-arms-exporter-to-a-trusted-defense-partner"
+    date: 2026-02-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Korean tech transfer, ITAR dependencies, no political conditions."
+
+  - id: src_safe_bruegel_fms
+    title: "Bruegel: Europe's Dependence on US Foreign Military Sales"
+    type: institutional
+    tier: 2
+    url: "https://www.bruegel.org/policy-brief/europes-dependence-us-foreign-military-sales-and-what-do-about-it"
+    date: 2025-08-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "ITAR dependency. FMS delays. US political conditionality on arms sales."
+
+  - id: src_safe_european_conservative
+    title: "European Conservative: SAFE — EU's New Lever of Political Control"
+    type: institutional
+    tier: 2
+    url: "https://europeanconservative.com/articles/analysis/safe-european-unions-new-lever-of-political-control/"
+    date: 2025-12-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Conditionality as political leverage. Conservative analytical perspective."
+
+  # --- TIER 3: JOURNALISM ---
+
+  - id: src_safe_nfp
+    title: "Notes From Poland: EU Approves €44 Billion SAFE Defence Loans for Poland"
+    type: journalism
+    tier: 3
+    url: "https://notesfrompoland.com/2026/02/17/eu-approves-e44-billion-in-safe-defence-loans-for-poland/"
+    date: 2026-02-17
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Council approval. €43.7B allocation. 236-199 Sejm vote."
+
+  - id: src_safe_defence24_benefits
+    title: "Defence24: SAFE Explained — Who Really Benefits?"
+    type: journalism
+    tier: 3
+    url: "https://defence24.com/industry/safe-explained-who-really-benefits"
+    date: 2026-01-15
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Cui bono analysis. Franco-German industrial advantage."
+
+  - id: src_safe_defence24_plenipotentiary
+    title: "Defence24: Poland SAFE Plenipotentiary — Record-Breaking European Defense Investment"
+    type: journalism
+    tier: 3
+    url: "https://defence24.com/defence-policy/poland-safe-plenipotentiary-for-defence24-a-record-breaking-standard-for-european-defense-investments"
+    date: 2026-02-10
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "80% domestic claim. Government position on SAFE benefits."
+
+  - id: src_safe_brussels_signal_veto
+    title: "Brussels Signal: Tusk Says Poland Will Borrow SAFE Even If President Vetoes"
+    type: journalism
+    tier: 3
+    url: "https://brusselssignal.eu/2026/02/pm-tusk-says-poland-will-borrow-from-eu-for-defence-even-if-president-vetoes-move/"
+    date: 2026-02-19
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Tusk willing to circumvent presidential veto. Political commitment signal."
+
+  - id: src_safe_defence_news_k2
+    title: "Defence News: Poland Doubles Down on South Korean Tanks with $6.5B Deal"
+    type: journalism
+    tier: 3
+    url: "https://www.defensenews.com/global/europe/2025/08/01/poland-doubles-down-on-south-korean-tanks-with-65-billion-deal/"
+    date: 2025-08-01
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "K2PL Phase 2. 61 of 64 tanks built in Poland. Technology transfer evidence."
+
+  - id: src_safe_defence24_f35_delay
+    title: "Defence24: Polish F-35 Deliveries Delayed (Exclusive)"
+    type: journalism
+    tier: 3
+    url: "https://defence24.com/industry/polish-f-35-deliveries-delayed-exclusive"
+    date: 2026-01-01
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "F-35 pushed from March to November 2026. FMS delay evidence."
+
+  - id: src_safe_korea_times_eximbank
+    title: "Korea Times: Eximbank Lending Cap Reached"
+    type: journalism
+    tier: 3
+    url: "https://www.koreatimes.co.kr/www/nation/2024/09/113_373220.html"
+    date: 2024-09-01
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Korean financing constraint. Eximbank cap limits alternative to SAFE."
+
+  # --- PERSONNEL FILE SOURCES ---
+
+  - id: src_safe_montaigne_vdl
+    title: "Institut Montaigne: Who Are You, Ursula von der Leyen?"
+    type: institutional
+    tier: 2
+    url: "https://www.institutmontaigne.org/en/expressions/who-are-you-ursula-von-der-leyen"
+    date: 2019-07-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "VdL background. Bundeswehr decline under her ministry."
+
+  - id: src_safe_cepa_atos
+    title: "CEPA: L'Affaire Atos — European Sovereignty Put to the Test"
+    type: institutional
+    tier: 2
+    url: "https://cepa.org/article/laffaire-atos-european-sovereignty-put-to-the-test/"
+    date: 2024-03-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Breton's Atos. FSB-licensed Moscow office. EU border security contracts."
+
+  - id: src_safe_corporate_europe_breton
+    title: "Corporate Europe Observatory: Thierry Breton — A Corporate Commissioner"
+    type: institutional
+    tier: 2
+    url: "https://corporateeurope.org/en/2019/11/thierry-breton-corporate-commissioner"
+    date: 2019-11-01
+    reliability: high
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "Breton conflict of interest at appointment. Atos → Commissioner revolving door."
+
+  - id: src_safe_rmx_pis_safe
+    title: "Remix: Polish Right Fears EU's €45 Billion Armament Loan Has Dangerous Strings"
+    type: journalism
+    tier: 3
+    url: "https://rmx.news/article/the-polish-right-fears-the-eus-e45-billion-armament-loan-is-coming-with-dangerous-strings-attached/"
+    date: 2026-02-01
+    reliability: moderate
+    imported_from: "asmt_2026_004_safe_program.md"
+    notes: "PiS opposition. German ambassador / Rheinmetall quote. Partisan but structurally pointed."

@@ -132,6 +132,114 @@ If [Russia/China/other] designed this: [Analysis]
 
 ---
 
+## MONEY FLOW TRACING
+
+*Added 2026-02-20 after SAFE assessment. When money changes hands through multiple layers, follow it physically.*
+
+Standard cui bono asks "who benefits?" Money flow tracing asks "where does the cash physically go?" — step by step, through every intermediary.
+
+### When to Use
+
+Apply when the instrument involves:
+- Large multi-party financial flows (loans, procurement, subsidies)
+- Content rules, procurement restrictions, or conditionality
+- Intermediaries between payer and ultimate beneficiary
+
+### Template
+
+```markdown
+### Money Flow: [Instrument Name]
+
+[Source] → [Amount]
+    │
+    ▼
+[Constraint/Rule] → [Affected Amount]
+    │
+    ▼
+[Actual Recipient Pool] → [Who physically receives payment]
+    │
+    ▼
+[What Payer Gets vs. What Recipients Get]
+```
+
+### The Asymmetry Table
+
+For two-party instruments (borrower/lender, buyer/supplier):
+
+```markdown
+| | [Party A: Payer/Borrower] | [Party B: Supplier/Lender] |
+|---|---|---|
+| **Takes on debt** | [Amount] | [Amount] |
+| **Accepts conditions** | [What conditions] | [What conditions] |
+| **Duration** | [How long] | [How long] |
+| **Restrictions** | [Content/procurement rules] | [None/different] |
+| **Political exposure** | [Vulnerability] | [None/different] |
+| **Industrial benefit** | [Claimed vs. verified] | [Guaranteed or not] |
+```
+
+### Demand-Side Subsidy Detection
+
+**Pattern**: When a borrower is forced to buy from specific suppliers, the loan functions as a subsidy for those suppliers — paid for by the borrower, not the lender.
+
+**Test**: If Party A borrows money → content rules force spending at Party B's firms → Party B gets revenue with no debt, conditions, or risk → **Party A is financing Party B's industrial base.**
+
+This pattern has historical precedent: Eurozone crisis (Greece borrowed cheaply, spent on German/French goods, creditors set conditions). NGEU recovery funds. IMF structural adjustment programmes.
+
+Always check: **Who designed the content rules? Do they benefit from them?**
+
+---
+
+## TCO ANALYSIS (TOTAL COST OF OWNERSHIP)
+
+*Added 2026-02-20. Borrowed from enterprise software analysis — apply to geopolitical instruments.*
+
+The stated cost of an instrument (interest rate, license fee, sticker price) often obscures the total cost of ownership. In geopolitics, the "services" that come with the "product" include:
+
+| Visible Cost | Hidden Cost |
+|---|---|
+| Interest rate (3.3%) | Conditionality (45 years of political vulnerability) |
+| Repayment schedule | Content rules (forced supplier selection) |
+| Grace period | Budget substitution risk (domestic spending displacement) |
+| Stated terms | Precedent creation (future instruments modeled on this one) |
+
+**Template**:
+```markdown
+### TCO Analysis: [Instrument]
+
+**Sticker price**: [Stated cost]
+**Hidden costs**:
+1. [Cost] — Duration: [How long] — Probability of activation: [%]
+2. [Cost] — Duration: [How long] — Probability of activation: [%]
+
+**TCO assessment**: The real cost is not [stated rate]. It is [stated rate] + [largest hidden cost].
+```
+
+---
+
+## COUNTER-NARRATIVE TRACKING
+
+*Added 2026-02-20. When public figures make claims that contradict your assessment, track them systematically.*
+
+Assessments exist in a public environment. Counter-narratives will emerge. Track them — don't ignore them.
+
+### Template
+
+```markdown
+### Counter-Narratives: [Assessment ID]
+
+| Date | Actor | Claim | Our Position | Evidence Status |
+|------|-------|-------|-------------|-----------------|
+| [Date] | [Who] | [Their claim] | [Our contradicting judgment] | [Do they provide evidence? Do we?] |
+```
+
+### Rules
+1. **Take counter-narratives seriously.** If a government official claims 80-90% domestic content, don't dismiss it — demand the source.
+2. **Track the evidence gap.** If they make a claim without evidence, note that explicitly.
+3. **Update your assessment.** If counter-evidence is strong, revise. If it's rhetorical, note why it doesn't change your judgment.
+4. **Never argue from authority.** "The minister says X" is not evidence for X. What data supports X?
+
+---
+
 ## REMEMBER
 
 Cui bono doesn't prove conspiracy.

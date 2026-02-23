@@ -70,6 +70,61 @@
 
 ---
 
+## COLLAPSIBLE EVIDENCE FORMAT
+
+The Zbigniew Protocol uses a **layered reading** approach across all output formats. Every piece has a summary layer (readable in minutes) and expandable evidence (for skeptics and analysts).
+
+### The Pattern: Summary → Expandable Evidence
+
+```markdown
+**1. Key Judgment Title** (Confidence: HIGH)
+
+Visible summary — 1-2 sentences that stand alone. The reader gets the conclusion without clicking.
+
+<details markdown="1">
+<summary markdown="0"><strong>▶ Evidence & Sources</strong></summary>
+
+Full sourced analysis here. Tables, lists, links, quotes — all render correctly.
+
+| Data | Source | Confidence |
+|------|--------|------------|
+| ...  | ...    | ...        |
+
+**Strongest Case Against This Judgment:**
+[Steel-man the opposition]
+
+Sources: [Name](URL), [Name](URL)
+
+</details>
+```
+
+### Where to Use Collapsible Sections
+
+| Format | What's Visible | What's Collapsible |
+|--------|---------------|-------------------|
+| **Full Assessment** | Executive summary, key judgment summaries, predictions, bottom line | Evidence per judgment, background, cui bono, pattern mapping, personnel files, alternatives, red team, sources |
+| **Article / Blog Post** | Narrative flow, key claims, conclusion | Supporting data, source lists, methodology notes |
+| **LinkedIn Post** | No collapsibles — LinkedIn doesn't support HTML. Keep it flat, link to full assessment |
+| **Intelligence Brief** | All visible — briefs are already short |
+
+### Reading Time Targets
+
+| Layer | Target | Label |
+|-------|--------|-------|
+| Summary (no clicks) | 5-10 min | "X min summary" |
+| Full (all expanded) | 25-40 min | "Y min full analysis" |
+| State both in frontmatter | — | `reading_time: "8 min summary / 35 min full analysis"` |
+
+### Jekyll / kramdown Rules
+
+When publishing to Jekyll sites:
+- `<details markdown="1">` — enables markdown rendering inside
+- `<summary markdown="0">` — prevents kramdown from breaking the summary tag
+- Blank line after `</summary>` and before `</details>` — required
+- Blank line before tables inside `<details>` — required
+
+---
+
 ## SOURCING FORMAT
 
 ### Inline Citation:
@@ -77,8 +132,8 @@
 
 ### Collapsible Excerpt:
 ```markdown
-<details>
-<summary><strong>Key Excerpt</strong></summary>
+<details markdown="1">
+<summary markdown="0"><strong>Key Excerpt</strong></summary>
 
 > "Exact quote from source"
 >
@@ -190,5 +245,8 @@ Before publishing:
 - [ ] Falsifiability stated
 - [ ] Bias check completed
 - [ ] Alternatives considered
+- [ ] Collapsible evidence format applied (summary visible, evidence expandable)
+- [ ] Reading time stated (summary / full)
+- [ ] `markdown="1"` on `<details>`, `markdown="0"` on `<summary>` (if Jekyll)
 - [ ] Style guide followed
 - [ ] Proofread for clarity

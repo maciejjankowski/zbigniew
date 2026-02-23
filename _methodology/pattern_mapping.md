@@ -212,6 +212,46 @@ Before concluding pattern significance, consider:
 
 ---
 
+## NAMED PATTERNS
+
+*Reusable analytical patterns identified through field-testing. Reference by name in assessments.*
+
+### Pattern: DEMAND-SIDE SUBSIDY
+**Definition**: When a borrower/buyer is structurally forced to purchase from specific suppliers, the financing functions as a subsidy for those suppliers — paid by the borrower, not the lender.
+
+**Structure**: Payer → [Content/procurement rules] → Mandated suppliers → Revenue with no risk/debt/conditions
+
+**Historical instances**:
+- EU SAFE programme (Poland borrows, 65% content rule directs spending to Franco-German primes)
+- Eurozone crisis (Greece borrowed cheaply in euros, spent on German/French goods)
+- IMF structural adjustment (borrowers forced to open markets to lender-country firms)
+- US FMS (buyer finances, ITAR restricts modification/resale)
+
+**Detection**: Ask — "Does the borrower have genuine supplier choice, or do the rules guarantee specific suppliers' revenue?"
+
+### Pattern: CORE-PERIPHERY EXTRACTION
+**Definition**: Peripheral states borrow from institutions designed by core states, spend under rules set by core states, accept conditions enforced by core-state-dominated institutions — while core states take on no comparable obligation.
+
+**Structure**: Periphery borrows → Core designs rules → Periphery spends at Core → Core gets revenue + zero risk
+
+**Detection**: Ask — "Did the rule designers apply for the same instrument? If not, why not?"
+
+### Pattern: COMPETENCE LAUNDERING
+**Definition**: An actor with a documented track record of failure or scandal in Domain X is promoted to a larger role in the same domain, with the promotion itself serving as implicit evidence of competence.
+
+**Structure**: Failed at small scale → Promoted → Failure record treated as "experience"
+
+**Detection**: Apply actor background checks (`actor_background_checks.md`). Promotion ≠ exoneration.
+
+### Pattern: UNFALSIFIABLE REFRAMING
+**Definition**: A claim is restructured so it cannot be tested. "It's not a loan, it's an investment" removes the debt-obligation frame (loans have repayment conditions that can be evaluated; "investments" have returns that may or may not materialize).
+
+**Structure**: Testable claim → Reframed as untestable → Criticism becomes "missing the big picture"
+
+**Detection**: Ask — "What specific evidence would prove this reframing wrong?" If no answer, flag as narrative, not analysis.
+
+---
+
 ## REMEMBER
 
 > "Once is happenstance. Twice is coincidence.

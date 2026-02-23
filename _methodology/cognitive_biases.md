@@ -196,12 +196,111 @@ Beyond individual awareness:
    - Document what changed your mind
    - Celebrate being wrong and admitting it
 
+### 11. UNFALSIFIABILITY TRAP
+**What it is**: Accepting claims structured so they cannot be proven wrong
+**In analysis**: "SAFE is an investment, not a loan" — reframing debt as investment removes the test (debt has repayment conditions; "investment" has no falsifiable obligation)
+**Defense**:
+- For every claim, ask: "What evidence would disprove this?"
+- If no evidence could disprove it, it is not analysis — it is narrative or marketing
+- Flag unfalsifiable claims explicitly: "This claim cannot be tested because [reason]"
+- Sagan's Rule 9: claims must be falsifiable to be taken seriously
+
+**Examples**:
+- "AGI is coming" — no lab publishes falsifiable criteria they commit to being measured against
+- "80-90% will stay in Polish industry" — no data provided, no methodology, no timeline for verification
+- "This is an investment, not a loan" — the regulation defines repayment terms; calling it "investment" is rhetorical, not structural
+
+---
+
+### 12. AUTHORITY CREDENTIALISM
+**What it is**: Accepting claims because of the claimant's position rather than their evidence
+**In analysis**: "The Commissioner says X" taken as evidence for X
+**Defense**:
+- Sagan's Rule 3: "In science there are no authorities; at most, there are experts"
+- Evaluate the evidence, not the title
+- Apply actor background checks when authority claims are central to an argument
+- Track record matters more than current role
+
+---
+
+## PRE-ANALYSIS CHECKLIST (UPDATED)
+
+Before starting any assessment, answer:
+
+1. **What do I already believe about this?**
+   - Note your priors explicitly
+   - They will influence analysis whether acknowledged or not
+
+2. **What outcome do I want?**
+   - Identify emotional investment
+   - Check if analysis serves those preferences
+
+3. **Who is my audience?**
+   - Audience expectations shape framing
+   - Consider if you're telling them what they want to hear
+
+4. **What would change my mind?**
+   - Define falsification criteria upfront
+   - If nothing would change your mind, you're not analyzing
+
+5. **What am I not seeing?**
+   - Identify blind spots
+   - What sources/perspectives am I missing?
+
+6. **Are any claims unfalsifiable?** (NEW)
+   - Flag them before they infect the analysis
+   - If a core claim can't be tested, the assessment's foundation is weak
+
+7. **Who are the actors and what are their track records?** (NEW)
+   - Apply actor background checks for high-stakes assessments
+   - See `actor_background_checks.md`
+
+---
+
+## PRE-PUBLICATION CHECKLIST (UPDATED)
+
+Before publishing any assessment:
+
+- [ ] **Confirmation bias**: Did I seek disconfirming evidence?
+- [ ] **Anchoring**: Am I stuck on my first interpretation?
+- [ ] **Attribution error**: Did I consider structural explanations?
+- [ ] **Availability**: Am I over-weighting recent events?
+- [ ] **Mirror imaging**: Did I consider adversary's actual worldview?
+- [ ] **Groupthink**: Did I consider contrarian views?
+- [ ] **Motivated reasoning**: Would I reach same conclusion with no stake?
+- [ ] **Pattern completion**: Am I filling gaps with assumptions?
+- [ ] **Unfalsifiability**: Are all key claims testable? (NEW)
+- [ ] **Authority credentialism**: Am I accepting claims on authority alone? (NEW)
+- [ ] **Steel-man test**: Did I build the strongest case against my thesis? (NEW)
+
+---
+
+## PHILOSOPHICAL FOUNDATION
+
+The Zbigniew Protocol's bias defense framework shares intellectual ancestry with Carl Sagan's *Baloney Detection Kit* (1995, *The Demon-Haunted World*). Sagan's nine tools for critical thinking map directly onto our methodology:
+
+| Sagan's Rule | Zbigniew Implementation |
+|---|---|
+| 1. Independent confirmation | `source_verification.md` — 2+ sources |
+| 2. Substantive debate | Red Team Protocol |
+| 3. Skepticism of authority | `cui_bono.md` + Authority Credentialism bias |
+| 4. Multiple hypotheses | Alternative Explanations section |
+| 5. Detachment from ideas | `persona_stability.md` |
+| 6. Self-critique | Steel-man the opposition (`reasoning_improvements.md` §1) |
+| 7. Quantification | Quantitative ranges (`reasoning_improvements.md` §2) |
+| 8. Chain of logic | `validation_gate.md` — every link sourced |
+| 9. Falsifiability + Occam's Razor | Falsifiability section + Unfalsifiability Trap bias |
+
+Sagan designed his kit for science. Zbigniew extends it to geopolitics — adding cui bono, pattern mapping, prediction accountability, and actor background checks. Same enemy: confident claims without evidence.
+
 ---
 
 ## REMEMBER
 
 > "The first principle is that you must not fool yourself —
 > and you are the easiest person to fool." - Richard Feynman
+
+> "Extraordinary claims require extraordinary evidence." - Carl Sagan
 
 Every human brain has these bugs.
 The best analysts know their bugs and compensate.

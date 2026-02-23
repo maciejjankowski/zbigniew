@@ -693,6 +693,301 @@ defense_partnerships:
     - "Sovereignty in defense industry non-negotiable"
 
 # ============================================
+# ARMS PROCUREMENT FRAMEWORK
+# ============================================
+
+arms_procurement:
+  description: |
+    Arms procurement is not just military - it's strategic. Who supplies your
+    weapons can become who controls your options. Poland must diversify suppliers,
+    prioritize technology transfer, and build domestic capacity. No single partner
+    should dominate any weapons category.
+
+  core_principles:
+    1_diversification:
+      rule: "No single supplier > 40% of any weapons category"
+      rationale: |
+        Dependency creates leverage. If one supplier dominates, they can:
+        - Delay deliveries for political reasons
+        - Condition spare parts on policy compliance
+        - Cut off ammunition in crisis
+        - Use software updates as control mechanism
+      implementation:
+        - "Map current supplier percentages by category"
+        - "Identify over-concentrated categories"
+        - "Actively diversify future purchases"
+
+    2_technology_transfer:
+      rule: "Prioritize technology transfer over black box purchases"
+      rationale: |
+        Black box systems create permanent dependency. Technology transfer enables:
+        - Domestic maintenance capacity
+        - Independent upgrades
+        - Export potential
+        - Industrial base development
+      good_examples:
+        - "Korea K2/K9: Co-production in Poland, full tech transfer"
+        - "Turkey Bayraktar: Potential joint development"
+      bad_examples:
+        - "US F-35: Black box, dependent on US for everything"
+        - "US Patriot: Limited domestic maintenance capability"
+      policy: "Future contracts must include technology transfer clause"
+
+    3_domestic_capacity:
+      rule: "Build sovereign production for critical systems"
+      priorities:
+        ammunition:
+          status: "CRITICAL - tripling production"
+          rationale: "Ammunition runs out first; cannot depend on imports in war"
+          action: "Triple domestic ammunition production by 2030"
+        maintenance:
+          status: "HIGH PRIORITY"
+          rationale: "If you can't fix it, you don't own it"
+          action: "Domestic maintenance capability for all major systems"
+        drones:
+          status: "GROWING SECTOR"
+          rationale: "Ukraine proved drones are future of warfare"
+          action: "Expand Polish drone manufacturing"
+        electronics:
+          status: "MEDIUM PRIORITY"
+          rationale: "Sensors and electronics are force multipliers"
+          action: "Regional cooperation with 3SI partners"
+
+    4_stockpiling:
+      rule: "Maintain 5-10 year supply of critical spares"
+      rationale: |
+        Even reliable partners can become unreliable. Political changes,
+        supply chain disruptions, or conflicts can cut off supplies.
+      implementation:
+        - "Identify critical spare parts for all major systems"
+        - "Build strategic stockpiles (5-10 year supply)"
+        - "Rotate stock to prevent obsolescence"
+        - "Prioritize US-dependent systems (highest risk)"
+
+  supplier_assessment:
+    description: "Assessment of current and potential arms suppliers"
+
+    united_states:
+      current_status: "Major supplier"
+      existing_contracts:
+        - "F-35 fighters (ordered)"
+        - "Patriot systems (delivered/delivering)"
+        - "Abrams tanks (delivered/delivering)"
+        - "HIMARS (delivered)"
+        - "Apache helicopters (ordered)"
+      assessment:
+        quality: "Excellent - world-class systems"
+        interoperability: "NATO standard"
+        technology_transfer: "POOR - sells black boxes"
+        delivery_reliability: "UNCERTAIN - often delayed"
+        political_strings: "HEAVY - used as leverage"
+        future_reliability: "UNCERTAIN - given current trajectory"
+      risks:
+        - "Dependency on spare parts and software"
+        - "Political leverage potential"
+        - "Supply uncertainty in 5-10 year horizon"
+        - "Current US trajectory raises reliability concerns"
+      recommendation:
+        existing: "HONOR - complete existing contracts"
+        new_major: "CAUTION - only with tech transfer guarantees"
+        future_default: "NO - diversify to other suppliers"
+      action_items:
+        - "Complete existing contracts as agreed"
+        - "Stockpile spare parts (5-10 year supply)"
+        - "Build domestic maintenance capacity"
+        - "No new major contracts without tech transfer"
+        - "Diversify future needs to other suppliers"
+
+    south_korea:
+      current_status: "Rising major supplier"
+      contracts:
+        - "K2 tanks (1000 ordered, co-production)"
+        - "K9 howitzers (600+, fastest delivery)"
+        - "FA-50 jets (48, bridge capability)"
+      assessment:
+        quality: "Excellent - proven systems"
+        interoperability: "NATO-compatible"
+        technology_transfer: "EXCELLENT - genuine co-production"
+        delivery_reliability: "EXCELLENT - delivers as promised"
+        political_strings: "MINIMAL - professional relationship"
+        future_reliability: "HIGH - stable democracy, aligned interests"
+      recommendation:
+        existing: "EXPAND"
+        new_major: "PRIORITIZE"
+        future_default: "YES - model partner"
+      why_model: |
+        Korea demonstrates what defense partnership should look like:
+        - Delivers on time, every time
+        - Genuine technology transfer
+        - No political conditions
+        - Respects Polish industry
+        - Long-term partnership mindset
+
+    turkey:
+      current_status: "Potential major supplier"
+      potential_contracts:
+        - "Bayraktar TB2/TB3 drones"
+        - "Joint drone development"
+        - "Naval systems"
+        - "Armored vehicles"
+      assessment:
+        quality: "Good - combat-proven (Ukraine)"
+        interoperability: "NATO ally"
+        technology_transfer: "POSSIBLE - willing to discuss"
+        delivery_reliability: "GOOD - delivered to Ukraine under pressure"
+        political_strings: "MANAGEABLE - transactional relationship"
+        future_reliability: "MODERATE - Erdoğan factor, but 600-year friendship"
+      recommendation:
+        existing: "INITIATE"
+        new_major: "EXPLORE"
+        future_default: "YES - valuable diversification"
+      note: "Don't let EU-Turkey tensions prevent defense cooperation"
+
+    united_kingdom:
+      current_status: "Partner supplier"
+      potential_areas:
+        - "Naval systems"
+        - "Aerospace (engines, avionics)"
+        - "Intelligence systems"
+        - "Training"
+      assessment:
+        quality: "Excellent"
+        interoperability: "NATO ally, Five Eyes"
+        technology_transfer: "MODERATE - better than US"
+        political_strings: "LOW - aligned interests"
+        future_reliability: "HIGH - post-Brexit needs partners"
+      recommendation: "MAINTAIN and explore expansion"
+
+    european_partners:
+      germany:
+        status: "Complicated"
+        assessment: "Quality excellent, political reliability historically poor"
+        recommendation: "Case-by-case, no dependency"
+      france:
+        status: "Potential"
+        assessment: "Quality good, pushes strategic autonomy"
+        recommendation: "Explore for specific systems"
+      eu_joint_programs:
+        status: "Participate selectively"
+        recommendation: "Join where beneficial, don't over-commit"
+
+    domestic_production:
+      current_status: "Building"
+      priority_areas:
+        - "Ammunition (CRITICAL)"
+        - "Drones"
+        - "Armored vehicle maintenance"
+        - "Electronics integration"
+        - "Naval shipbuilding (Baltic)"
+      assessment:
+        quality: "Improving"
+        capacity: "Growing"
+        independence: "HIGHEST - no political strings"
+      recommendation: "MAXIMUM PRIORITY"
+      target: "50%+ of defense spending on domestic/co-production by 2035"
+
+  future_procurement_rules:
+    description: "Decision framework for future arms purchases"
+
+    decision_matrix:
+      step_1: "Can Poland produce domestically?"
+      step_1_yes: "PRIORITIZE domestic production"
+      step_1_no: "Continue to step 2"
+
+      step_2: "Is technology transfer available?"
+      step_2_yes: "Prefer supplier offering transfer (Korea, Turkey, UK)"
+      step_2_no: "Proceed with caution, stockpile spares"
+
+      step_3: "What is supplier reliability?"
+      step_3_criteria:
+        - "Delivery track record"
+        - "Political stability"
+        - "Current trajectory"
+        - "Leverage potential"
+
+      step_4: "Does this create over-concentration?"
+      step_4_yes: "Diversify to alternative supplier"
+      step_4_no: "Proceed with selected supplier"
+
+    red_lines:
+      - "No single supplier > 40% of any category"
+      - "No new black box systems without maintenance capacity"
+      - "No contracts that create political leverage"
+      - "No dependency on adversary supply chains"
+
+    preferred_order:
+      1: "Domestic production"
+      2: "Co-production with tech transfer (Korea model)"
+      3: "Allied supplier with tech transfer (Turkey, UK)"
+      4: "Allied supplier without tech transfer (US) - only if necessary"
+      5: "EU joint programs - selective participation"
+
+  us_specific_guidance:
+    description: |
+      The United States requires special consideration. As the dominant NATO
+      power with world-class weapons, Poland cannot ignore the US. But given
+      current trajectory, Poland cannot afford naive dependency either.
+
+    existing_contracts:
+      f35:
+        status: "Continue - already committed"
+        action: "Complete order, build maintenance capacity"
+        risk_mitigation: "Stockpile spares, train domestic technicians"
+      patriot:
+        status: "Continue - critical air defense"
+        action: "Complete deliveries, integrate with other systems"
+        risk_mitigation: "Explore European alternatives for future expansion"
+      abrams:
+        status: "Continue - delivered"
+        action: "Build maintenance capacity, stockpile spares"
+        risk_mitigation: "K2 provides tank diversification"
+      apache:
+        status: "Continue - ordered"
+        action: "Complete order"
+        risk_mitigation: "Consider European/Korean alternatives for future rotary"
+      himars:
+        status: "Complete - delivered"
+        action: "Stockpile ammunition"
+        risk_mitigation: "Explore K239 Chunmoo as alternative"
+
+    future_us_purchases:
+      default_position: "Do not expand US dependency"
+      exceptions:
+        - "Unique capability with no alternative (specific)"
+        - "Technology transfer guaranteed (rare from US)"
+        - "NATO interoperability requirement (specific)"
+      conditions_for_new_contracts:
+        - "Technology transfer clause"
+        - "Domestic maintenance rights"
+        - "Spare parts stockpiling allowed"
+        - "No political conditions"
+      note: |
+        This is not anti-American. This is prudent. Poland values the US
+        partnership. But partnership means mutual respect, not dependency.
+        Any nation that depends entirely on one supplier has not learned
+        from history.
+
+  implementation_timeline:
+    2026:
+      - "Complete supplier concentration audit"
+      - "Begin 5-year spare parts stockpiling program"
+      - "Expand Korea defense partnership"
+      - "Initiate Turkey defense industry talks"
+      - "Triple ammunition production program launch"
+
+    2027_2028:
+      - "First K2 tanks from Polish production"
+      - "Domestic drone manufacturing scaled"
+      - "Maintenance independence for major systems"
+      - "Alternative supplier contracts for new needs"
+
+    2029_2030:
+      - "50% domestic/co-production target"
+      - "Full ammunition independence"
+      - "No single supplier > 40% in any category"
+      - "5-year strategic spare parts reserve complete"
+
+# ============================================
 # IMPLEMENTATION MECHANISMS
 # ============================================
 

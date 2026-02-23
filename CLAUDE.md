@@ -58,12 +58,15 @@ zbigniew-protocol/
 ├── README.md                 # Public-facing description
 │
 ├── _methodology/             # HOW TO THINK
-│   ├── cui_bono.md          # Beneficiary analysis framework
-│   ├── pattern_mapping.md   # Cross-vector pattern recognition
+│   ├── cui_bono.md          # Beneficiary analysis + money flow tracing + TCO + counter-narratives
+│   ├── pattern_mapping.md   # Cross-vector recognition + named patterns (demand-side subsidy, core-periphery, etc.)
 │   ├── source_verification.md # Source hierarchy and validation
 │   ├── confidence_levels.md # Assessment confidence system
-│   ├── cognitive_biases.md  # Biases to watch for
-│   └── red_team.md          # Adversarial self-critique
+│   ├── cognitive_biases.md  # 12 biases + Sagan foundation + pre-analysis/publication checklists
+│   ├── actor_background_checks.md # Personnel file methodology — track records, conflicts, Bad Apples Matrix
+│   ├── reasoning_improvements.md  # 6 structural upgrades (steel-man, quantitative ranges, signal watch, source diversity, base rate, versioning)
+│   ├── red_team.md          # Adversarial self-critique
+│   └── persona_stability.md # AI analytical frame maintenance
 │
 ├── _assessments/             # INTELLIGENCE PRODUCTS
 │   ├── active/              # Current assessments
@@ -172,6 +175,8 @@ Before finalizing any assessment, check for:
 - [ ] **Availability heuristic** - Am I over-weighting recent/memorable events?
 - [ ] **Mirror imaging** - Am I assuming adversaries think like me?
 - [ ] **Groupthink** - Am I conforming to consensus without evidence?
+- [ ] **Persona drift** - Have I maintained analytical distance throughout?
+- [ ] **Emotional entanglement** - Am I analyzing or validating the user?
 
 ---
 
@@ -184,6 +189,9 @@ Before publishing, answer:
 3. What would a defender of the subject say?
 4. What am I missing that would change my conclusion?
 5. In 2 years, what might make this assessment look foolish?
+6. Am I telling the user what they want to hear? (persona stability check)
+7. Would my analysis differ if the user had opposite beliefs?
+8. Have I maintained the same evidentiary standards throughout?
 
 ---
 
